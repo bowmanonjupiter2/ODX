@@ -1,0 +1,40 @@
+{
+	"id":"odx",
+	"name":"Open Dojo Toolkit eXtension",
+	"description":"",
+	
+	"loaderConfig":{
+		"paths": {
+			"odx": "../../../../odx"
+		}
+	},
+	
+	"dependencies":[
+		"dojox/app/widgets/Container",
+		"dijit/layout/TabContainer",
+		"dijit/layout/ContentPane"
+	],
+	"modules":[
+		
+	],
+	"controllers":[
+		"dojox/app/controllers/Load",
+		"dojox/app/controllers/Transition",
+		"dojox/app/controllers/Layout"
+	],
+	"stores": {},
+	"models": {},
+	"defaultView": "",
+	"has": {
+		
+	},
+	"defaultTransition": "slide",
+	"defaultView": "home",
+	"template": "odx/views/template/Layout.html",
+	"views": {
+		"home": {
+			"controller": "odx/views/home/HomeView.js",
+			"template": "odx/views/home/template/HomeView.html"
+		}
+	}
+}
