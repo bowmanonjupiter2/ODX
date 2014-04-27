@@ -2,17 +2,19 @@
 	"id":"odx",
 	"name":"Open Dojo Toolkit eXtension",
 	"description":"",
-	
 	"loaderConfig":{
-		"paths": {
-			"odx": "../../../../odx"
+		"paths":{
+			"odx":"../../../../odx"
 		}
+		
 	},
-	
 	"dependencies":[
 		"dojox/app/widgets/Container",
 		"dijit/layout/TabContainer",
-		"dijit/layout/ContentPane"
+		"dijit/layout/ContentPane",
+		"dijit/layout/BorderContainer",
+		"dojox/mobile/RoundRectList",
+		"dojox/mobile/ListItem"
 	],
 	"modules":[
 		
@@ -22,19 +24,89 @@
 		"dojox/app/controllers/Transition",
 		"dojox/app/controllers/Layout"
 	],
-	"stores": {},
-	"models": {},
-	"defaultView": "",
-	"has": {
+	"stores":{
 		
 	},
-	"defaultTransition": "slide",
-	"defaultView": "home",
-	"template": "odx/views/template/Layout.html",
-	"views": {
-		"home": {
-			"controller": "odx/views/home/HomeView.js",
-			"template": "odx/views/home/template/HomeView.html"
+	"models":{
+		
+	},
+	"defaultView":"",
+	"has":{
+		"ie9orLess":{
+			"controllers":[
+				"dojox/app/controllers/HistoryHash"
+			]
+			
+		},
+		"!ie9orLess":{
+			"controllers":[
+				"dojox/app/controllers/History"
+			]
+			
 		}
+		
+	},
+	"nls":[
+		"odx/nls/Global_nls"
+	],
+	"defaultTransition":"slide",
+	"defaultView":"header+main",
+	"views":{
+		"header":{
+			"template":"odx/views/header/template/HeaderView.html",
+			"constraint":"top"
+		},
+		"main":{
+			"constraint":"center",
+			"nls":"odx/views/main/nls/MainView_nls",
+			"controller":"odx/views/main/MainView.js",
+			"template":"odx/views/main/template/MainView.html",
+			"defaultView":"welcome",
+			"views":{
+				"welcome":{
+					"constraint":"center",
+					"template":"odx/views/welcome/template/WelcomeView.html"
+				},
+				"desktop":{
+					"constraint":"center",
+					"controller": "odx/views/desktop/DesktopView.js",
+					"defaultView":"widgets",
+					"views":{
+						"widgets":{
+							"constraint":"left",
+							"controller": "odx/views/widgets/DesktopWidgetsView.js",
+							"template":"odx/views/widgets/template/WidgetsView.html"
+						},
+						"content":{
+							"constraint":"center",
+							"template":"odx/views/content/template/ContentView.html"
+						}
+						
+					}
+					
+				},
+				"mobile":{
+					"constraint":"center",
+					"defaultView":"widgets+content",
+					"views":{
+						"widgets":{
+							"constraint":"left",
+							"controller": "odx/views/widgets/MobileWidgetsView.js",
+							"template":"odx/views/widgets/template/WidgetsView.html"
+						},
+						"content":{
+							"constraint":"center",
+							"template":"odx/views/content/template/ContentView.html"
+						}
+						
+					}
+					
+				}
+				
+			}
+			
+		}
+		
 	}
+	
 }

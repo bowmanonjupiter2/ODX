@@ -1,17 +1,17 @@
 /**
  * 
  */
-define(
+require(
 [
- 	"dojo/json",
- 	"dojo/text!"+contextURL+"/odx/config/odx.json",
+ 	"dojox/json/ref",
+ 	"dojo/text!./config/odx.json",
  	"dojox/app/main",
  	"dojo/has",
  	"dojo/dom",
  	"dojo/topic"/*,
- 	"dojo/i18n!nls/Global_nls"*/
+ 	"dojo/i18n!./nls/Global_nls.js"*/
 ], function(
-	json,
+	jsonRef,
 	config,
 	Application,
 	has,
@@ -22,7 +22,7 @@ define(
 	console.debug("src.js");
 	
 	_thisPage = this;
-	var jsonConfig = json.parse(config);
+	var jsonConfig = jsonRef.fromJson(config);
 	
 	has.add("ie9orLess", has("ie") && (has("ie") <= 9));
 

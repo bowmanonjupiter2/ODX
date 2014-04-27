@@ -14,6 +14,7 @@ define(
  	"dojo/dom",
  	"dojo/dom-class",
  	"dojo/dom-construct",
+ 	"dojox/mobile/TransitionEvent",
  	"dijit/registry",
  	"dojo/domReady!"
 ], function(
@@ -27,10 +28,20 @@ define(
 	ready,
 	dom,
 	domClass,
-	domConstruct
+	domConstruct,
+	TransitionEvent
 ){
+	var VIEW_NAME = "desktop";
+	
+	var _thisPage = null;
+	
 	return {
 		init: function(){
+			console.log("#" + VIEW_NAME + " - init()");
+			_thisPage = this;
+		},
+		updateWidgetContent: function(){
+			
 		}
 	};
 }
