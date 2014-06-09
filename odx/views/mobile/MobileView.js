@@ -31,7 +31,7 @@ define(
 	domConstruct,
 	TransitionEvent
 ){
-	var VIEW_NAME = "mobile widgets";
+	var VIEW_NAME = "mobile";
 	
 	var _thisPage = null;
 	
@@ -39,6 +39,9 @@ define(
 		init: function(){
 			console.log("#" + VIEW_NAME + " - init()");
 			_thisPage = this;
+		},
+		updateWidgetContent: function(){
+			
 		}
 	};
 }

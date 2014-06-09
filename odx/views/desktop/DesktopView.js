@@ -15,6 +15,11 @@ define(
  	"dojo/dom-class",
  	"dojo/dom-construct",
  	"dojox/mobile/TransitionEvent",
+ 	"dojo/json",
+ 	"dojo/text!./data/DesktopWidgets.json",
+ 	"dijit/Tree",
+ 	"dojo/store/Memory",
+ 	"dijit/tree/ObjectStoreModel",
  	"dijit/registry",
  	"dojo/domReady!"
 ], function(
@@ -29,7 +34,12 @@ define(
 	dom,
 	domClass,
 	domConstruct,
-	TransitionEvent
+	TransitionEvent,
+	json,
+	data,
+	Tree,
+	Memory,
+	Model
 ){
 	var VIEW_NAME = "desktop";
 	
@@ -39,9 +49,39 @@ define(
 		init: function(){
 			console.log("#" + VIEW_NAME + " - init()");
 			_thisPage = this;
+			this.createWidgetList();
 		},
-		updateWidgetContent: function(){
+		createWidgetList: function(){
+			var widgetStore = new Memory({
+				data: [json.parse(data)],
+				getChildren: function(obj){
+					return obj.children || [];
+				}
+			});
 			
+			var widgetModel = new Model({
+				store: widgetStore,
+				query: {id: "root"},
+				mayHaveChildren: function(item){
+					return "children" in item;
+				}
+			});
+			
+			var widgetTree = new Tree({
+				model: widgetModel,
+				openOnClick: true,
+				onLoad: function(){
+					
+				},
+				onClick: _thisPage.updateContentView,
+				persist: false,
+				showRoot: false
+			}, "desktop-widgets-list");
+			
+			widgetTree.startup();
+		},
+		
+		updateContentView: function(item, event){
 		}
 	};
 }

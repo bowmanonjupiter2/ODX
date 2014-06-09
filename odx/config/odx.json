@@ -12,9 +12,8 @@
 		"dojox/app/widgets/Container",
 		"dijit/layout/TabContainer",
 		"dijit/layout/ContentPane",
-		"dijit/layout/BorderContainer",
-		"dojox/mobile/RoundRectList",
-		"dojox/mobile/ListItem"
+		"dojox/mobile/TabBar",
+		"dojox/mobile/TabBarButton"
 	],
 	"modules":[
 		
@@ -49,7 +48,7 @@
 	"nls":[
 		"odx/nls/Global_nls"
 	],
-	"defaultTransition":"slide",
+	"defaultTransition":"none",
 	"defaultView":"header+main",
 	"views":{
 		"header":{
@@ -69,37 +68,20 @@
 				},
 				"desktop":{
 					"constraint":"center",
-					"controller": "odx/views/desktop/DesktopView.js",
-					"defaultView":"widgets",
+					"controller":"odx/views/desktop/DesktopView.js",
+					"template":"odx/views/desktop/template/DesktopView.html",
+					"defaultView": "content",
 					"views":{
-						"widgets":{
-							"constraint":"left",
-							"controller": "odx/views/widgets/DesktopWidgetsView.js",
-							"template":"odx/views/widgets/template/WidgetsView.html"
-						},
-						"content":{
+						"content": {
 							"constraint":"center",
-							"template":"odx/views/content/template/ContentView.html"
+							"template": "odx/views/desktop/template/ContentView.html",
 						}
-						
 					}
-					
 				},
 				"mobile":{
 					"constraint":"center",
-					"defaultView":"widgets+content",
-					"views":{
-						"widgets":{
-							"constraint":"left",
-							"controller": "odx/views/widgets/MobileWidgetsView.js",
-							"template":"odx/views/widgets/template/WidgetsView.html"
-						},
-						"content":{
-							"constraint":"center",
-							"template":"odx/views/content/template/ContentView.html"
-						}
-						
-					}
+					"controller":"odx/views/mobile/MobileView.js",
+					"template":"odx/views/mobile/template/MobileView.html"
 					
 				}
 				

@@ -1,0 +1,25 @@
+{
+	"groups":[
+		"menu":{
+			"id":"menu",
+			"name":"Menu Widgets"
+		},
+		"tree":{
+			"id":"tree",
+			"name":"Tree Widgets"
+		},
+		"misc":{
+			"id":"misc",
+			"name":"Miscellaneous Widgets"
+		},
+		"form":{
+			"id":"form",
+			"name":"Form Widgets"
+		},
+		"layout":{
+			"id":"layout",
+			"name":"Layout"
+		}
+		
+	]
+}

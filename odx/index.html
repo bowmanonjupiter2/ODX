@@ -3,6 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>ODX - Open Dojo Toolkit eXtension</title>
+<script type="text/javascript" src="../dojo/source/1.9.3.0/dojo/dojo.js"></script>
+<link rel="stylesheet" href="../dojo/source/1.9.3.0/dijit/themes/claro/claro.css">
 <link rel="stylesheet" href="css/odx.css"/>
 <script type="text/javascript">
 	var dojoConfig = {
@@ -18,7 +20,7 @@
 	* Get the version from cookie and import dojo dynamically. Default: 1.9.3.0
 	* TODO
 	*/
-	var dojoVersion = "1.9.3.0";
+	/* var dojoVersion = "1.9.3.0";
 	var dojoScript = document.createElement("script");
 	dojoScript.type = "text/javascript";
 	dojoScript.src = "../dojo/source/"+dojoVersion+"/dojo/dojo.js";
@@ -26,9 +28,8 @@
 	dojoStyle.rel = "stylesheet";
 	dojoStyle.href = "../dojo/source/"+dojoVersion+"/dijit/themes/claro/claro.css";
 	document.head.appendChild(dojoScript);
-	document.head.appendChild(dojoStyle);
+	document.head.appendChild(dojoStyle); */
 </script>
-
 <script type="text/javascript">
 	require([ './src.js' ]);
 </script>
