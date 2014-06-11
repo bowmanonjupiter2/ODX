@@ -11,9 +11,7 @@
 	"dependencies":[
 		"dojox/app/widgets/Container",
 		"dijit/layout/TabContainer",
-		"dijit/layout/ContentPane",
-		"dojox/mobile/TabBar",
-		"dojox/mobile/TabBarButton"
+		"dijit/layout/ContentPane"
 	],
 	"modules":[
 		
@@ -68,21 +66,28 @@
 				},
 				"desktop":{
 					"constraint":"center",
-					"controller":"odx/views/desktop/DesktopView.js",
 					"template":"odx/views/desktop/template/DesktopView.html",
-					"defaultView": "content",
+					"controller":"odx/views/desktop/DesktopView.js",
+					"defaultView":"landing",
 					"views":{
-						"content": {
+						"landing":{
 							"constraint":"center",
-							"template": "odx/views/desktop/template/ContentView.html",
+							"template":"odx/views/desktop/template/LandingView.html"
+						},
+						"content":{
+							"constraint":"center",
+							"controller":"odx/views/content/ContentView.js",
+							"template":"odx/views/content/template/ContentView.html",
+							
 						}
+						
 					}
+					
 				},
 				"mobile":{
 					"constraint":"center",
 					"controller":"odx/views/mobile/MobileView.js",
 					"template":"odx/views/mobile/template/MobileView.html"
-					
 				}
 				
 			}

@@ -9,15 +9,18 @@
 			"children":[
 				{
 					"id":"dropdownmenu",
-					"name":"DropDown Menu"
+					"name":"DropDown Menu",
+					"path":"dijit/DropDownMenu"
 				},
 				{
 					"id":"menu",
-					"name":"Menu"
+					"name":"Menu",
+					"path":"dijit/Menu"
 				},
 				{
 					"id":"menubar",
-					"name":"MenuBar"
+					"name":"MenuBar",
+					"path":"dijit/MenuBar"
 				}
 				
 			]

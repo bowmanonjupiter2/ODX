@@ -53,7 +53,6 @@ define(
 				new TransitionEvent(e.target, transOpts, e).dispatch();
 			});
 			on(desktopTab, "click", function(e){
-				console.log(e)
 				var transOpts = {
 						target: "main,desktop",
 						url: "#main,desktop"
@@ -67,6 +66,9 @@ define(
 				};
 				new TransitionEvent(e.target, transOpts, e).dispatch();
 			});
+		},
+		updateContentView: function(item){
+			
 		}
 	};
 }

@@ -73,15 +73,21 @@ define(
 				onLoad: function(){
 					
 				},
-				onClick: _thisPage.updateContentView,
+				onClick: _thisPage.treeItemClick,
 				persist: false,
 				showRoot: false
 			}, "desktop-widgets-list");
 			
 			widgetTree.startup();
+			widgetTree.expandAll();
 		},
 		
-		updateContentView: function(item, event){
+		treeItemClick: function(item, nodeWidget, e){
+			var transOpts = {
+					target: "main,desktop,content",
+					url: "#main,desktop"
+			};
+			new TransitionEvent(e.target, transOpts, e).dispatch();
 		}
 	};
 }
