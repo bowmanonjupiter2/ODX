@@ -85,7 +85,8 @@ define(
 		treeItemClick: function(item, nodeWidget, e){
 			var transOpts = {
 					target: "main,desktop,content",
-					url: "#main,desktop"
+					url: "#main,desktop",
+					data: item
 			};
 			new TransitionEvent(e.target, transOpts, e).dispatch();
 		}

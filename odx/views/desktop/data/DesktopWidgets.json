@@ -8,19 +8,19 @@
 			"type": "group",
 			"children":[
 				{
-					"id":"dropdownmenu",
+					"id":"dijit/DropDownMenu",
 					"name":"DropDown Menu",
-					"path":"dijit/DropDownMenu"
+					"path":""
 				},
 				{
-					"id":"menu",
+					"id":"dijit/Menu",
 					"name":"Menu",
-					"path":"dijit/Menu"
+					"path":""
 				},
 				{
-					"id":"menubar",
+					"id":"dijit/MenuBar",
 					"name":"MenuBar",
-					"path":"dijit/MenuBar"
+					"path":""
 				}
 				
 			]
