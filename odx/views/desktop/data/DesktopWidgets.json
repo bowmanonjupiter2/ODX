@@ -42,7 +42,13 @@
 			"id":"form",
 			"name":"Form Widgets",
 			"type": "group",
-			"children": []
+			"children": [
+				{
+					"id":"dijit/form/ComboBox",
+					"name":"ComboBox",
+					"path":""
+				}
+			]
 		},
 		{
 			"id":"layout",
