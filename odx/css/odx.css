@@ -5,3 +5,14 @@ html,body {
 	width: 100%;
 	height: 100%;
 }
+#desktop-play-left{
+	float:left;
+	width: 75%;
+}
+#desktop-play-right{
+	float:right;
+	width: 25%;
+}
+.play-section{
+	margin-top: 25px;
+}
