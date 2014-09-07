@@ -42,17 +42,7 @@
 			"children": [
 				{
 					"id":"dijit/form/ComboBox",
-<<<<<<< HEAD
-<<<<<<< HEAD
 					"name":"ComboBox"
-=======
-					"name":"ComboBox",
-					"path":""
->>>>>>> FETCH_HEAD
-=======
-					"name":"ComboBox",
-					"path":""
->>>>>>> FETCH_HEAD
 				}
 			]
 		},
