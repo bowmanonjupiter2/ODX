@@ -1,99 +1,89 @@
 {
-	"id":"odx",
-	"name":"Open Dojo Toolkit eXtension",
-	"description":"",
-	"loaderConfig":{
-		"paths":{
-			"odx":"../../../../odx"
-		}
-		
-	},
-	"dependencies":[
-		"dojox/app/widgets/Container",
-		"dijit/layout/TabContainer",
-		"dijit/layout/ContentPane"
-	],
-	"modules":[
-		
-	],
-	"controllers":[
-		"dojox/app/controllers/Load",
-		"dojox/app/controllers/Transition",
-		"dojox/app/controllers/Layout"
-	],
-	"stores":{
-		
-	},
-	"models":{
-		
-	},
-	"defaultView":"",
-	"has":{
-		"ie9orLess":{
-			"controllers":[
-				"dojox/app/controllers/HistoryHash"
-			]
-			
-		},
-		"!ie9orLess":{
-			"controllers":[
-				"dojox/app/controllers/History"
-			]
-			
-		}
-		
-	},
-	"nls":[
-		"odx/nls/Global_nls"
-	],
-	"defaultTransition":"none",
-	"defaultView":"header+main",
-	"views":{
-		"header":{
-			"template":"odx/views/header/template/HeaderView.html",
-			"constraint":"top"
-		},
-		"main":{
-			"constraint":"center",
-			"nls":"odx/views/main/nls/MainView_nls",
-			"controller":"odx/views/main/MainView.js",
-			"template":"odx/views/main/template/MainView.html",
-			"defaultView":"welcome",
-			"views":{
-				"welcome":{
-					"constraint":"center",
-					"template":"odx/views/welcome/template/WelcomeView.html"
-				},
-				"desktop":{
-					"constraint":"center",
-					"template":"odx/views/desktop/template/DesktopView.html",
-					"controller":"odx/views/desktop/DesktopView.js",
+    "controllers": [
+        "dojox/app/controllers/Load",
+        "dojox/app/controllers/Transition",
+        "dojox/app/controllers/Layout"
+    ],
+    "defaultTransition": "none",
+    "defaultView": "main",
+    "dependencies": [
+        "dojox/app/widgets/Container",
+        "dijit/layout/TabContainer",
+        "dijit/layout/ContentPane",
+		"dijit/layout/BorderContainer"
+    ],
+    "description": "",
+    "has": {
+        "!ie9orLess": {
+            "controllers": [
+                "dojox/app/controllers/History"
+            ]
+        },
+        "ie9orLess": {
+            "controllers": [
+                "dojox/app/controllers/HistoryHash"
+            ]
+        }
+    },
+    "id": "odx",
+    "loaderConfig": {
+        "paths": {
+            "odx": "../../../../odx"
+        }
+    },
+    "models": {},
+    "modules": [],
+    "name": "Open Dojo Toolkit eXtension",
+    "nls": [
+        "odx/nls/Global_nls"
+    ],
+    "stores": {},
+    "views": {
+        "main": {
+            "constraint": "center",
+            "controller": "odx/views/main/MainView.js",
+            "defaultView": "welcome",
+            "template": "odx/views/main/template/MainView.html",
+            "views": {
+                "desktop": {
+                    "constraint": "center",
+                    "controller": "odx/views/desktop/DesktopView.js",
+                    "template": "odx/views/desktop/template/DesktopView.html",
 					"defaultView":"landing",
-					"views":{
-						"landing":{
-							"constraint":"center",
-							"template":"odx/views/desktop/template/LandingView.html"
-						},
+                    "views": {
+                    	"landing":{
+							"constraint": "center",
+                    		"template": "odx/views/desktop/template/LandingView.html"
+                    	},
 						"content":{
-							"constraint":"center",
-							"controller":"odx/views/content/ContentView.js",
-							"template":"odx/views/content/template/ContentView.html",
-							
-						}
-						
-					}
-					
-				},
-				"mobile":{
-					"constraint":"center",
-					"controller":"odx/views/mobile/MobileView.js",
-					"template":"odx/views/mobile/template/MobileView.html"
-				}
-				
-			}
-			
-		}
-		
-	}
-	
+							"constraint": "center",
+							"controller": "odx/views/desktop/ContentView.js",
+                    		"template": "odx/views/desktop/template/ContentView.html"
+                    	}
+                    }
+                },
+                "mobile": {
+                    "constraint": "center",
+                    "template": "odx/views/mobile/template/MobileView.html",
+                    "controller": "odx/views/desktop/DesktopView.js",
+                    "template": "odx/views/desktop/template/DesktopView.html",
+					"defaultView":"landing",
+                    "views": {
+                    	"landing":{
+							"constraint": "center",
+                    		"template": "odx/views/mobile/template/LandingView.html"
+                    	},
+                    	"content":{
+							"constraint": "center",
+                    		"template": "odx/views/mobile/template/LandingView.html"
+                    	}
+                    }
+                },
+                "welcome": {
+                    "constraint": "center",
+                    "template": "odx/views/welcome/template/WelcomeView.html"
+                }
+            }
+        }
+    }
 }

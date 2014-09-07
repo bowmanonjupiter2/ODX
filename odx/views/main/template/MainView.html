@@ -1,10 +1,15 @@
-<div class="container">
-	<div class="navContainer" data-dojo-type="dijit/layout/ContentPane"
-		data-app-constraint="top">
-		<div class="floatToLeft">
-			<div id="welcomeTab" class="welcomeTab navTab">${nls.welcome}</div>
-			<div id="desktopTab" class="desktopTab navTab">${nls.desktop_widgets}</div>
-			<div id="mobileTab" class="mobileTab navTab">${nls.mobile_widgets}</div>
+<div>
+	<div id="header" data-app-constraint="top">
+		<div id="title">
+			<a href=""><span>Open Dojo toolkit eXtension</span></a>
 		</div>
+		<div data-dojo-type="dijit/MenuBar" id="navMenu" data-dojo-props="onItemClick: this.menuItemClick">
+			<div data-dojo-type="dijit/MenuBarItem" id="welcomeTab">Welcome</div>
+			<div data-dojo-type="dijit/MenuBarItem" id="desktopTab">Desktop Widget</div>
+			<div data-dojo-type="dijit/MenuBarItem" id="mobileTab">Mobile Widget</div>
+		</div>
+	</div>
+	<div id="footer" data-app-constraint="bottom">
+		This is footer.
 	</div>
 </div>

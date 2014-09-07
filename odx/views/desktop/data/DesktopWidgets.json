@@ -9,18 +9,15 @@
 			"children":[
 				{
 					"id":"dijit/DropDownMenu",
-					"name":"DropDown Menu",
-					"path":""
+					"name":"DropDown Menu"
 				},
 				{
 					"id":"dijit/Menu",
-					"name":"Menu",
-					"path":""
+					"name":"Menu"
 				},
 				{
 					"id":"dijit/MenuBar",
-					"name":"MenuBar",
-					"path":""
+					"name":"MenuBar"
 				}
 				
 			]
@@ -42,7 +39,12 @@
 			"id":"form",
 			"name":"Form Widgets",
 			"type": "group",
-			"children": []
+			"children": [
+				{
+					"id":"dijit/form/ComboBox",
+					"name":"ComboBox"
+				}
+			]
 		},
 		{
 			"id":"layout",

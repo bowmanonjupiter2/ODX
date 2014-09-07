@@ -1,0 +1,27 @@
+<div>
+	<div data-app-constraint="top">
+		<div><!-- <span class="widget-name"></span>--><span class="widget-id">${params.id}</span></div>
+	</div>
+	<div data-app-constraint="center">
+		<div data-dojo-type="dijit/layout/TabContainer" doLayout="false" style="height:100%; weight: 100%">
+			<div data-dojo-type="dijit/layout/ContentPane" id="desktop-overview-tab" title="Overview"></div>
+			<div data-dojo-type="dijit/layout/ContentPane" id="desktop-play-tab" title="Play">
+				<div id="desktop-play-left" data-dojo-props="region: 'center'">
+					<div data-dojo-type="dijit/layout/ContentPane" id="desktop-play-demo" class="play-demo play-section">
+						top - ${params.id}
+					</div>
+					<div data-dojo-type="dijit/layout/ContentPane" id="desktop-play-declaration" class="play-declaration play-section">
+						center
+					</div>
+					<div data-dojo-type="dijit/layout/ContentPane" id="desktop-play-programmatic" class="play-programmatic play-section">
+						bottom
+					</div>
+				</div>
+				<div id="desktop-play-right" data-dojo-props="region: 'right'">
+					This is right.
+				</div>
+			</div>
+			<div data-dojo-type="dijit/layout/ContentPane" id="desktop-guidence-tab" title="Guidence"></div>
+		</div>
+	</div>
+</div>
