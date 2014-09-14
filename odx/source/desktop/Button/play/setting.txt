@@ -1,0 +1,23 @@
+{
+  "dijitType": "dijit/form/Button",
+  "props": [
+    {
+      "propName": "id",
+      "displayName": "ID",
+      "tagName": "text",
+      "defaultValue": "buttionId"
+    },
+    {
+      "propName": "label",
+      "displayName": "Label",
+      "tagName": "text",
+      "defaultValue": "Button"
+    },
+    {
+      "propName": "disabled",
+      "displayName": "Disabled",
+      "tagName": "checkbox",
+	  "defaultValue": ""
+    }
+  ]
+}

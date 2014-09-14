@@ -1,0 +1,3 @@
+<label for="${name}">${label}</label>
+<input id="${id}" name="${name}" data-dojo-type="${dijitType}" 
+		data-dojo-props="${dijitProps}" value="${value}" />

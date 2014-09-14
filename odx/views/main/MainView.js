@@ -66,7 +66,7 @@ define(
 				}
 				//Get the name of current subView
 				var currentView = _thisPage.selectedChildren.center.name;
-				if (currentView != subView) {
+				if (/* currentView != subView */ true) {
 					console.log("From " + currentView + " to " + subView);
 					var transOpts = {
 						target: "main," + subView,

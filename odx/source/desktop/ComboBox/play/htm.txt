@@ -1,16 +1,3 @@
-<div data-dojo-type="dojo/store/Memory" data-dojo-id="stateStore" data-dojo-props="data: [
-	{name:'Alabama',  id:'AL'},
-	{name:'Alaska',  id:'AK'},
-	{name:'American  Samoa', id:'AS'},
-	{name:'Arizona',  id:'AZ'},
-	{name:'Arkansas',  id:'AR'},
-	{name:'Armed  Forces Europe', id:'AE'},
-	{name:'Armed  Forces Pacific', id:'AP'},
-	{name:'Armed  Forces the Americas', id:'AA'},
-	{name:'California',  id:'CA'},
-	{name:'Colorado',  id:'CO'},
-	{name:'Connecticut',  id:'CT'},
-	{name:'Delaware',  id:'DE'}
- ]">
-</div>
-<input data-dojo-type="${dijitType}" value="" data-dojo-props="store:stateStore, searchAttr:'name', ${dijitProps}" name="${name}" id="${id}" />
+<select data-dojo-type="dijit/form/ComboBox" id="${id}" data-dojo-props="${props}">
+${options}
+</select>

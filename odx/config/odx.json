@@ -10,7 +10,8 @@
         "dojox/app/widgets/Container",
         "dijit/layout/TabContainer",
         "dijit/layout/ContentPane",
-		"dijit/layout/BorderContainer"
+		"dijit/layout/BorderContainer",
+		"dijit/TitlePane"
     ],
     "description": "",
     "has": {
@@ -28,7 +29,8 @@
     "id": "odx",
     "loaderConfig": {
         "paths": {
-            "odx": "../../../../odx"
+            "odx": "../../../../odx",
+			"sh": "../../../../sh"
         }
     },
     "models": {},

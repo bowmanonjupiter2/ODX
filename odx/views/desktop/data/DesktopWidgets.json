@@ -1,57 +1,58 @@
 {
-	"id":"root",
-	"name":"Desktop",
-	"children":[
-		{
-			"id":"menu",
-			"name":"Menu Widgets",
-			"type": "group",
-			"children":[
-				{
-					"id":"dijit/DropDownMenu",
-					"name":"DropDown Menu"
-				},
-				{
-					"id":"dijit/Menu",
-					"name":"Menu"
-				},
-				{
-					"id":"dijit/MenuBar",
-					"name":"MenuBar"
-				}
-				
-			]
-			
-		},
-		{
-			"id":"tree",
-			"name":"Tree Widgets",
-			"type": "group",
-			"children": []
-		},
-		{
-			"id":"misc",
-			"name":"Miscellaneous Widgets",
-			"type": "group",
-			"children": []
-		},
-		{
-			"id":"form",
-			"name":"Form Widgets",
-			"type": "group",
-			"children": [
-				{
-					"id":"dijit/form/ComboBox",
-					"name":"ComboBox"
-				}
-			]
-		},
-		{
-			"id":"layout",
-			"name":"Layout",
-			"type": "group",
-			"children": []
-		}
-		
-	]
+    "children": [
+        {
+            "children": [
+                {
+                    "id": "dijit/DropDownMenu",
+                    "name": "DropDown Menu"
+                },
+                {
+                    "id": "dijit/Menu",
+                    "name": "Menu"
+                }
+            ],
+            "id": "menu",
+            "name": "Menu Widgets",
+            "type": "group"
+        },
+        {
+            "children": [],
+            "id": "tree",
+            "name": "Tree Widgets",
+            "type": "group"
+        },
+        {
+            "children": [],
+            "id": "misc",
+            "name": "Miscellaneous Widgets",
+            "type": "group"
+        },
+        {
+            "children": [
+                {
+                    "id": "dijit/form/ComboBox",
+                    "name": "ComboBox"
+                },
+                {
+                    "id": "dijit/form/Button",
+                    "name": "Button"
+                },
+                {
+                    "id": "dijit/form/Checkbox",
+                    "name": "Checkbox"
+                }
+            ],
+            "id": "form",
+            "name": "Form Widgets",
+            "type": "group"
+        },
+        {
+            "children": [],
+            "id": "layout",
+            "name": "Layout",
+            "type": "group"
+        }
+    ],
+    "id": "root",
+    "name": "Desktop"
 }

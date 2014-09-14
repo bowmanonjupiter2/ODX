@@ -3,7 +3,7 @@
 <script type="text/javascript">
     require(['dijit/DropDownMenu', 'dijit/MenuItem', 'dijit/MenuSeparator', 'dijit/PopupMenuItem'], 
 	function(DropDownMenu, MenuItem, MenuSeparator, PopupMenuItem){
-        var ddm = new DropDownMenu(${dijitParams}, "${id}");
+        var ddm = new DropDownMenu({${props}}, "${id}");
 		var cut = new MenuItem({
 			label: 'Cut',
 			iconClass:'dijitEditorIcon dijitEditorIconCut'

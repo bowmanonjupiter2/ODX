@@ -1,12 +1,11 @@
 /**
  *
  */
-define(
-	[
+define([
 		"dojo/_base/declare",
 		"dojo/_base/lang",
+		"dojo/_base/array",
 		"dojo/topic",
-		"dojo/store/Memory",
 		"dojo/date",
 		"dojo/date/locale",
 		"dojo/on",
@@ -22,11 +21,12 @@ define(
 		"dijit/tree/ObjectStoreModel",
 		"dijit/registry",
 		"dojo/domReady!"
-	], function(
+	],
+	function(
 		declare,
 		lang,
+		array,
 		topic,
-		Memory,
 		date,
 		locale,
 		on,
@@ -45,7 +45,7 @@ define(
 
 		var _thisPage = null;
 		var _widgetTree = null;
-		
+		var _widgetStore = null;
 
 		return {
 			init: function() {
@@ -54,15 +54,14 @@ define(
 				this.createWidgetList();
 			},
 			createWidgetList: function() {
-				var widgetStore = new Memory({
+				_widgetStore = new Memory({
 					data: [json.parse(data)],
 					getChildren: function(obj) {
 						return obj.children || [];
 					}
 				});
-
 				var widgetModel = new Model({
-					store: widgetStore,
+					store: _widgetStore,
 					query: {
 						id: "root"
 					},
@@ -70,7 +69,6 @@ define(
 						return "children" in item;
 					}
 				});
-
 				_widgetTree = new Tree({
 					model: widgetModel,
 					openOnClick: false,
@@ -78,8 +76,8 @@ define(
 					onClick: _thisPage.treeItemClick,
 					persist: false,
 					showRoot: false,
-					getIconClass: function(item, opened){ /*Customize icon class here*/
-					    return (!item || this.model.mayHaveChildren(item)) ? (opened ? "dijitFolderOpened" : "dijitFolderClosed") : "dijitLeaf"
+					getIconClass: function(item, opened) { /*Customize icon class here*/
+						return (!item || this.model.mayHaveChildren(item)) ? (opened ? "dijitFolderOpened" : "dijitFolderClosed") : "dijitLeaf"
 					},
 				}, "desktop-widgets-list");
 				_widgetTree.startup();
@@ -87,10 +85,9 @@ define(
 			},
 			treeItemClick: function(item, node, e) {
 				if (item.type != "group") {
-					console.log(item)
 					var transOpts = {
 						target: "main,desktop,content",
-						url: "#main,desktop,content",
+						url: "#main,desktop",
 						data: item,
 						params: {
 							id: item.id
@@ -99,8 +96,23 @@ define(
 					new TransitionEvent(e.target, transOpts, e).dispatch();
 				}
 			},
-			getSelectItem: function(){
+			getSelectItem: function() {
 				return _widgetTree.selectedItem;
+			},
+			getWidgetDataById: function(id, parent) {
+				if (parent == undefined) {
+					parent = _widgetStore.query({
+						id: "root"
+					})[0];
+				}
+				var children = _widgetStore.getChildren(parent);
+				if (children.length > 0) {
+					array.forEach(children, function(item) {
+						_thisPage.getWidgetDataById(id, item);
+					})
+				} else if (parent.id == id) {
+					return parent;
+				}
 			}
 		};
 	}
