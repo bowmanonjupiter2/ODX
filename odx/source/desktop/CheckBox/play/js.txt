@@ -1,0 +1,7 @@
+<label for="${name}">${label}</label>
+<input id="${id}">
+<script type="text/javascript">
+    require(["dijit/form/CheckBox", "dojo/domReady!"], function(CheckBox){
+        var checkBox = new CheckBox(${dijitParams}, "${id}");
+    });
+</script>

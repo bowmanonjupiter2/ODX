@@ -1,0 +1,40 @@
+{
+    "props": [
+        {
+            "displayName": "ID",
+            "propName": "id",
+            "tagName": "text",
+            "defaultValue": "comboboxID"
+        },
+        {
+            "displayName": "Read only",
+            "propName": "readOnly",
+            "tagName": "checkbox",
+			"defaultValue": ""
+        },
+        {
+            "defaultValue": "Alabama\rAlaska\rArizona\rArkansas\rCalifornia\rColorado\rConnecticut\rDelaware",
+            "displayName": "Options",
+            "propName": "options",
+            "tagName": "option"
+        },
+        {
+            "displayName": "Required",
+            "propName": "required",
+            "tagName": "checkbox",
+			"defaultValue": "checked"
+        },
+        {
+            "displayName": "Missing message",
+            "propName": "missingMessage",
+            "tagName": "text",
+            "defaultValue": "This field is required"
+        },
+        {
+            "displayName": "Place Holder",
+            "propName": "placeHolder",
+            "tagName": "text",
+            "defaultValue": "Please choose your option"
+        }
+    ]
+}

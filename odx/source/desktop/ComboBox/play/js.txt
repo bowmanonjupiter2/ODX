@@ -1,0 +1,16 @@
+<script>
+require([
+    "dojo/store/Memory", "dijit/form/ComboBox", "dojo/domReady!"
+], function(Memory, ComboBox){
+    var stateStore = new Memory({
+        data: [${dataStore}]
+    });
+
+    var comboBox = new ComboBox({
+       	${props},
+		store: stateStore,
+		searchAttr: "name"
+    }, "${id}").startup();
+});
+</script>
+<input id="${id}">
