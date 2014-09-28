@@ -5,19 +5,49 @@
       "propName": "id",
       "displayName": "ID",
       "tagName": "text",
-      "defaultValue": "buttionId"
+      "defaultValue": "aBtnID"
     },
     {
       "propName": "label",
       "displayName": "Label",
       "tagName": "text",
-      "defaultValue": "Button"
+      "defaultValue": "Click me"
     },
     {
       "propName": "disabled",
       "displayName": "Disabled",
       "tagName": "checkbox",
-	  "defaultValue": ""
-    }
+	  "defaultValue": false
+    },
+    {
+      "propName": "name",
+      "displayName": "name",
+      "tagName": "text",
+	  "defaultValue": "ButtonA"
+    },
+    {
+      "propName": "showlabel",
+      "displayName": "showlabel",
+      "tagName": "checkbox",
+	  "defaultValue": true
+    },
+    {
+      "propName": "tabIndex",
+      "displayName": "tabIndex",
+      "tagName": "text",
+	  "defaultValue": "demoBtn"
+    },
+    {
+      "propName": "title",
+      "displayName": "title",
+      "tagName": "text",
+	  "defaultValue": "This is a button"
+    },
+    {
+      "propName": "tooltip",
+      "displayName": "tooltip",
+      "tagName": "text",
+	  "defaultValue": "Click me please"
+    }          
   ]
 }

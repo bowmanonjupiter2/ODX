@@ -175,7 +175,8 @@ define(
 						map[node.name] = node.value;
 					} else {
 						if (domAttr.get(node, "type") == "checkbox") {
-							props.push(node.name + ": '" + node.checked + "'")
+							//props.push(node.name + ": '" + node.checked + "'")
+						    	props.push(node.name + ": " + node.checked);
 						} else {
 							props.push(node.name + ": '" + node.value + "'");
 						}
