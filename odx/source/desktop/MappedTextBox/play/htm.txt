@@ -1,0 +1,1 @@
+<div data-dojo-type="dijit/form/NumberSpinner" data-dojo-props="value:1000">

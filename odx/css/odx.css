@@ -1,34 +1,55 @@
 /**
 *
 */
-html,body {
+html, body, .dijitTabPaneWrapper, .dijitTabContainerTopChildWrapper, #desktop-play-left, #odx_main_desktop_content .dijitAlignCenter,div#odx_main_desktop.dijitAlignCenter.dijitLayoutContainer,#odx_main_desktop_content {
 	width: 100%;
+	height: 100%!important;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, "Liberation Sans", FreeSans, sans-serif !important;
+    font-size: 14px !important;
+    background: #FFF;
+    color: #222;
+}
+#odx_main {
+	width:100%;
 	height: 100%;
 }
-
-.header {
-	padding: 20px 0;
-	color: #fff;
-	background: #000;
-	font-size: 32px;
-	font-weight: bold;
-}
-
-.floatToLeft div{
+#desktop-play-left{
 	float:left;
+	width: 75%;
 }
-.navContainer{
-	height: 48px;
-	background: #483D8B; /* TODO */
+#desktop-play-right{
+	float:right;
+	width: 25%;
 }
-.navTab{
-	padding: 15px;
-	margin-right: 10px;
-	background: #eee; /* TODO */
+.play-box{
+	margin-top: 15px;
 }
-.navTab:hover{
-	background: #483D8B;
+/* ---------- Syntax Highlighting ---------- */
+.play-box .syntaxhighlighter .toolbar {
+	display: none;
 }
-.widgets-list {
-	width: 220px;
+.syntaxhighlighter {
+	padding: 0;
+	border: 1px solid #CCC;
 }
+.play-box .syntaxhighlighter .alt1 {
+	background: #F6F6F2 !important;
+}
+.play-box .syntaxhighlighter .line.alt1,
+.play-box .syntaxhighlighter .line.alt2  {
+	padding: 0.1em 1em !important;
+}
+.play-box .syntaxhighlighter .gutter .line {
+	border-right-color: #DDD !important;
+}
+.play-box .syntaxhighlighter .gutter .highlighted {
+    background: #6CE26C !important;
+}
+.play-box .syntaxhighlighter .highlighted {
+    background-color: #E0E0E0 !important;
+}
+/* ----------------------------------------- */

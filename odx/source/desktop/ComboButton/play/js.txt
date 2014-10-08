@@ -1,0 +1,22 @@
+<script type="text/javascript">
+require(["dijit/Menu", "dijit/MenuItem", "dijit/form/ComboButton", "dojo/domReady!"],
+        function(Menu, MenuItem, ComboButton){
+    var menu = new Menu({ style: "display: none;"});
+    var menuItem1 = new MenuItem({
+        label: "Yahoo",
+        onClick: function(){ alert('hi'); }
+    });
+    menu.addChild(menuItem1);
+
+    var menuItem2 = new MenuItem({
+        label: "Google",
+        onClick: function(){ alert('ho'); }
+    });
+    menu.addChild(menuItem2);
+    menu.startup();
+
+    var button = new ComboButton(${props});
+    button.placeAt(dojo.body());
+    button.startup();
+});
+</script>

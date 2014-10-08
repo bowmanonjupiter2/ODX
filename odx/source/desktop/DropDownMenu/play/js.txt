@@ -1,0 +1,38 @@
+<div id="${id}">
+</div>
+<script type="text/javascript">
+    require(['dijit/DropDownMenu', 'dijit/MenuItem', 'dijit/MenuSeparator', 'dijit/PopupMenuItem'], 
+	function(DropDownMenu, MenuItem, MenuSeparator, PopupMenuItem){
+        var ddm = new DropDownMenu({${props}}, "${id}");
+		var cut = new MenuItem({
+			label: 'Cut',
+			iconClass:'dijitEditorIcon dijitEditorIconCut'
+		});
+		var copy = new MenuItem({
+			label: 'Copy',
+			iconClass:'dijitEditorIcon dijitEditorIconCopy'
+		});
+		var paste = new MenuItem({
+			label: 'Paste',
+			iconClass:'dijitEditorIcon dijitEditorIconPaste'
+		});
+		ddm.addChild(cut);
+		ddm.addChild(copy);
+		ddm.addChild(paste);		
+		var separator = new MenuSeparator();
+		ddm.addChild(separator);
+		var nestedMenu = new DropDownMenu({id: 'nestedMenu'});
+		var nested1 = new MenuItem({
+			label: 'Nested#1'
+		});
+		var nested2 = new MenuItem({
+			label: 'Nested#2'
+		});
+		nestedMenu.addChild(nested1);
+		nestedMenu.addChild(nested2);
+		var pop = new PopupMenuItem({label: 'Action', popup: nestedMenu});
+		ddm.addChild(pop);
+		ddm.startup();
+		nestedMenu.startup();
+    });
+</script>

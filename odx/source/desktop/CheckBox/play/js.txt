@@ -1,0 +1,7 @@
+<input id="${id}">
+<script type="text/javascript">
+require(["dijit/form/CheckBox", "dojo/domReady!"], function(CheckBox){
+		var props=${props};
+        var checkBox = new CheckBox(props,"${id}");
+ });
+</script>

@@ -1,0 +1,24 @@
+{
+  "dijitType": "dijit/layout/AccordionContainer",
+  "dijitProps": [
+    {
+      "propName": "id",
+      "displayName": "ID",
+      "tagName": "text",
+      "value": "myAccord",
+      "global": true
+    },
+    {
+      "propName": "style",
+      "displayName": "Style",
+      "tagName": "text",
+      "value": "height: 300px"
+    },
+    {
+      "propName": "duration",
+      "displayName": "Duration (ms)",
+      "tagName": "text",
+      "value": 300
+    }
+  ]
+}

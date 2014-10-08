@@ -1,0 +1,5 @@
+require(["dijit/form/SimpleTextarea", "dojo/domReady!"], function(SimpleTextarea){
+    var textarea = new SimpleTextarea(${props}, "${id}").startup();
+    textarea.set("value", "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.");
+});
+<textarea id="${id}" />

@@ -1,0 +1,31 @@
+{
+  "props": [
+    {
+      "propName": "id",
+      "displayName": "ID",
+      "tagName": "text",
+      "defaultValue": "myCheck",
+      "global": true
+    },
+    {
+      "propName": "name",
+      "displayName": "Name",
+      "tagName": "text",
+      "defaultValue": "myCheck",
+      "global": true
+    },
+    {
+      "propName": "readOnly",
+      "displayName": "Read only",
+      "tagName": "checkbox",
+      "defaultValue": "true"
+    },
+    {
+      "propName": "label",
+      "displayName": "Label",
+      "tagName": "text",
+      "defaultValue": "myCheck",
+      "global": true
+    }
+  ]
+}

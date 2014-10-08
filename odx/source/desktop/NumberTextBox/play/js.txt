@@ -1,0 +1,7 @@
+require(["dijit/form/NumberTextBox", "dojo/domReady!"], function(NumberTextBox){
+    new NumberTextBox({${props},
+          constraints: {pattern: "0.######"}
+    }, "${id}").startup();
+});
+<label for="programmatic">Input any number with up to 6 fractional digits:</label>
+<input id="programmatic" type="text" />

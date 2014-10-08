@@ -1,0 +1,1 @@
+<input data-dojo-type="dijit/form/NumberSpinner" data-dojo-props="${props}, constraints:{min:9,max:1550,places:0}"/>

@@ -1,0 +1,115 @@
+{
+  "props": [
+    {
+      "propName": "disable",
+      "displayName": "Disable",
+      "tagName": "checkbox",
+      "defaultValue": true
+    },
+    {
+      "propName": "id",
+      "displayName": "ID",
+      "tagName": "text",
+      "defaultValue": "myTextBox",
+      "global": true
+    },
+    {
+      "propName": "name",
+      "displayName": "Name",
+      "tagName": "text",
+      "defaultValue": "myTextBox",
+      "global": true
+    },
+    {
+      "propName": "label",
+      "displayName": "Label",
+      "tagName": "text",
+      "defaultValue": "myTextBox",
+      "global": true
+    },
+    {
+      "propName": "lowercase",
+      "displayName": "Lowercase",
+      "tagName": "checkbox",
+      "defaultValue":true
+    },
+    {
+      "propName": "maxLength",
+      "displayName": "MaxLength",
+      "tagName": "text",
+      "defaultValue": "256"
+    },
+    {
+      "propName": "placeHolder",
+      "displayName": "PlaceHolder",
+      "tagName": "text",
+      "defaultValue": "please enter message"
+    },
+    {
+      "propName": "propercase",
+      "displayName": "Propercase",
+      "tagName": "checkbox",
+      "defaultValue":true
+    },
+    {
+      "propName": "readOnly",
+      "displayName": "Read only",
+      "tagName": "checkbox",
+      "defaultValue":true
+    },
+    {
+      "propName": "required",
+      "displayName": "Required",
+      "tagName": "checkbox",
+      "defaultValue":true
+    },
+    {
+      "propName": "selectOnClick",
+      "displayName": "Select On Click",
+      "tagName": "checkbox",
+      "defaultValue": true
+    },
+    {
+      "propName": "tabIndex",
+      "displayName": "TabIndex",
+      "tagName": "text",
+      "defaultValue": "1"
+    },
+    {
+      "propName": "title",
+      "displayName": "Title",
+      "tagName": "text",
+      "defaultValue": "myTextBox"
+    },
+    {
+      "propName": "tooltip",
+      "displayName": "Tooltip",
+      "tagName": "text",
+      "defaultValue": "Enter Currency"
+    },
+    {
+      "propName": "tabIndex",
+      "displayName": "TabIndex",
+      "tagName": "text",
+      "defaultValue": "1"
+    },
+    {
+        "propName": "uppercase",
+        "displayName": "Uppercase",
+        "tagName": "checkbox",
+        "defaultValue":"true"
+    },
+    {
+        "propName": "trim",
+        "displayName": "Trim",
+        "tagName": "checkbox",
+        "defaultValue":true
+    },
+    {
+      "propName": "value",
+      "displayName": "Value",
+      "tagName": "text",
+      "defaultValue": ""
+    }
+  ]
+}

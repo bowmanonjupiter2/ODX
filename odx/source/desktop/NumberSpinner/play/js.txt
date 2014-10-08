@@ -1,0 +1,7 @@
+require(["dijit/form/NumberSpinner", "dojo/domReady!"], function(NumberSpinner){
+    var mySpinner = new NumberSpinner({
+    	${props},
+        constraints: { min:9, max:1550, places:0 },
+    }, "spinnerId").startup();
+});
+<div id="spinnerId"></div>

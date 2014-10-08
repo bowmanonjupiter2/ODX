@@ -1,0 +1,145 @@
+{
+  "props": [
+    {
+      "propName": "disable",
+      "displayName": "Disable",
+      "tagName": "checkbox",
+      "defaultValue": true
+    },
+    {
+      "propName": "id",
+      "displayName": "ID",
+      "tagName": "text",
+      "defaultValue": "myNumberTextBox",
+      "global": true
+    },
+    {
+      "propName": "name",
+      "displayName": "Name",
+      "tagName": "text",
+      "defaultValue": "myNumberTextBox",
+      "global": true
+    },
+    {
+      "propName": "label",
+      "displayName": "Label",
+      "tagName": "text",
+      "defaultValue": "myNumberTextBox",
+      "global": true
+    },
+    {
+      "propName": "invalidMessage",
+      "displayName": "InvalidMessage",
+      "tagName": "text",
+      "defaultValue": "Message invalid"
+    },
+    {
+      "propName": "largeDelta",
+      "displayName": "LargeDelta",
+      "tagName": "text",
+      "defaultValue": "10"
+    },
+    {
+      "propName": "smallDelta",
+      "displayName": "SmallDelta",
+      "tagName": "text",
+      "defaultValue": "10"
+    },
+    {
+      "propName": "lowercase",
+      "displayName": "Lowercase",
+      "tagName": "checkbox",
+      "defaultValue":true
+    },
+    {
+      "propName": "maxLength",
+      "displayName": "MaxLength",
+      "tagName": "text",
+      "defaultValue": "256"
+    },
+    {
+      "propName": "minimumTimeout",
+      "displayName": "MinimumTimeout",
+      "tagName": "text",
+      "defaultValue": "10"
+    },
+    {
+      "propName": "timeoutChangeRate",
+      "displayName": "TimeoutChangeRate",
+      "tagName": "text",
+      "defaultValue": "10"
+    },
+    {
+      "propName": "missingMessage",
+      "displayName": "MissingMessage",
+      "tagName": "text",
+      "defaultValue": "please enter message"
+    },
+    {
+      "propName": "placeHolder",
+      "displayName": "PlaceHolder",
+      "tagName": "text",
+      "defaultValue": "please enter message"
+    },
+    {
+      "propName": "promptMessage",
+      "displayName": "PromptMessage",
+      "tagName": "text",
+      "defaultValue": "please enter message"
+    },
+    {
+      "propName": "propercase",
+      "displayName": "Propercase",
+      "tagName": "checkbox",
+      "defaultValue":true
+    },
+    {
+      "propName": "readOnly",
+      "displayName": "Read only",
+      "tagName": "checkbox",
+      "defaultValue":true
+    },
+    {
+      "propName": "required",
+      "displayName": "Required",
+      "tagName": "checkbox",
+      "defaultValue":true
+    },
+    {
+      "propName": "selectOnClick",
+      "displayName": "Select On Click",
+      "tagName": "checkbox",
+      "defaultValue": true
+    },
+    {
+      "propName": "tabIndex",
+      "displayName": "TabIndex",
+      "tagName": "text",
+      "defaultValue": "1"
+    },
+    {
+      "propName": "title",
+      "displayName": "Title",
+      "tagName": "text",
+      "defaultValue": "myNumberTextBox"
+    },
+    {
+      "propName": "tooltip",
+      "displayName": "Tooltip",
+      "tagName": "text",
+      "defaultValue": "Enter Number"
+    },
+    {
+        "propName": "uppercase",
+        "displayName": "Uppercase",
+        "tagName": "checkbox",
+        "defaultValue":"true"
+    },
+    {
+      "propName": "value",
+      "displayName": "Value",
+      "tagName": "text",
+      "defaultValue": "1000"
+    }
+  ]
+}

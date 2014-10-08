@@ -1,0 +1,3 @@
+<label for="${id}">${label}</label>
+<input id="${id}" data-dojo-type="dijit/form/CheckBox" 
+		data-dojo-props="${props}" />

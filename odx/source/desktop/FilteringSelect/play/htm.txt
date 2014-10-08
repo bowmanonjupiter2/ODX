@@ -1,0 +1,3 @@
+<select data-dojo-type="dijit/form/FilteringSelect" id="${id}" name="${name}" data-dojo-props="${props}">
+${options} 
+</select>

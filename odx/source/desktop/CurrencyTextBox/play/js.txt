@@ -1,0 +1,8 @@
+require(["dijit/form/CurrencyTextBox", "dojo/currency", "dojo/i18n!dojo/cldr/nls/de/currency", "dojo/i18n!dojo/cldr/nls/de/number", "dojo/domReady!"
+], function(CurrencyTextBox, currency){
+    var props = ${props};
+    new CurrencyTextBox(props, "${id}").startup();
+});
+
+<label for="${id}"></label>
+<input id="${id}" />EUR

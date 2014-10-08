@@ -1,0 +1,172 @@
+{
+    "props": [
+    	{
+            "propName": "disabled",
+            "displayName": "Disabled",
+            "tagName": "checkbox",
+			"defaultValue": true
+        },
+        {
+            "propName": "id",
+            "displayName": "ID",
+            "tagName": "text",
+            "defaultValue": "comboboxID"
+        },
+        {
+            "propName": "name",
+            "displayName": "Name",
+            "tagName": "text",
+            "defaultValue": "myComboBox"
+        },
+        {
+            "propName": "readOnly",
+            "displayName": "Read only",
+            "tagName": "checkbox",
+			"defaultValue": true
+        },
+        {
+            "propName": "autoComplete",
+            "displayName": "AutoComplete",
+            "tagName": "checkbox",
+			"defaultValue": false
+        },
+        {
+            "propName": "autoWidth",
+            "displayName": "AutoWidth",
+            "tagName": "checkbox",
+			"defaultValue": false
+        },
+        {
+            "propName": "forceWidth",
+            "displayName": "ForceWidth",
+            "tagName": "checkbox",
+			"defaultValue": false
+        },
+        {
+            "propName": "hasDownArrow",
+            "displayName": "Has DownArrow",
+            "tagName": "checkbox",
+			"defaultValue": true
+        },
+        {
+            "propName": "ignoreCase",
+            "displayName": "Ignore Case",
+            "tagName": "checkbox",
+			"defaultValue": false
+        },
+        {
+            "propName": "options",
+            "displayName": "Options",
+            "tagName": "option",
+            "defaultValue": " \rApple\rOrange\rBanana"
+        },
+        {
+            "propName": "required",
+            "displayName": "Required",
+            "tagName": "checkbox",
+			"defaultValue": true
+        },
+        {
+            "propName": "lowercase",
+            "displayName": "Lowercase",
+            "tagName": "checkbox",
+			"defaultValue": true
+        },
+        {
+            "propName": "propercase",
+            "displayName": "Propercase",
+            "tagName": "checkbox",
+			"defaultValue": true
+        },
+        {
+            "propName": "uppercase",
+            "displayName": "Uppercase",
+            "tagName": "checkbox",
+			"defaultValue": true
+        },
+        {
+            "propName": "invalidMessage",
+            "displayName": "InvalidMessage",
+            "tagName": "text",
+            "defaultValue": "Message is invalid"
+        },
+        {
+            "propName": "missingMessage",
+            "displayName": "Missing message",
+            "tagName": "text",
+            "defaultValue": "This field is required"
+        },
+        {
+     		"propName": "promptMessage",
+      		"displayName": "PromptMessage",
+      		"tagName": "text",
+      		"defaultValue": "please enter message"
+    	},
+        {
+            "propName": "placeHolder",
+            "displayName": "Place Holder",
+            "tagName": "text",
+            "defaultValue": "Please choose your option"
+        },
+        {
+      		"propName": "maxLength",
+      		"displayName": "MaxLength",
+      		"tagName": "text",
+      		"defaultValue": "256"
+    	},
+    	{
+      		"propName": "maxHeigth",
+      		"displayName": "MaxHeigth",
+      		"tagName": "text",
+      		"defaultValue": "256"
+    	},
+    	{
+      		"propName": "pageSize",
+      		"displayName": "PageSize",
+      		"tagName": "text",
+      		"defaultValue": "3"
+    	},
+    	{
+      		"propName": "searchDelay",
+      		"displayName": "SearchDelay",
+      		"tagName": "text",
+      		"defaultValue": "10"
+    	},
+    	{
+     	 	"propName": "selectOnClick",
+      		"displayName": "Select On Click",
+      		"tagName": "checkbox",
+      		"defaultValue": true
+    	},
+    	{
+    	  	"propName": "tabIndex",
+      		"displayName": "TabIndex",
+      		"tagName": "text",
+      		"defaultValue": "1"
+    	},
+    	{
+    	  	"propName": "title",
+      		"displayName": "Title",
+      		"tagName": "text",
+      		"defaultValue": "myComboBox"
+    	},
+    	{
+     		"propName": "tooltip",
+      		"displayName": "Tooltip",
+      		"tagName": "text",
+      		"defaultValue": "NULL"
+    	},
+   	 	{
+       		"propName": "trim",
+        	"displayName": "Trim",
+        	"tagName": "checkbox",
+        	"defaultValue":true
+    	},
+    	{
+      		"propName": "value",
+      		"displayName": "Value",
+      		"tagName": "text",
+      		"defaultValue": "Connecticut"
+    	}
+    ]
+}

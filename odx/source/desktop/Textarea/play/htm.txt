@@ -1,0 +1,1 @@
+<textarea id="${id}" name="${name}" data-dojo-type="dijit/form/Textarea" data-dojo-props="${props}" />

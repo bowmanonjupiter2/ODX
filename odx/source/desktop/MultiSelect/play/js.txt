@@ -1,0 +1,26 @@
+<script type="text/javascript">
+
+require([
+    "dijit/form/MultiSelect", "dijit/form/Button",
+    "dojo/dom", "dojo/_base/window", "dojo/domReady!"
+], function(MultiSelect, Button, dom, win){
+
+    var sel = dom.byId('dynamic');
+    var n = 0;
+    for(var i in dijit){
+        var c = win.doc.createElement('option');
+        c.innerHTML = i;
+        c.value = n++;
+        sel.appendChild(c);
+    }
+    var myMultiSelect = new MultiSelect({ name: 'dynamic' }, sel).startup();
+
+    new Button({
+        onClick: function(){
+            alert(myMultiSelect.get('value'));
+        }
+    }, "progbutton").startup();
+});
+</script>
+<select id="dynamic"></select>
+<p><button id="progbutton" type="button">Get value</button></p>

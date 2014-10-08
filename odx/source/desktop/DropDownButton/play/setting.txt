@@ -1,0 +1,82 @@
+{
+    "props": [
+    	{
+            "propName": "disabled",
+            "displayName": "Disabled",
+            "tagName": "checkbox",
+			"defaultValue": false
+        },
+        {
+            "propName": "id",
+            "displayName": "ID",
+            "tagName": "text",
+            "defaultValue": "combobuttonID"
+        },
+        {
+            "propName": "required",
+            "displayName": "Required",
+            "tagName": "checkbox",
+			"defaultValue": true
+        },
+        {
+            "propName": "autoWidth",
+            "displayName": "AutoWidth",
+            "tagName": "checkbox",
+			"defaultValue": false
+        },
+        {
+            "propName": "forceWidth",
+            "displayName": "ForceWidth",
+            "tagName": "checkbox",
+			"defaultValue": false
+        },
+        {
+            "propName": "label",
+            "displayName": "Label",
+            "tagName": "text",
+            "defaultValue": "myComboButton"
+        },
+        {
+      		"propName": "maxHeigth",
+      		"displayName": "MaxHeigth",
+      		"tagName": "text",
+      		"defaultValue": "256"
+    	},
+    	{
+            "propName": "name",
+            "displayName": "Name",
+            "tagName": "text",
+            "defaultValue": "myComboButton"
+        },
+        {
+            "propName": "showlabel",
+            "displayName": "Showlabel",
+            "tagName": "checkbox",
+			"defaultValue": true
+        },
+        {
+    	  	"propName": "tabIndex",
+      		"displayName": "TabIndex",
+      		"tagName": "text",
+      		"defaultValue": "1"
+    	},
+    	{
+    	  	"propName": "title",
+      		"displayName": "Title",
+      		"tagName": "text",
+      		"defaultValue": "myComboBox"
+    	},
+    	{
+     		"propName": "tooltip",
+      		"displayName": "Tooltip",
+      		"tagName": "text",
+      		"defaultValue": "NULL"
+    	},
+    	{
+      		"propName": "value",
+      		"displayName": "Value",
+      		"tagName": "text",
+      		"defaultValue": ""
+    	}
+    ]
+}
