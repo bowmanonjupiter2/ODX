@@ -1,0 +1,11 @@
+{
+    "dijitType": "dojox/mobile/TabBar",
+    "props": [
+        {
+            "defaultValue": "tabBarID",
+            "displayName": "tabBarID",
+            "propName": "id",
+            "tagName": "text"
+        }
+    ]
+}

@@ -5,6 +5,10 @@ html, body, .dijitTabPaneWrapper, .dijitTabContainerTopChildWrapper, #desktop-pl
 	width: 100%;
 	height: 100%!important;
 }
+html, body, .dijitTabPaneWrapper, .dijitTabContainerTopChildWrapper, #mobile-play-left, #odx_main_mobile_content .dijitAlignCenter,div#odx_main_mobile.dijitAlignCenter.dijitLayoutContainer,#odx_main_mobile_content {
+	width: 100%;
+	height: 100%!important;
+}
 body {
     margin: 0;
     padding: 0;
@@ -22,6 +26,14 @@ body {
 	width: 75%;
 }
 #desktop-play-right{
+	float:right;
+	width: 25%;
+}
+#mobile-play-left{
+	float:left;
+	width: 75%;
+}
+#mobile-play-right{
 	float:right;
 	width: 25%;
 }

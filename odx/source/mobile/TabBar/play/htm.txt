@@ -1,0 +1,7 @@
+<div>
+<ul data-dojo-type="dojox/mobile/TabBar" id="${id}">
+  <li data-dojo-type="dojox/mobile/TabBarButton" data-dojo-props='selected:true'>Tab A</li>
+  <li data-dojo-type="dojox/mobile/TabBarButton">Tab B</li>
+  <li data-dojo-type="dojox/mobile/TabBarButton">Tab C</li>
+</ul>
+</div>

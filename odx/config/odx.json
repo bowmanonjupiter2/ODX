@@ -66,9 +66,8 @@
                 },
                 "mobile": {
                     "constraint": "center",
-                    "template": "odx/views/mobile/template/MobileView.html",
-                    "controller": "odx/views/desktop/DesktopView.js",
-                    "template": "odx/views/desktop/template/DesktopView.html",
+                     "controller": "odx/views/mobile/MobileView.js",
+                    "template": "odx/views/mobile/template/MobileView.html", 
 					"defaultView":"landing",
                     "views": {
                     	"landing":{
@@ -77,7 +76,8 @@
                     	},
                     	"content":{
 							"constraint": "center",
-                    		"template": "odx/views/mobile/template/LandingView.html"
+							"controller": "odx/views/mobile/ContentView.js",
+                    		"template": "odx/views/mobile/template/ContentView.html"
                     	}
                     }
                 },
