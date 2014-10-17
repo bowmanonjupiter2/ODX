@@ -1,0 +1,31 @@
+{
+  "props": [
+    {
+      "propName": "id",
+      "displayName": "ID",
+      "tagName": "text",
+      "defaultValue": "StackContainerID",
+      "global": true
+    },    {
+      "propName": "containerId",
+      "displayName": "containerID",
+      "tagName": "text",
+      "defaultValue": "StackContainerID"
+    }, {
+      "propName": "title",
+      "displayName": "title",
+      "tagName": "text",
+      "defaultValue": "Title for stackContainer"
+    },{
+      "propName": "tooltip",
+      "displayName": "tooltip",
+      "tagName": "text",
+      "defaultValue": "tooltip"
+    },{
+      "propName": "style",
+      "displayName": "Style",
+      "tagName": "text",
+      "defaultValue": "height: 150px"
+    }
+  ]
+}

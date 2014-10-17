@@ -1,0 +1,56 @@
+{
+  "props": [
+    {
+      "propName": "id",
+      "displayName": "ID",
+      "tagName": "text",
+      "defaultValue": "LinkPaneID",
+      "global": true
+    },{
+      "propName": "doLayout",
+      "displayName": "doLayout",
+      "tagName": "checkbox",
+      "defaultValue": true
+    },{
+      "propName": "errorMessage",
+      "displayName": "errorMessage",
+      "tagName": "text",
+      "defaultValue": "errorMessage"
+    },{
+      "propName": "isLayoutContainer",
+      "displayName": "isLayoutContainer",
+      "tagName": "checkbox",
+      "defaultValue": true
+    },{
+      "propName": "loadingMessage",
+      "displayName": "loadingMessage",
+      "tagName": "text",
+      "defaultValue": "loadingMessage"
+    },{
+      "propName": "refreshOnShow",
+      "displayName": "refreshOnShow",
+      "tagName": "checkbox",
+      "defaultValue": true
+    },{
+      "propName": "title",
+      "displayName": "Title",
+      "tagName": "text",
+      "defaultValue": "Title"
+    },{
+      "propName": "tooltip",
+      "displayName": "tooltip",
+      "tagName": "text",
+      "defaultValue": "tooltip"
+    },{
+      "propName": "refreshOnShow",
+      "displayName": "refreshOnShow",
+      "tagName": "checkbox",
+      "defaultValue": true
+    },{
+      "propName": "style",
+      "displayName": "Style",
+      "tagName": "text",
+      "defaultValue": "height: 150px"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<div style="width: 350px; height: 300px">
+    <div data-dojo-type="dijit/layout/TabContainer" id="${id}" data-dojo-props="${props}">
+        <div data-dojo-type="dijit/layout/ContentPane" title="My first tab" data-dojo-props="selected:true">
+            Lorem ipsum and all around...
+        </div>
+        <div data-dojo-type="dijit/layout/ContentPane" title="My second tab">
+            Lorem ipsum and all around - second...
+        </div>
+        <div data-dojo-type="dijit/layout/ContentPane" title="My last tab" data-dojo-props="closable:true">
+            Lorem ipsum and all around - last...
+        </div>
+    </div>
+</div>

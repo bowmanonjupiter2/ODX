@@ -1,0 +1,61 @@
+{
+  "props": [
+    {
+      "propName": "id",
+      "displayName": "ID",
+      "tagName": "text",
+      "defaultValue": "TabContainer",
+      "global": true
+    },    {
+      		"propName": "doLayout",
+            "displayName": "doLayout",
+            "tagName": "checkbox",
+			"defaultValue": true
+        },    {
+      		"propName": "isLayoutContainer",
+            "displayName": "isLayoutContainer",
+            "tagName": "checkbox",
+			"defaultValue": true
+        },  {
+      		"propName": "persist",
+            "displayName": "persist",
+            "tagName": "checkbox",
+			"defaultValue": true
+        },{
+      		"propName": "nested",
+            "displayName": "nested",
+            "tagName": "checkbox",
+			"defaultValue": true
+        },{
+      		"propName": "tabPosition",
+            "displayName": "tabPosition",
+            "tagName": "text",
+			"defaultValue": "top"
+        },{
+      		"propName": "title",
+            "displayName": "title",
+            "tagName": "text",
+			"defaultValue": "Title"
+        },{
+      		"propName": "tooltip",
+            "displayName": "tooltip",
+            "tagName": "text",
+			"defaultValue": "tooltip"
+        },{
+      		"propName": "useMenu",
+            "displayName": "useMenu",
+            "tagName": "checkbox",
+			"defaultValue": true
+        },{
+      		"propName": "useSlider",
+            "displayName": "useSlider",
+            "tagName": "checkbox",
+			"defaultValue": true
+        },{
+      		"propName": "style",
+      		"displayName": "Style",
+      		"tagName": "text",
+      		"defaultValue": "height: 150px"
+   		 }
+  ]
+}

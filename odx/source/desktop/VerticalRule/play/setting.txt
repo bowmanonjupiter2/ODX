@@ -1,0 +1,40 @@
+{
+    "props": [
+        {
+            "propName": "id",
+            "displayName": "ID",
+            "tagName": "text",
+            "defaultValue":"aVerticalRule" 
+        },
+        {
+            "propName": "container",
+            "displayName": "Container",
+            "tagName": "text",
+            "defaultValue":"container" 
+        },
+	{
+      	 "propName": "style",
+     	 "displayName": "Style",
+     	 "tagName": "text",
+     	 "defaultValue": "height: 150px"
+    	},
+        {
+            "propName": "count",
+            "displayName": "Count",
+            "tagName": "text",
+            "defaultValue":"19" 
+        },
+        {
+            "propName": "title",
+            "displayName": "Title",
+            "tagName": "text",
+            "defaultValue":"This is a VerticalRule" 
+        },   
+        {
+            "propName": "tooltip",
+            "displayName": "ToolTip",
+            "tagName": "text",
+            "defaultValue":"A VerticalRule use for decoration." 
+        }      
+    ]
+}

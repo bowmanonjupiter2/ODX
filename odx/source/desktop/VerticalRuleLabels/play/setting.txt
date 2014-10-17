@@ -1,0 +1,58 @@
+{
+    "props": [
+        {
+            "propName": "id",
+            "displayName": "ID",
+            "tagName": "text",
+            "defaultValue":"aVerticalRuleLabel" 
+        },
+        {
+            "propName": "container",
+            "displayName": "Container",
+            "tagName": "text",
+            "defaultValue":"container" 
+        },
+        {
+            "propName": "count",
+            "displayName": "Count",
+            "tagName": "text",
+            "defaultValue":"1" 
+        },
+        {
+            "propName": "title",
+            "displayName": "Title",
+            "tagName": "text",
+            "defaultValue":"This is a VerticalRule Label" 
+        },   
+        {
+            "propName": "tooltip",
+            "displayName": "ToolTip",
+            "tagName": "text",
+            "defaultValue":"a VerticalRualLabel use with VerticalRule" 
+        }, 
+	{
+      	    "propName": "style",
+      	    "displayName": "Style",
+      	    "tagName": "text",
+      	    "defaultValue": "height: 150px"
+        },
+        {
+            "propName": "maximum",
+            "displayName": "Maximum",
+            "tagName": "text",
+            "defaultValue":"100" 
+        },
+        {
+            "propName": "minimum",
+            "displayName": "Minimum",
+            "tagName": "text",
+            "defaultValue":"1" 
+        },    
+        {
+            "propName": "numericMargin",
+            "displayName": "NumericMargin",
+            "tagName": "text",
+            "defaultValue":"5" 
+        }                         
+    ]
+}

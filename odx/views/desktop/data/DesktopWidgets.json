@@ -129,14 +129,71 @@
             		"id": "Buttons",
             		"name": "Buttons",
             		"type": "group"
-            	}
+            	},
+				{
+                    "id": "dijit/form/VerticalRule",
+                    "name": "VerticalRule"                
+                },
+                {
+                    "id": "dijit/form/VerticalRuleLabels",
+                    "name": "VerticalRuleLabels"                  
+                },
+                {
+                    "id": "dijit/form/VerticalRuleLabels",
+                    "name": "VerticalSlider"                  
+                },
+                {
+                    "id": "dijit/form/Form",
+                    "name": "Form"                  
+                },
+                {
+                    "id": "dijit/form/HorizontalRule",
+                    "name": "HorizontalRule"                  
+                },
+                {
+                    "id": "dijit/form/HorizontalRuleLabels",
+                    "name": "HorizontalRuleLabels"                  
+                },
+                {
+                    "id": "dijit/form/HorizontalSlider",
+                    "name": "HorizontalSlider"                  
+                }                               
             ],
             "id": "form",
             "name": "Form Widgets",
             "type": "group"
         },
         {
-            "children": [],
+            "children": [
+           		 {
+            		"id":"dijit/layout/AccordionContainer",
+            		"name":"AccordionContainer"
+           		 },
+           		 {
+            		"id":"dijit/layout/BorderContainer",
+            		"name":"BorderContainer"
+           		 },
+           		 {
+            		"id":"dijit/layout/ContentPane",
+            		"name":"ContentPane"
+           		 },
+           		 {
+            		"id":"dijit/layout/StackController",
+            		"name":"StackController"
+           		 },
+           		 {
+            		"id":"dijit/layout/LinkPane",
+            		"name":"LinkPane"
+           		 },
+           		 {
+            		"id":"dijit/layout/StackContainer",
+            		"name":"StackContainer"
+           		 },
+           		 {
+            		"id":"dijit/layout/TabContainer",
+            		"name":"TabContainer"
+           		 }
+            ],
             "id": "layout",
             "name": "Layout",
             "type": "group"

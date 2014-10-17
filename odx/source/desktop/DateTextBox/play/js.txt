@@ -1,3 +1,4 @@
+<script type="text/javascript">
 require(["dojo/_base/declare", "dijit/form/DateTextBox", "dojo/date/locale", "dojo/dom", "dojo/domReady!"],
         function(declare, DateTextBox, locale, dom){
     declare("OracleDateTextBox", DateTextBox, {

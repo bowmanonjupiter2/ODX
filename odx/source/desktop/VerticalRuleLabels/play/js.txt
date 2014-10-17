@@ -1,0 +1,10 @@
+<script type="text/javascript">
+    var rulesNode = document.createElement('div');
+    ${id}.appendChild(rulesNode);
+require(["dojo/parser", "dijit/form/VerticalRule", "dijit/form/VerticalRuleLabels"],function(Vertical, dom)){
+       var sliderRules = new VerticalRuleLabels({
+        ${props}.count,
+        style: "width:5px;"
+    }, "${id}");
+});
+</script>
