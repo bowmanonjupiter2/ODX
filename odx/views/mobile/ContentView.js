@@ -137,6 +137,8 @@ define(
 				var checkboxTmpl = '<div class="property-wrapper"><input type="checkbox" class="property" name="${propName}" ${defaultValue}/><label class="property-label" for="${propName}">${displayName}</label></div>';
 				var textareaTmpl = '<div class="property-wrapper"><label class="property-label" for="${propName}">${displayName}</label><br/><textarea class="property" name="${propName}">${defaultValue}</textarea></div>';
 				var newPropDom = null;
+				var themeTmpl = '<div class="property-wrapper"><label class="property-label" >${displayName}</label><br/><select id = "${propName}" name="${propName}" class="property"><option value="android">android</option><option value="iphone">iphone</option><option value="blackberry">blackberry</option><option value="custom">custom</option><option value="holodark">holodark</option><option value="ios7">ios7</option><option value="windows">windows</option></select>';
+				
 				array.forEach(settingSrcOrgi.props, function(prop, index) {
 					switch (prop.tagName) {
 						case "text":
@@ -150,6 +152,9 @@ define(
 							break;				 
 						case "option":
 							newProDox = domConstruct.place(string.substitute(textareaTmpl, prop), settingBox.containerNode, "last");
+							break;
+						case "theme":
+							newProDox = domConstruct.place(string.substitute(themeTmpl, prop), settingBox.containerNode, "last");
 							break;
 					}
 				});
@@ -175,9 +180,11 @@ define(
 								'{name: "' + option + '", id: "' + option + '"}';
 						});
 						map["dataStore"] = tempStore;
-					} else if (node.name == "id") {
+					} else if ((node.name == "id")||(node.name == "theme") || (node.name == "tag")){
 						map[node.name] = node.value;
-					} else {
+					}
+					
+					else {	
 						if (domAttr.get(node, "type") == "checkbox") {
 							props.push(node.name + ": " + node.checked  );
 						} else {

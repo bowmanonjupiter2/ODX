@@ -60,6 +60,12 @@
             "displayName": "onChange",
             "tagName": "function",
 	        "defaultValue": "function(e){ alert('value changed to '+e);return true;}"
+        },
+         {
+      "propName": "theme",
+      "displayName": "theme",
+      "tagName": "theme",
+	  "defaultValue": ""
         }
     
     ]

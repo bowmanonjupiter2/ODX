@@ -24,6 +24,18 @@
       "displayName": "onClick",
       "tagName": "function",
 	  "defaultValue": "function(e){ alert('button clicked');return true;}"
+    },
+     {
+      "propName": "duration",
+      "displayName": "Duration",
+      "tagName": "text",
+      "defaultValue": "1000"
+    },
+       {
+      "propName": "theme",
+      "displayName": "theme",
+      "tagName": "theme",
+	  "defaultValue": ""
     }
     ]
 }
