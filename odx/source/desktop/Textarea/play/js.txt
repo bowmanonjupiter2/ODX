@@ -1,0 +1,4 @@
+require(["dijit/form/Textarea", "dojo/domReady!"], function(Textarea){
+    var textarea = new Textarea(${props}, "${id}").startup();
+});
+<textarea id="${id}">

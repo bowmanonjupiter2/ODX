@@ -1,0 +1,76 @@
+{
+    "props": [
+        {
+            "propName": "id",
+            "displayName": "ID",
+            "tagName": "text",
+            "defaultValue":"aVerticalSlider" 
+        },       
+        {
+            "propName": "disabled",
+            "displayName": "Disabled",
+            "tagName": "checkbox",
+            "defaultValue":false
+        },
+        {
+            "propName": "clickSelect",
+            "displayName": "ClickSelect",
+            "tagName": "checkbox",
+            "defaultValue":true
+        },
+        {
+            "propName": "name",
+            "displayName": "Name",
+            "tagName": "text",
+            "defaultValue":"VerticalSlider" 
+        },   
+        {
+            "propName": "tooltip",
+            "displayName": "ToolTip",
+            "tagName": "text",
+            "defaultValue":"This is a VerticalSlider" 
+        }, 
+	{
+      	   "propName": "style",
+      	   "displayName": "Style",
+      	   "tagName": "text",
+      	   "defaultValue": "height: 150px"
+    	},
+        {
+            "propName": "maximum",
+            "displayName": "Maximum",
+            "tagName": "text",
+            "defaultValue":"100" 
+        },
+        {
+            "propName": "minimum",
+            "displayName": "Minimum",
+            "tagName": "text",
+            "defaultValue":"0" 
+        },    
+        {
+            "propName": "readonly",
+            "displayName": "ReadOnly",
+            "tagName": "checkbox",
+            "defaultValue":"false" 
+        },
+         {
+            "propName": "value",
+            "displayName": "Value",
+            "tagName": "text",
+            "defaultValue":"0" 
+        }, 
+         {
+            "propName": "title",
+            "displayName": "Title",
+            "tagName": "text",
+            "defaultValue":"VerticalSlider" 
+        },
+        {
+            "propName": "discreteValues",
+            "displayName": "DiscreteValues",
+            "tagName": "text",
+            "defaultValue":"50" 
+        }                                              
+    ]
+}

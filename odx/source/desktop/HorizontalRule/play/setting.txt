@@ -1,0 +1,40 @@
+{
+  "props": [
+    {
+      "propName": "id",
+      "displayName": "ID",
+      "tagName": "text",
+      "defaultValue": "HorizontalRuleID"
+    },
+    {
+      "propName": "style",
+      "displayName": "Style",
+      "tagName": "text",
+      "defaultValue": "height: 150px"
+    },
+     {
+      "propName": "title",
+      "displayName": "Title",
+      "tagName": "text",
+      "defaultValue":"Please enter title !"
+    },
+     {
+      "propName": "tooltip",
+      "displayName": "Tooltip",
+      "tagName": "text",
+      "defaultValue":"Tooltip to appear when the mouse is hovered over."
+    },
+    {
+      "propName": "container",
+      "displayName": "Container",
+      "tagName": "text",
+	  "defaultValue": "topDecoration"
+    },
+    {
+      "propName": "count",
+      "displayName": "Count",
+      "tagName": "text",
+      "defaultValue": 10
+    }
+  ]
+}

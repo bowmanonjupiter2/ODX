@@ -1,0 +1,112 @@
+{
+    "props": [
+    	{
+            "propName": "disabled",
+            "displayName": "Disabled",
+            "tagName": "checkbox",
+			"defaultValue": true
+        },
+        {
+            "propName": "id",
+            "displayName": "ID",
+            "tagName": "text",
+            "defaultValue": "comboboxID"
+        },
+        {
+            "propName": "name",
+            "displayName": "Name",
+            "tagName": "text",
+            "defaultValue": "myComboBox"
+        },
+        {
+            "propName": "readOnly",
+            "displayName": "Read only",
+            "tagName": "checkbox",
+			"defaultValue": true
+        },
+        {
+            "propName": "emptyLabel",
+            "displayName": "EmptyLabel",
+            "tagName": "text",
+			"defaultValue": "mySelect"
+        },
+        {
+            "propName": "autoWidth",
+            "displayName": "AutoWidth",
+            "tagName": "checkbox",
+			"defaultValue": false
+        },
+        {
+            "propName": "forceWidth",
+            "displayName": "ForceWidth",
+            "tagName": "checkbox",
+			"defaultValue": false
+        },
+        {
+            "propName": "loadChildrenOnOpen",
+            "displayName": "Load children on Open",
+            "tagName": "checkbox",
+			"defaultValue": true
+        },
+        {
+            "propName": "sortByLabel",
+            "displayName": "SortByLabel",
+            "tagName": "checkbox",
+			"defaultValue": false
+        },
+        {
+            "propName": "options",
+            "displayName": "Options",
+            "tagName": "option",
+            "defaultValue": "Tennessee\rVirginia\rWashington\rFlorida\rCalifornia"
+        },
+        {
+            "propName": "required",
+            "displayName": "Required",
+            "tagName": "checkbox",
+			"defaultValue": true
+        },
+        {
+      		"propName": "multiCharSearchDuration",
+      		"displayName": "MultiCharSearchDuration",
+      		"tagName": "text",
+      		"defaultValue": "4"
+    	},
+    	{
+      		"propName": "maxHeigth",
+      		"displayName": "MaxHeigth",
+      		"tagName": "text",
+      		"defaultValue": "256"
+    	},
+    	{
+      		"propName": "multiple",
+      		"displayName": "Multiple",
+      		"tagName": "checkbox",
+      		"defaultValue": false
+    	},
+    	{
+    	  	"propName": "tabIndex",
+      		"displayName": "TabIndex",
+      		"tagName": "text",
+      		"defaultValue": "1"
+    	},
+    	{
+    	  	"propName": "title",
+      		"displayName": "Title",
+      		"tagName": "text",
+      		"defaultValue": "myComboBox"
+    	},
+    	{
+     		"propName": "tooltip",
+      		"displayName": "Tooltip",
+      		"tagName": "text",
+      		"defaultValue": "NULL"
+    	},
+    	{
+      		"propName": "value",
+      		"displayName": "Value",
+      		"tagName": "text",
+      		"defaultValue": ""
+    	}
+    ]
+}

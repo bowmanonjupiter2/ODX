@@ -1,0 +1,7 @@
+<div id="${id}" data-dojo-type="dijit/form/ComboButton" data-dojo-props ="${props}">
+    <span>${label}</span>
+    <div data-dojo-type="dijit/DropDownMenu">
+        <div data-dojo-type="dijit/MenuItem" data-dojo-props="onClick:function(){console.log('hi!')}">Yahoo</div>
+        <div data-dojo-type="dijit/MenuItem" data-dojo-props="onClick:function(){console.log('ho!')}">Google</div>
+    </div>
+</div>

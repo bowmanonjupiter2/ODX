@@ -1,0 +1,2 @@
+<div data-dojo-type="dijit/form/RadioButton" data-dojo-props="${props}" id="${id}"></div>
+<label for="${id}">${label}</label>

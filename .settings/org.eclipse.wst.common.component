@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ODX">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/dojo" source-path="/dojo"/>
+        <wb-resource deploy-path="/odx" source-path="/odx"/>
+        <wb-resource deploy-path="/sh" source-path="/sh"/>
+        <property name="context-root" value="ODX"/>
+        <property name="java-output-path" value="/ODX/build/classes"/>
+    </wb-module>
+</project-modules>

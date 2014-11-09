@@ -1,0 +1,72 @@
+{
+    "dijitType": "dojox/mobile/Slider",
+    "props": [
+      {
+            "defaultValue": "id",
+            "displayName": "Id",
+            "propName": "id",
+            "tagName": "text"
+        },
+        {
+            "defaultValue": "10",
+            "displayName": "Value",
+            "propName": "value",
+            "tagName": "text"
+        },
+         {
+            "defaultValue": "20",
+            "displayName": "Max",
+            "propName": "max",
+            "tagName": "text"
+        },
+         {
+            "defaultValue": "0",
+            "displayName": "Min",
+            "propName": "min",
+            "tagName": "text"
+        },
+           {
+            "defaultValue": "1",
+            "displayName": "step",
+            "propName": "step",
+            "tagName": "text"
+        },
+         {
+            "defaultValue": "8pt",
+            "displayName": "halo",
+            "propName": "halo",
+            "tagName": "text"
+        },
+          {
+            "defaultValue": "",
+            "displayName": "Flip",
+            "propName": "flip",
+            "tagName": "checkbox"
+        },
+        {
+            "defaultValue": "",
+            "displayName": "intermediateChanges",
+            "propName": "intermediateChanges",
+            "tagName": "checkbox"
+        },
+         {
+            "defaultValue": "auto",
+            "displayName": "orientation",
+            "propName": "orientation",
+            "tagName": "text"
+        },
+          {
+            "propName": "onChange",
+            "displayName": "onChange",
+            "tagName": "function",
+	        "defaultValue": "function(e){ alert('value changed to '+e);return true;}"
+        },
+         {
+      "propName": "theme",
+      "displayName": "theme",
+      "tagName": "theme",
+	  "defaultValue": ""
+    }
+    
+    ]
+}

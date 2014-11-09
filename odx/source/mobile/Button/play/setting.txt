@@ -1,0 +1,41 @@
+{
+    "dijitType": "dojox/mobile/Button",
+    "props": [
+     {
+      "propName": "id",
+      "displayName": "ID",
+      "tagName": "text",
+      "defaultValue": "id"
+    },
+        {
+      "propName": "label",
+      "displayName": "Label",
+      "tagName": "text",
+      "defaultValue": "label"
+    },
+       {
+      "propName": "disabled",
+      "displayName": "Disabled",
+      "tagName": "checkbox",
+	  "defaultValue": ""
+    },
+    {
+      "propName": "onClick",
+      "displayName": "onClick",
+      "tagName": "function",
+	  "defaultValue": "function(e){ alert('button clicked');return true;}"
+    },
+     {
+      "propName": "duration",
+      "displayName": "Duration",
+      "tagName": "text",
+      "defaultValue": "1000"
+    },
+       {
+      "propName": "theme",
+      "displayName": "theme",
+      "tagName": "theme",
+	  "defaultValue": ""
+    }
+    ]
+}

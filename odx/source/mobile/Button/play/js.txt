@@ -1,0 +1,6 @@
+<input id="${id}">
+<script type="text/javascript">
+require(["dojox/mobile/Button", "dojo/dom", "dojo/domReady!"], function(Button, dom){
+    var myButton = new Button({${props}}, "${id}");
+});
+</script>

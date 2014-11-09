@@ -1,0 +1,8 @@
+<div data-dojo-type="dijit/form/DropDownButton" data-dojo-props="${props}">
+  <span>${label}</span>
+  <div data-dojo-type="dijit/TooltipDialog">
+     <label for="name">Name:</label> <input data-dojo-type="dijit/form/TextBox" id="name" name="name"><br>
+     <label for="hobby">Hobby:</label> <input data-dojo-type="dijit/form/TextBox" id="hobby" name="hobby"><br>
+     <button data-dojo-type="dijit/form/Button" type="submit">Save</button>
+  </div>
+</div>

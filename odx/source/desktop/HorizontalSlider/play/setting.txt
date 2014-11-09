@@ -1,0 +1,94 @@
+{
+  "props": [
+    {
+      "propName": "id",
+      "displayName": "ID",
+      "tagName": "text",
+      "defaultValue": "HorizontalRuleID"
+    },
+    {
+      "propName": "name",
+      "displayName": "Name",
+      "tagName": "text",
+      "defaultValue": "HorizontalRuleName"
+    },
+    {
+      "propName": "style",
+      "displayName": "Style",
+      "tagName": "text",
+      "defaultValue": "height: 150px"
+    },
+    {
+      "propName": "slideDuration",
+      "displayName": "SlideDuration (ms)",
+      "tagName": "text",
+      "defaultValue": 300
+    },
+    {
+      "propName": "maximum",
+      "displayName": "Maximum",
+      "tagName": "text",
+      "defaultValue": 10
+    },
+    {
+      "propName": "minimum",
+      "displayName": "Minimum",
+      "tagName": "text",
+      "defaultValue": -10
+    },
+     {
+      "propName": "title",
+      "displayName": "Title",
+      "tagName": "text",
+      "defaultValue":"Please enter title !"
+    },
+     {
+      "propName": "tooltip",
+      "displayName": "Tooltip",
+      "tagName": "text",
+      "defaultValue":"Tooltip to appear when the mouse is hovered over."
+    },
+    {
+      "propName": "tabIndex",
+      "displayName": "tabIndex",
+      "tagName": "text",
+	  "defaultValue": "demoAccordionContainer"
+    },
+    {
+      "propName": "disabled",
+      "displayName": "Disabled",
+      "tagName": "checkbox",
+	  "defaultValue": true
+    },
+    {
+      "propName": "readOnly",
+      "displayName": "ReadOnly",
+      "tagName": "checkbox",
+	  "defaultValue": true
+    },
+    {
+      "propName": "clickSelect",
+      "displayName": "ClickSelect",
+      "tagName": "checkbox",
+	  "defaultValue": true
+    },
+    {
+      "propName": "showButtons",
+      "displayName": "ShowButtons",
+      "tagName": "checkbox",
+	  "defaultValue": true
+    },
+    {
+      "propName": "discreteValues",
+      "displayName": "DiscreteValues",
+      "tagName": "text",
+      "defaultValue": 11
+    },
+    {
+      "propName": "intermediateChanges",
+      "displayName": "IntermediateChanges",
+      "tagName": "checkbox",
+	  "defaultValue": true
+    }
+  ]
+}

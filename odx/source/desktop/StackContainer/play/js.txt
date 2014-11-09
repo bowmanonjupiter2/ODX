@@ -1,0 +1,29 @@
+require([
+    "dijit/layout/StackContainer",
+    "dijit/layout/ContentPane",
+    "dijit/layout/StackController",
+    "dojo/domReady!"
+], function(StackContainer, ContentPane, StackController){
+    var sc = new StackContainer({
+         ${props}
+   , "${id}";
+
+    var cp1 = new ContentPane({
+        title: "page 1",
+        content: "page 1 content"
+    });
+    sc.addChild(cp1);
+
+    var cp2 = new ContentPane({
+        title: "page 2",
+        content: "page 2 content"
+    });
+    sc.addChild(cp2);
+
+    var controller = new StackController({containerId: "myProgStackContainer"}, "${id}");
+
+    sc.startup();
+    controller.startup();
+});
+<div id="${id}"></div>
+<div id="scontroller-prog"></div>

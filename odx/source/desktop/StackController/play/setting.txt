@@ -1,0 +1,29 @@
+{
+  "props": [
+    {
+      "propName": "id",
+      "displayName": "ID",
+      "tagName": "text",
+      "defaultValue": "scontroller-prog",
+      "global": true
+    },
+    {
+      "propName": "title",
+      "displayName": "Title",
+      "tagName": "text",
+      "defaultValue":"Please enter title !"
+    },
+     {
+      "propName": "tooltip",
+      "displayName": "Tooltip",
+      "tagName": "text",
+      "defaultValue":"Tooltip to appear when the mouse is hovered over."
+    },
+    {
+      "propName": "style",
+      "displayName": "Style",
+      "tagName": "text",
+      "defaultValue": "height: 30px"
+    }
+  ]
+}

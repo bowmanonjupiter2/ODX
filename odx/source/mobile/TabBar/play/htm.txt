@@ -1,0 +1,9 @@
+ <link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/TabBar.css"
+	rel="stylesheet"></link>
+<div>
+<${tag} data-dojo-type="dojox/mobile/TabBar" id="${id}" data-dojo-props="${props}">
+  <li data-dojo-type="dojox/mobile/TabBarButton">Tab A</li>
+  <li data-dojo-type="dojox/mobile/TabBarButton">Tab B</li>
+  <li data-dojo-type="dojox/mobile/TabBarButton">Tab C</li>
+</${tag}>
+</div>

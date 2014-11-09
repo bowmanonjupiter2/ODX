@@ -1,0 +1,58 @@
+{
+  "props": [
+    {
+      "propName": "id",
+      "displayName": "ID",
+      "tagName": "text",
+      "defaultValue": "ToggleButtonID"
+    },
+    {
+      "propName": "label",
+      "displayName": "Label",
+      "tagName": "text",
+      "defaultValue": "Toggle me"
+    },
+    {
+      "propName": "disabled",
+      "displayName": "Disabled",
+      "tagName": "checkbox",
+	  "defaultValue": false
+    },
+    {
+      "propName": "checked",
+      "displayName": "Checked",
+      "tagName": "checkbox",
+	  "defaultValue": false
+    },
+    {
+      "propName": "name",
+      "displayName": "Name",
+      "tagName": "text",
+	  "defaultValue": "ToggleButton"
+    },
+    {
+      "propName": "showlabel",
+      "displayName": "Showlabel",
+      "tagName": "checkbox",
+	  "defaultValue": true
+    },
+    {
+      "propName": "tabIndex",
+      "displayName": "TabIndex",
+      "tagName": "text",
+	  "defaultValue": "1"
+    },
+    {
+      "propName": "title",
+      "displayName": "Title",
+      "tagName": "text",
+	  "defaultValue": "This is a button"
+    },
+    {
+      "propName": "tooltip",
+      "displayName": "Tooltip",
+      "tagName": "text",
+	  "defaultValue": "Click me please"
+    }          
+  ]
+}

@@ -1,0 +1,53 @@
+{
+    "dijitType": "dojox/mobile/TabBar",
+    "props": [
+        {
+            "defaultValue": "id",
+            "displayName": "id",
+            "propName": "id",
+            "tagName": "text"
+        },
+           {
+            "defaultValue": "tabBar",
+            "displayName": "BarType",
+            "propName": "barType",
+            "tagName": "text"
+        },
+          {
+            "defaultValue": "auto",
+            "displayName": "Fill",
+            "propName": "fill",
+            "tagName": "text"
+        },
+          {
+            "defaultValue": "auto",
+            "displayName": "Closable",
+            "propName": "closable",
+            "tagName": "checkbox"
+        },
+         {
+            "defaultValue": "true",
+            "displayName": "Center",
+            "propName": "center",
+            "tagName": "checkbox"
+        },
+         {
+            "defaultValue": "",
+            "displayName": "SyncWithViews",
+            "propName": "syncWithViews",
+            "tagName": "checkbox"
+        },
+         {
+            "defaultValue": "ul",
+            "displayName": "Tag",
+            "propName": "tag",
+            "tagName": "text"
+        },
+         {
+      "propName": "theme",
+      "displayName": "theme",
+      "tagName": "theme",
+	  "defaultValue": ""
+    }
+    ]
+}

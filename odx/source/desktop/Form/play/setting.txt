@@ -1,0 +1,50 @@
+{
+  "props": [
+    {
+      "propName": "id",
+      "displayName": "ID",
+      "tagName": "text",
+      "defaultValue": "FormID",
+      "global": true
+    },   
+    {
+      "propName": "name",
+      "displayName": "Name",
+      "tagName": "text",
+      "defaultValue": "FormName",
+      "global": true
+    },   
+     {
+      "propName": "style",
+      "displayName": "Style",
+      "tagName": "text",
+      "defaultValue": "height: 150px"
+    },
+       {
+      		"propName": "doLayout",
+            "displayName": "doLayout",
+            "tagName": "text",
+			"defaultValue": true,
+			"global": true
+        },    
+        {
+      		"propName": "isLayoutContainer",
+            "displayName": "isLayoutContainer",
+            "tagName": "checkbox",
+			"defaultValue": "checked",
+			"global": true
+        },    {
+      		"propName": "title",
+            "displayName": "title",
+            "tagName": "text",
+			"defaultValue": "Form",
+			"global": true
+        },    {
+      		"propName": "tooltip",
+            "displayName": "tooltip",
+            "tagName": "text",
+			"defaultValue": "This is a Form",
+			"global": true
+        }
+  ]
+}

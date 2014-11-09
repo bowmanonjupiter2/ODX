@@ -1,0 +1,11 @@
+require([
+    "dojo/dom", // for inserting value in TextBox example
+    "dojo/parser", // parser because of TextBox decoration
+    "dijit/form/HorizontalSlider",
+    "dijit/form/TextBox" // this we only include to make an example with TextBox
+], function(dom, parser, HorizontalSlider, TextBox){
+    parser.parse();
+    var slider = new HorizontalSlider(${props}, "${id}");
+});
+<div id="${id}"></div>
+<p><input type="text" id="sliderValue" data-dojo-type="dijit/form/TextBox" /></p>

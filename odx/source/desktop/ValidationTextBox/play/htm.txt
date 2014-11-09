@@ -1,0 +1,4 @@
+<label for="${id}">${label}</label>
+<input type="text" name="${name}" id="${id}"
+    data-dojo-type="dijit/form/ValidationTextBox"
+    data-dojo-props="regExp:'[\\w]+', ${props}" />

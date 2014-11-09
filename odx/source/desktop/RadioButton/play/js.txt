@@ -1,0 +1,11 @@
+<input id="${id}"/>
+<script type="text/javascript">
+require([
+    "dojo/parser",
+    "dijit/form/RadioButton",
+    "dojo/domReady!"
+], function(parser, RadioButton){
+    parser.parse();
+    var radioOne = new RadioButton(${props},"${id}").startup();
+});
+</script>

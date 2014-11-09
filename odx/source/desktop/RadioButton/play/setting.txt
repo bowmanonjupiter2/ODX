@@ -1,0 +1,77 @@
+{
+  "dijitType": "dijit/form/RadioButton",
+  "props": [
+    {
+      "propName": "id",
+      "displayName": "ID",
+      "tagName": "text",
+      "defaultValue": "buttionId"
+    },
+    {
+      "propName": "label",
+      "displayName": "Label",
+      "tagName": "text",
+      "defaultValue": "Tea"
+    },
+    {
+      "propName": "name",
+      "displayName": "Name",
+      "tagName": "text",
+      "defaultValue": "drink"
+    },
+    {
+      "propName": "tabIndex",
+      "displayName": "TabIndex",
+      "tagName": "text",
+      "defaultValue": "tabIndex"
+    },
+    {
+      "propName": "title",
+      "displayName": "Title",
+      "tagName": "text",
+      "defaultValue": "title"
+    },
+    {
+      "propName": "tooltip",
+      "displayName": "Tooltip",
+      "tagName": "text",
+      "defaultValue": "tooltip"
+    },
+    {
+      "propName": "value",
+      "displayName": "Value",
+      "tagName": "text",
+      "defaultValue": "tea"
+    },
+    {
+      "propName": "type",
+      "displayName": "Type",
+      "tagName": "text",
+      "defaultValue": "type"
+    },
+    {
+      "propName": "checked",
+      "displayName": "Checked",
+      "tagName": "checkbox",
+      "defaultValue": true
+    },
+    {
+      "propName": "disabled",
+      "displayName": "Disabled",
+      "tagName": "checkbox",
+	  "defaultValue": true
+    },
+    {
+      "propName": "readonly",
+      "displayName": "Readonly",
+      "tagName": "checkbox",
+	  "defaultValue": true
+    },
+    {
+      "propName": "showlabel",
+      "displayName": "Showlabel",
+      "tagName": "checkbox",
+	  "defaultValue": true
+    }
+  ]
+}
