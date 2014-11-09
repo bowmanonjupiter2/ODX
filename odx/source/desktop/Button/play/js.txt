@@ -1,6 +1,6 @@
-<div id="${id}"></div>
+<input id="${id}">
 <script type="text/javascript">
 require(["dijit/form/Button", "dojo/dom", "dojo/domReady!"], function(Button, dom){
-    var myButton = new Button({${props}}, "${id}");
+    var myButton = new Button(${props}, "${id}");
 });
 </script>

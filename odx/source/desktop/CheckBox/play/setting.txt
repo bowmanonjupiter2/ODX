@@ -1,49 +1,30 @@
 {
-  "dijitType": "dijit/form/CheckBox",
-  "dijitProps": [
+  "props": [
     {
       "propName": "id",
       "displayName": "ID",
       "tagName": "text",
-      "value": "myCheck",
+      "defaultValue": "myCheck",
       "global": true
     },
     {
       "propName": "name",
       "displayName": "Name",
       "tagName": "text",
-      "value": "myCheck",
+      "defaultValue": "myCheck",
       "global": true
     },
     {
       "propName": "readOnly",
       "displayName": "Read only",
-      "tagName": "checkbox"
-    },
-    {
-      "propName": "checked",
-      "displayName": "Checked on load",
       "tagName": "checkbox",
-      "checked": true
+      "defaultValue": "true"
     },
-    {
-      "propName": "disabled",
-      "displayName": "Disabled",
-      "tagName": "checkbox",
-      "checked": true
-    },
-    {
-        "propName": "value",
-        "displayName": "Value",
-        "tagName": "text",
-        "value": "Checked",
-        "global": true
-      },
     {
       "propName": "label",
       "displayName": "Label",
       "tagName": "text",
-      "value": "Agree: ",
+      "defaultValue": "myCheck",
       "global": true
     }
   ]

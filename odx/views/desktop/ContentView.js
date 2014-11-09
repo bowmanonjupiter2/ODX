@@ -173,6 +173,10 @@ define(
 						map["dataStore"] = tempStore;
 					} else if (node.name == "id") {
 						map[node.name] = node.value;
+					} else if (node.name == "label") {
+						map[node.name] = node.value;
+					} else if (node.name == "name") {
+							map[node.name] = node.value;
 					} else {
 						if (domAttr.get(node, "type") == "checkbox") {
 							//props.push(node.name + ": '" + node.checked + "'")

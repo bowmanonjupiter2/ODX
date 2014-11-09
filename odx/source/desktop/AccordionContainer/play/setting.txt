@@ -1,24 +1,47 @@
 {
   "dijitType": "dijit/layout/AccordionContainer",
-  "dijitProps": [
+  "props": [
     {
       "propName": "id",
       "displayName": "ID",
       "tagName": "text",
-      "value": "myAccord",
-      "global": true
+      "defaultValue": "myAccord"
     },
     {
       "propName": "style",
       "displayName": "Style",
       "tagName": "text",
-      "value": "height: 300px"
+      "defaultValue": "height: 150px"
     },
     {
       "propName": "duration",
       "displayName": "Duration (ms)",
       "tagName": "text",
-      "value": 300
+      "defaultValue": 300
+    },
+     {
+      "propName": "title",
+      "displayName": "Title",
+      "tagName": "text",
+      "defaultValue":"Please enter title !"
+    },
+     {
+      "propName": "tooltip",
+      "displayName": "Tooltip",
+      "tagName": "text",
+      "defaultValue":"Tooltip to appear when the mouse is hovered over."
+    },
+    {
+      "propName": "doLayout",
+      "displayName": "DoLayout",
+      "tagName": "checkbox",
+	  "defaultValue": true
+    },
+    {
+      "propName": "tabIndex",
+      "displayName": "tabIndex",
+      "tagName": "text",
+	  "defaultValue": "demoAccordionContainer"
     }
   ]
 }

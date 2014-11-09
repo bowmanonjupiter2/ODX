@@ -1,8 +1,6 @@
-<div id="${id}" style="width: 300px; height: 300px"></div>
-<script type="text/javascript">
-	require(["dijit/layout/AccordionContainer", "dijit/layout/ContentPane", "dojo/domReady!"],
+require(["dijit/layout/AccordionContainer", "dijit/layout/ContentPane", "dojo/domReady!"],
         function(AccordionContainer, ContentPane){
-    var aContainer = new AccordionContainer(${dijitParams}, "${id}");
+    var aContainer = new AccordionContainer(${props}, "${id}");
     aContainer.addChild(new ContentPane({
         title: "This is a content pane",
         content: "Hi!"
@@ -17,4 +15,4 @@
     }));
     aContainer.startup();
 });
-</script>
+<div id="${id}" style="width: 150px; height: 150px"></div>
