@@ -5,10 +5,6 @@
                 {
                     "id": "dijit/DropDownMenu",
                     "name": "DropDown Menu"
-                },
-                {
-                    "id": "dijit/Menu",
-                    "name": "Menu"
                 }
             ],
             "id": "menu",
@@ -40,20 +36,12 @@
               			    "name": "DateTextBox"
               			 },
               			 {
-                    		"id": "dijit/form/MappedTextBox",
-              			    "name": "MappedTextBox"
-              			 },
-              			 {
                     		"id": "dijit/form/NumberSpinner",
               			    "name": "NumberSpinner"
               			 },
               			 {
                     		"id": "dijit/form/NumberTextBox",
               			    "name": "NumberTextBox"
-              			 },
-              			 {
-                    		"id": "dijit/form/RangeBoundTextBox",
-              			    "name": "RangeBoundTextBox"
               			 },
               			 {
                     		"id": "dijit/form/SimpleTextarea",

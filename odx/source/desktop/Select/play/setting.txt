@@ -106,7 +106,7 @@
       		"propName": "value",
       		"displayName": "Value",
       		"tagName": "text",
-      		"defaultValue": ""
+      		"defaultValue": "Tennessee"
     	}
     ]
 }
