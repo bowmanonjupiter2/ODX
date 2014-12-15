@@ -4,7 +4,7 @@
       "propName": "autoWidth",
       "displayName": "AutoWidth",
       "tagName": "checkbox",
-      "defaultValue": true
+      "defaultValue": "true"
     },
     {
       "propName": "dropDownDefaultValue",
@@ -16,19 +16,19 @@
       "propName": "forceWidth",
       "displayName": "ForceWidth",
       "tagName": "checkbox",
-      "defaultValue": true
+      "defaultValue": "true"
     },
     {
       "propName": "hasDownArrow",
       "displayName": "Has DownArrow",
       "tagName": "checkbox",
-      "defaultValue": true
+      "defaultValue": "true"
     },
     {
       "propName": "disable",
       "displayName": "Disable",
       "tagName": "checkbox",
-      "defaultValue": true
+      "defaultValue": "true"
     },
     {
       "propName": "id",
@@ -61,7 +61,7 @@
       "propName": "lowercase",
       "displayName": "Lowercase",
       "tagName": "checkbox",
-      "defaultValue":true
+      "defaultValue":"true"
     },
     {
       "propName": "maxLength",
@@ -97,7 +97,7 @@
       "propName": "propercase",
       "displayName": "Propercase",
       "tagName": "checkbox",
-      "defaultValue":true
+      "defaultValue":"true"
     },
     {
       "propName": "rangeMessage",
@@ -109,19 +109,19 @@
       "propName": "readOnly",
       "displayName": "Read only",
       "tagName": "checkbox",
-      "defaultValue":true
+      "defaultValue":"true"
     },
     {
       "propName": "required",
       "displayName": "Required",
       "tagName": "checkbox",
-      "defaultValue":true
+      "defaultValue":"true"
     },
     {
       "propName": "selectOnClick",
       "displayName": "Select On Click",
       "tagName": "checkbox",
-      "defaultValue": true
+      "defaultValue": "true"
     },
     {
       "propName": "tabIndex",

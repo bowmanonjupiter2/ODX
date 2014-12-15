@@ -5,5 +5,5 @@ require(["dijit/form/CurrencyTextBox", "dojo/currency", "dojo/i18n!dojo/cldr/nls
     new CurrencyTextBox(props, "${id}").startup();
 });
 
-<label for="${id}">${label}</label>
+<label for="${id}"></label>
 <input id="${id}" />EUR

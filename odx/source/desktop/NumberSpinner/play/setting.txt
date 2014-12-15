@@ -4,7 +4,7 @@
       "propName": "disable",
       "displayName": "Disable",
       "tagName": "checkbox",
-      "defaultValue": true
+      "defaultValue": "true"
     },
     {
       "propName": "id",
@@ -49,7 +49,7 @@
       "propName": "lowercase",
       "displayName": "Lowercase",
       "tagName": "checkbox",
-      "defaultValue":true
+      "defaultValue":"true"
     },
     {
       "propName": "maxLength",
@@ -91,13 +91,13 @@
       "propName": "propercase",
       "displayName": "Propercase",
       "tagName": "checkbox",
-      "defaultValue":true
+      "defaultValue":"true"
     },
     {
       "propName": "readOnly",
       "displayName": "Read only",
       "tagName": "checkbox",
-      "defaultValue":true
+      "defaultValue":"true"
     },
     {
       "propName": "required",
@@ -109,7 +109,7 @@
       "propName": "selectOnClick",
       "displayName": "Select On Click",
       "tagName": "checkbox",
-      "defaultValue": true
+      "defaultValue": "true"
     },
     {
       "propName": "tabIndex",

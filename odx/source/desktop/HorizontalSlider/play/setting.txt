@@ -16,7 +16,7 @@
       "propName": "style",
       "displayName": "Style",
       "tagName": "text",
-      "defaultValue": "height: 150px"
+      "defaultValue": "width:400px;"
     },
     {
       "propName": "slideDuration",
@@ -28,13 +28,19 @@
       "propName": "maximum",
       "displayName": "Maximum",
       "tagName": "text",
-      "defaultValue": 10
+      "defaultValue": 100
     },
     {
       "propName": "minimum",
       "displayName": "Minimum",
       "tagName": "text",
-      "defaultValue": -10
+      "defaultValue": 0
+    },
+     {
+      "propName": "value",
+      "displayName": "Value",
+      "tagName": "text",
+      "defaultValue": 6
     },
      {
       "propName": "title",
@@ -58,37 +64,37 @@
       "propName": "disabled",
       "displayName": "Disabled",
       "tagName": "checkbox",
-	  "defaultValue": true
+	  "defaultValue": ""
     },
     {
       "propName": "readOnly",
       "displayName": "ReadOnly",
       "tagName": "checkbox",
-	  "defaultValue": true
+	  "defaultValue": ""
     },
     {
       "propName": "clickSelect",
       "displayName": "ClickSelect",
       "tagName": "checkbox",
-	  "defaultValue": true
+	  "defaultValue": "true"
     },
     {
       "propName": "showButtons",
       "displayName": "ShowButtons",
       "tagName": "checkbox",
-	  "defaultValue": true
+	  "defaultValue": "true"
     },
     {
       "propName": "discreteValues",
       "displayName": "DiscreteValues",
       "tagName": "text",
-      "defaultValue": 11
+      "defaultValue": 100
     },
     {
       "propName": "intermediateChanges",
       "displayName": "IntermediateChanges",
       "tagName": "checkbox",
-	  "defaultValue": true
+	  "defaultValue": "true"
     }
   ]
 }

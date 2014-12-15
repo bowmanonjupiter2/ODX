@@ -41,13 +41,13 @@
       "propName": "preload",
       "displayName": "Preload",
       "tagName": "checkbox",
-	  "defaultValue": true
+	  "defaultValue": "true"
     },
     {
       "propName": "refreshOnShow",
       "displayName": "RefreshOnShow",
       "tagName": "checkbox",
-	  "defaultValue": true
+	  "defaultValue": "true"
     },
     {
       "propName": "tabIndex",

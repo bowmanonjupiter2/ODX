@@ -31,8 +31,8 @@
       		"propName": "isLayoutContainer",
             "displayName": "isLayoutContainer",
             "tagName": "checkbox",
-			"defaultValue": "checked",
-			"global": true
+			"defaultValue": "true",
+			"global": "true"
         },    {
       		"propName": "title",
             "displayName": "title",

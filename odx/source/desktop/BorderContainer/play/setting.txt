@@ -11,7 +11,7 @@
       "propName": "style",
       "displayName": "Style",
       "tagName": "text",
-      "defaultValue": "height: 30px"
+      "defaultValue": "height: 150px"
     },
     {
       "propName": "design",
@@ -23,7 +23,7 @@
       "propName": "gutters",
       "displayName": "Gutters",
       "tagName": "checkbox",
-	  "defaultValue": true
+	  "defaultValue": "true"
     },
     {
       "propName": "title",
@@ -41,13 +41,13 @@
       "propName": "liveSplitters",
       "displayName": "LiveSplitters",
       "tagName": "checkbox",
-	  "defaultValue": true
+	  "defaultValue": "true"
     },
     {
       "propName": "persist",
       "displayName": "Persist",
       "tagName": "checkbox",
-	  "defaultValue": true
+	  "defaultValue": "true"
     },
     {
       "propName": "tabIndex",

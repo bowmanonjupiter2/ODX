@@ -4,7 +4,7 @@
             "propName": "disabled",
             "displayName": "Disabled",
             "tagName": "checkbox",
-			"defaultValue": true
+			"defaultValue": "true"
         },
         {
             "propName": "id",
@@ -22,7 +22,7 @@
             "propName": "readOnly",
             "displayName": "Read only",
             "tagName": "checkbox",
-			"defaultValue": true
+			"defaultValue": "true"
         },
         {
             "propName": "size",
@@ -40,7 +40,7 @@
             "propName": "required",
             "displayName": "Required",
             "tagName": "checkbox",
-			"defaultValue": true
+			"defaultValue": "true"
         },
         {
     	  	"propName": "tabIndex",

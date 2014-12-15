@@ -1,49 +1,49 @@
 {
-  "dijitType": "dijit/form/CurrencyTextBox",
-  "dijitProps": [
+  "props": [
     {
       "propName": "id",
       "displayName": "ID",
       "tagName": "text",
-      "value": "myCheck",
+    "defaultValue": "id",
       "global": true
     },
     {
       "propName": "name",
       "displayName": "Name",
       "tagName": "text",
-      "value": "myCheck",
+      "defaultValue": "name",
       "global": true
     },
     {
       "propName": "readOnly",
       "displayName": "Read only",
-      "tagName": "checkbox"
+      "tagName": "checkbox",
+      "defaultValue": ""
     },
     {
       "propName": "checked",
       "displayName": "Checked on load",
       "tagName": "checkbox",
-      "checked": true
+     "defaultValue": ""
     },
     {
       "propName": "disabled",
       "displayName": "Disabled",
       "tagName": "checkbox",
-      "checked": true
+     "defaultValue": ""
     },
     {
         "propName": "value",
         "displayName": "Value",
         "tagName": "text",
-        "value": "Checked",
+      "defaultValue": "54775.53",
         "global": true
       },
     {
       "propName": "label",
       "displayName": "Label",
       "tagName": "text",
-      "value": "Agree: ",
+     "defaultValue": "label",
       "global": true
     }
   ]

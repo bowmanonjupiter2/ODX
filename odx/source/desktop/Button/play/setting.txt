@@ -17,7 +17,7 @@
       "propName": "disabled",
       "displayName": "Disabled",
       "tagName": "checkbox",
-	  "defaultValue": false
+	  "defaultValue": ""
     },
     {
       "propName": "name",
@@ -29,7 +29,7 @@
       "propName": "showlabel",
       "displayName": "showlabel",
       "tagName": "checkbox",
-	  "defaultValue": true
+	  "defaultValue": "true"
     },
     {
       "propName": "tabIndex",
@@ -48,6 +48,6 @@
       "displayName": "tooltip",
       "tagName": "text",
 	  "defaultValue": "Click me please"
-    }          
+    }
   ]
 }

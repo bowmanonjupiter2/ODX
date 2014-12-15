@@ -1,3 +1,3 @@
 <input id="${id}"  data-dojo-type="dijit/form/CheckBox" 
 		data-dojo-props="${props}" />
-<label for="${id}">${label}</label>
+<label for="${id}">I agree</label>

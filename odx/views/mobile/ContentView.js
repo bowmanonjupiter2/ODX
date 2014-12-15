@@ -134,7 +134,8 @@ define(
 			},
 			_renderSettingBox: function() {
 				var textfieldTmpl = '<div class="property-wrapper"><label class="property-label" for="${propName}">${displayName}</label><br/><input type="text" class="property" name="${propName}" value="${defaultValue}"/></div>';
-				var checkboxTmpl = '<div class="property-wrapper"><input type="checkbox" class="property" name="${propName}" ${defaultValue}/><label class="property-label" for="${propName}">${displayName}</label></div>';
+				var uncheckboxTmpl = '<div class="property-wrapper"><input type="checkbox" class="property" name="${propName}"/><label class="property-label" for="${propName}">${displayName}</label></div>';
+				var checkboxTmpl = '<div class="property-wrapper"><input type="checkbox" class="property" name="${propName}" checked=${defaultValue}/><label class="property-label" for="${propName}">${displayName}</label></div>';
 				var textareaTmpl = '<div class="property-wrapper"><label class="property-label" for="${propName}">${displayName}</label><br/><textarea class="property" name="${propName}">${defaultValue}</textarea></div>';
 				var newPropDom = null;
 				var themeTmpl = '<div class="property-wrapper"><label class="property-label" >${displayName}</label><br/><select id = "${propName}" name="${propName}" class="property"><option value="android">android</option><option value="iphone">iphone</option><option value="blackberry">blackberry</option><option value="custom">custom</option><option value="holodark">holodark</option><option value="ios7">ios7</option><option value="windows">windows</option></select>';
@@ -148,8 +149,13 @@ define(
 							newPropDom = domConstruct.place(string.substitute(textfieldTmpl, prop), settingBox.containerNode, "last");
 							break;
 						case "checkbox":
-							newPropDom = domConstruct.place(string.substitute(checkboxTmpl, prop), settingBox.containerNode, "last");
-							break;				 
+							if (prop.defaultValue=="true"){
+								newPropDom = domConstruct.place(string.substitute(checkboxTmpl, prop), settingBox.containerNode, "last");
+							}
+							else{
+								newPropDom = domConstruct.place(string.substitute(uncheckboxTmpl, prop), settingBox.containerNode, "last");
+							}
+							break;		 
 						case "option":
 							newProDox = domConstruct.place(string.substitute(textareaTmpl, prop), settingBox.containerNode, "last");
 							break;

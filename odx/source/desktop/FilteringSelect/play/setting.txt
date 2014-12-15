@@ -4,7 +4,7 @@
             "propName": "disabled",
             "displayName": "Disabled",
             "tagName": "checkbox",
-			"defaultValue": true
+			"defaultValue": ""
         },
         {
             "propName": "id",
@@ -22,67 +22,67 @@
             "propName": "readOnly",
             "displayName": "Read only",
             "tagName": "checkbox",
-			"defaultValue": true
+			"defaultValue": ""
         },
         {
             "propName": "autoComplete",
             "displayName": "AutoComplete",
             "tagName": "checkbox",
-			"defaultValue": false
+			"defaultValue": ""
         },
         {
             "propName": "autoWidth",
             "displayName": "AutoWidth",
             "tagName": "checkbox",
-			"defaultValue": false
+			"defaultValue": ""
         },
         {
             "propName": "forceWidth",
             "displayName": "ForceWidth",
             "tagName": "checkbox",
-			"defaultValue": false
+			"defaultValue": ""
         },
         {
             "propName": "hasDownArrow",
             "displayName": "Has DownArrow",
             "tagName": "checkbox",
-			"defaultValue": true
+			"defaultValue": "true"
         },
         {
             "propName": "ignoreCase",
             "displayName": "Ignore Case",
             "tagName": "checkbox",
-			"defaultValue": false
+			"defaultValue": ""
         },
         {
             "propName": "options",
             "displayName": "Options",
             "tagName": "option",
-            "defaultValue": " \rApple\rOrange\rBanana"
+            "defaultValue": "Apple\rOrange\rBanana"
         },
         {
             "propName": "required",
             "displayName": "Required",
             "tagName": "checkbox",
-			"defaultValue": true
+			"defaultValue": "true"
         },
         {
             "propName": "lowercase",
             "displayName": "Lowercase",
             "tagName": "checkbox",
-			"defaultValue": true
+			"defaultValue": "true"
         },
         {
             "propName": "propercase",
             "displayName": "Propercase",
             "tagName": "checkbox",
-			"defaultValue": true
+			"defaultValue": "true"
         },
         {
             "propName": "uppercase",
             "displayName": "Uppercase",
             "tagName": "checkbox",
-			"defaultValue": true
+			"defaultValue": "true"
         },
         {
             "propName": "invalidMessage",
@@ -136,7 +136,7 @@
      	 	"propName": "selectOnClick",
       		"displayName": "Select On Click",
       		"tagName": "checkbox",
-      		"defaultValue": true
+      		"defaultValue": "true"
     	},
     	{
     	  	"propName": "tabIndex",
@@ -160,13 +160,7 @@
        		"propName": "trim",
         	"displayName": "Trim",
         	"tagName": "checkbox",
-        	"defaultValue":true
-    	},
-    	{
-      		"propName": "value",
-      		"displayName": "Value",
-      		"tagName": "text",
-      		"defaultValue": "Connecticut"
-    	}
+        	"defaultValue":"true"
+    	} 
     ]
 }

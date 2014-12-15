@@ -1,4 +1,4 @@
-<label for="${id}">${label}</label>
+<label for="${id}">Drop down Date box:</label>
 <input type="text"
     data-dojo-type="dijit/form/DateTextBox"
     data-dojo-props="${props}" />

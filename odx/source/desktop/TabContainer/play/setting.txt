@@ -10,22 +10,22 @@
       		"propName": "doLayout",
             "displayName": "doLayout",
             "tagName": "checkbox",
-			"defaultValue": true
+			"defaultValue": "true"
         },    {
       		"propName": "isLayoutContainer",
             "displayName": "isLayoutContainer",
             "tagName": "checkbox",
-			"defaultValue": true
+			"defaultValue": "true"
         },  {
       		"propName": "persist",
             "displayName": "persist",
             "tagName": "checkbox",
-			"defaultValue": true
+			"defaultValue": "true"
         },{
       		"propName": "nested",
             "displayName": "nested",
             "tagName": "checkbox",
-			"defaultValue": true
+			"defaultValue": "true"
         },{
       		"propName": "tabPosition",
             "displayName": "tabPosition",
@@ -45,12 +45,12 @@
       		"propName": "useMenu",
             "displayName": "useMenu",
             "tagName": "checkbox",
-			"defaultValue": true
+			"defaultValue": "true"
         },{
       		"propName": "useSlider",
             "displayName": "useSlider",
             "tagName": "checkbox",
-			"defaultValue": true
+			"defaultValue": "true"
         },{
       		"propName": "style",
       		"displayName": "Style",

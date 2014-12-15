@@ -16,13 +16,13 @@
       "propName": "disabled",
       "displayName": "Disabled",
       "tagName": "checkbox",
-	  "defaultValue": false
+	  "defaultValue": ""
     },
     {
       "propName": "checked",
       "displayName": "Checked",
       "tagName": "checkbox",
-	  "defaultValue": false
+	  "defaultValue": ""
     },
     {
       "propName": "name",
@@ -34,7 +34,7 @@
       "propName": "showlabel",
       "displayName": "Showlabel",
       "tagName": "checkbox",
-	  "defaultValue": true
+	  "defaultValue": "true"
     },
     {
       "propName": "tabIndex",

@@ -53,25 +53,25 @@
       "propName": "checked",
       "displayName": "Checked",
       "tagName": "checkbox",
-      "defaultValue": true
+      "defaultValue": "true"
     },
     {
       "propName": "disabled",
       "displayName": "Disabled",
       "tagName": "checkbox",
-	  "defaultValue": true
+	  "defaultValue": "true"
     },
     {
       "propName": "readonly",
       "displayName": "Readonly",
       "tagName": "checkbox",
-	  "defaultValue": true
+	  "defaultValue": "true"
     },
     {
       "propName": "showlabel",
       "displayName": "Showlabel",
       "tagName": "checkbox",
-	  "defaultValue": true
+	  "defaultValue": "true"
     }
   ]
 }

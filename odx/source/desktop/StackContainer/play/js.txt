@@ -20,7 +20,7 @@ require([
     });
     sc.addChild(cp2);
 
-    var controller = new StackController({containerId: "myProgStackContainer"}, "${id}");
+    var controller = new StackController({containerId: "${id}"}, "controllerID");
 
     sc.startup();
     controller.startup();

@@ -1,4 +1,4 @@
-require(["dojo/parser", "dijit/form/VerticalSlider", "dijit/form/VerticalRule", "dijit/form/VerticalRuleLabels"]);
+ 
 <div id="verticalSlider" data-dojo-type="dijit/form/VerticalSlider"
     data-dojo-props="${props}" style="height:400px;">
     <ol data-dojo-type="dijit/form/VerticalRuleLabels" container="leftDecoration"

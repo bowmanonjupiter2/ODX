@@ -41,7 +41,6 @@ define(
 		json
 	) {
 		var VIEW_NAME = "content";
-
 		var _thisPage = null;
 		var overviewTab = null;
 		var playTab = null;
@@ -56,12 +55,10 @@ define(
 		var htmSrc = null;
 		var jsSrc = null;
 		var settingStr = null;
-
 		return {
 			init: function() {
 				console.log("#" + VIEW_NAME + " - init()");
 				_thisPage = this;
-
 				overviewTab = dijit.byId("desktop-overview-tab");
 				playTab = dijit.byId("desktop-play-tab");
 				guidenceTab = dijit.byId("desktop-guidence-tab");
@@ -82,7 +79,6 @@ define(
 				overviewTab.set("href", _thisPage.data.path + "/overview.html");
 				guidenceTab.set("href", _thisPage.data.path + "/guidence.html");
 				_thisPage._constructPlayPane();
-
 			},
 			_constructPlayPane: function() {
 				//Clean play pane first
@@ -132,8 +128,11 @@ define(
 				}, programmaticBox.containerNode);
 			},
 			_renderSettingBox: function() {
+				
+			
 				var textfieldTmpl = '<div class="property-wrapper"><label class="property-label" for="${propName}">${displayName}</label><br/><input type="text" class="property" name="${propName}" value="${defaultValue}"/></div>';
-				var checkboxTmpl = '<div class="property-wrapper"><input type="checkbox" class="property" name="${propName}" ${defaultValue}/><label class="property-label" for="${propName}">${displayName}</label></div>';
+				var uncheckboxTmpl = '<div class="property-wrapper"><input type="checkbox" class="property" name="${propName}"/><label class="property-label" for="${propName}">${displayName}</label></div>';
+				var checkboxTmpl = '<div class="property-wrapper"><input type="checkbox" class="property" name="${propName}" checked=${defaultValue}/><label class="property-label" for="${propName}">${displayName}</label></div>';
 				var textareaTmpl = '<div class="property-wrapper"><label class="property-label" for="${propName}">${displayName}</label><br/><textarea class="property" name="${propName}">${defaultValue}</textarea></div>';
 				var newPropDom = null;
 				array.forEach(settingSrcOrgi.props, function(prop, index) {
@@ -142,11 +141,19 @@ define(
 							newPropDom = domConstruct.place(string.substitute(textfieldTmpl, prop), settingBox.containerNode, "last");
 							break;
 						case "checkbox":
-							newPropDom = domConstruct.place(string.substitute(checkboxTmpl, prop), settingBox.containerNode, "last");
+							if (prop.defaultValue=="true"){
+								newPropDom = domConstruct.place(string.substitute(checkboxTmpl, prop), settingBox.containerNode, "last");
+							}
+							else{
+								newPropDom = domConstruct.place(string.substitute(uncheckboxTmpl, prop), settingBox.containerNode, "last");
+							}
 							break;
 						case "option":
 							newProDox = domConstruct.place(string.substitute(textareaTmpl, prop), settingBox.containerNode, "last");
 							break;
+						case "function":
+							newPropDom = domConstruct.place(string.substitute(textfieldTmpl, prop), settingBox.containerNode, "last");
+							break;//Scholes added 
 					}
 				});
 				//Bind onChange event to each property setting
@@ -171,7 +178,25 @@ define(
 								'{name: "' + option + '", id: "' + option + '"}';
 						});
 						map["dataStore"] = tempStore;
-					} else if (node.name == "id") {
+					}else if (node.name == "optionsValues") 
+					{
+						
+						var tempStore = null;
+						var str="";
+						array.forEach(node.value.split("\n"), function(option, index) {
+							 str = str+"<Option value ='"+option+"'>"+option+"</Option>"+"\n";
+						});
+						
+						map["options"]=str;					
+						array.forEach(node.value.split("\n"), function(option, index) {
+							tempStore = tempStore ? tempStore + ",\n" + '{name: "' + option + '", id: "' + option + '"}' :
+								'{name: "' + option + '", id: "' + option + '"}';
+						});
+						map["dataStore"] = tempStore;
+						
+						
+					}
+					else if (node.name == "id") {
 						map[node.name] = node.value;
 					} else if (node.name == "label") {
 						map[node.name] = node.value;
@@ -181,8 +206,13 @@ define(
 						if (domAttr.get(node, "type") == "checkbox") {
 							//props.push(node.name + ": '" + node.checked + "'")
 						    	props.push(node.name + ": " + node.checked);
-						} else {
-							props.push(node.name + ": '" + node.value + "'");
+						} else {//Scholes added for event
+							if((node.name == "onClick")||(node.name == "onChange"))
+							{
+								props.push(node.name + ": " + node.value);
+							}else
+								props.push(node.name + ": '" + node.value + "'");
+							//props.push(node.name + ": '" + node.value + "'");
 						}
 					}
 				});
@@ -195,7 +225,7 @@ define(
 				SyntaxHighlighter.highlight("pre");
 			},
 			_processString: function(s) {
-				return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+				return s.replace(/&/g, '&').replace(/</g, '<').replace(/>/g, '>');
 			}
 		};
 	}

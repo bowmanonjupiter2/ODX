@@ -4,7 +4,7 @@
             "propName": "disabled",
             "displayName": "Disabled",
             "tagName": "checkbox",
-			"defaultValue": true
+			"defaultValue": ""
         },
         {
             "propName": "id",
@@ -22,7 +22,7 @@
             "propName": "readOnly",
             "displayName": "Read only",
             "tagName": "checkbox",
-			"defaultValue": true
+			"defaultValue": ""
         },
         {
             "propName": "emptyLabel",
@@ -34,28 +34,28 @@
             "propName": "autoWidth",
             "displayName": "AutoWidth",
             "tagName": "checkbox",
-			"defaultValue": false
+			"defaultValue": ""
         },
         {
             "propName": "forceWidth",
             "displayName": "ForceWidth",
             "tagName": "checkbox",
-			"defaultValue": false
+			"defaultValue": ""
         },
         {
             "propName": "loadChildrenOnOpen",
             "displayName": "Load children on Open",
             "tagName": "checkbox",
-			"defaultValue": true
+			"defaultValue": "true"
         },
         {
             "propName": "sortByLabel",
             "displayName": "SortByLabel",
             "tagName": "checkbox",
-			"defaultValue": false
+			"defaultValue": ""
         },
         {
-            "propName": "options",
+            "propName": "optionsValues",
             "displayName": "Options",
             "tagName": "option",
             "defaultValue": "Tennessee\rVirginia\rWashington\rFlorida\rCalifornia"
@@ -64,7 +64,7 @@
             "propName": "required",
             "displayName": "Required",
             "tagName": "checkbox",
-			"defaultValue": true
+			"defaultValue": ""
         },
         {
       		"propName": "multiCharSearchDuration",
@@ -82,7 +82,7 @@
       		"propName": "multiple",
       		"displayName": "Multiple",
       		"tagName": "checkbox",
-      		"defaultValue": false
+      		"defaultValue": ""
     	},
     	{
     	  	"propName": "tabIndex",

@@ -1,6 +1,6 @@
-<a href="foo.html" data-dojo-type="dijit/layout/LinkPane">Hello</a>
-<div data-dojo-type="dijit/layout/TabContainer" style="height:300px; width:500px">
-    <a href="page1.html" data-dojo-type="dijit/layout/LinkPane" id="${id}" data-dojo-props="${props}">Tab 1</a>
+ 
+<div data-dojo-type="dijit/layout/TabContainer" style="height:300px; width:1000px">
+    <a href="page1.html" data-dojo-type="dijit/layout/LinkPane"  >Tab 1</a>
     <a href="page2.html" data-dojo-type="dijit/layout/LinkPane">Tab 2</a>
     <a href="page3.html" data-dojo-type="dijit/layout/LinkPane">Tab 3</a>
 </div>

@@ -1,4 +1,4 @@
-require(["dojo/parser", "dijit/form/VerticalRule", "dijit/form/VerticalRuleLabels"]);
+ 
 
 <div style="height:2in;border-left:1px solid black;">
     <div data-dojo-type="dijit/form/VerticalRule" data-dojo-props="count:17" style="width:.4em;"></div>

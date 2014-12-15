@@ -1,8 +1,7 @@
-<button id="previous" data-dojo-type="dijit/form/Button" data-dojo-props="onClick:function(){myStackContainer.back()}">&lt;</button>
-    <span data-dojo-type="dijit/layout/StackController" data-dojo-props="containerId:'stackContainer'"></span>
-<button id="next" data-dojo-type="dijit/form/Button" data-dojo-props="onClick:function(){myStackContainer.forward()}">&gt;</button>
-
-<div data-dojo-type="dijit/layout/StackContainer" id="${id}" data-dojo-props="${props}">
+<button id="previous" data-dojo-type="dijit/form/Button" data-dojo-props="onClick:function(){${id}.back()}">&lt;</button>
+    <span data-dojo-type="dijit/layout/StackController" data-dojo-props="containerId:'${id}'"></span>
+<button id="next" data-dojo-type="dijit/form/Button" data-dojo-props="onClick:function(){${id}.forward()}">&gt;</button>
+<div data-dojo-type="dijit/layout/StackContainer" data-dojo-id="${id}" data-dojo-props="${props}">
     <div data-dojo-type="dijit/layout/ContentPane" title="Questions">
         Please answer following questions
     </div>

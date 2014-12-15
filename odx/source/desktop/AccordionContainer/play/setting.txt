@@ -35,7 +35,7 @@
       "propName": "doLayout",
       "displayName": "DoLayout",
       "tagName": "checkbox",
-	  "defaultValue": true
+	  "defaultValue": "true"
     },
     {
       "propName": "tabIndex",

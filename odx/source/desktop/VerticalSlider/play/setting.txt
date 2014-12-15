@@ -10,13 +10,13 @@
             "propName": "disabled",
             "displayName": "Disabled",
             "tagName": "checkbox",
-            "defaultValue":false
+            "defaultValue":""
         },
         {
             "propName": "clickSelect",
             "displayName": "ClickSelect",
             "tagName": "checkbox",
-            "defaultValue":true
+            "defaultValue":"true"
         },
         {
             "propName": "name",

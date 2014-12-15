@@ -10,7 +10,7 @@
       "propName": "doLayout",
       "displayName": "doLayout",
       "tagName": "checkbox",
-      "defaultValue": true
+      "defaultValue": "true"
     },{
       "propName": "errorMessage",
       "displayName": "errorMessage",
@@ -20,7 +20,7 @@
       "propName": "isLayoutContainer",
       "displayName": "isLayoutContainer",
       "tagName": "checkbox",
-      "defaultValue": true
+      "defaultValue": "true"
     },{
       "propName": "loadingMessage",
       "displayName": "loadingMessage",
@@ -30,7 +30,7 @@
       "propName": "refreshOnShow",
       "displayName": "refreshOnShow",
       "tagName": "checkbox",
-      "defaultValue": true
+      "defaultValue": "true"
     },{
       "propName": "title",
       "displayName": "Title",
@@ -45,7 +45,7 @@
       "propName": "refreshOnShow",
       "displayName": "refreshOnShow",
       "tagName": "checkbox",
-      "defaultValue": true
+      "defaultValue": "true"
     },{
       "propName": "style",
       "displayName": "Style",

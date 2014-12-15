@@ -7,11 +7,6 @@
       "defaultValue": "StackContainerID",
       "global": true
     },    {
-      "propName": "containerId",
-      "displayName": "containerID",
-      "tagName": "text",
-      "defaultValue": "StackContainerID"
-    }, {
       "propName": "title",
       "displayName": "title",
       "tagName": "text",
@@ -26,6 +21,6 @@
       "displayName": "Style",
       "tagName": "text",
       "defaultValue": "height: 150px"
-    }
+    } 
   ]
 }

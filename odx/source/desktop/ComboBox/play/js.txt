@@ -18,7 +18,14 @@ require([
             {name:"Delaware", id:"DE"}
         ]
     });
-    var comboBox = new ComboBox(${props}, "stateSelect").startup();
+    //var comboBox = new ComboBox(${props}, "stateSelect").startup();
+    var comboBox = new ComboBox({
+            id: "stateSelect",
+           name: "state",
+           value: "California",
+           store: stateStore,
+           searchAttr: "name"
+        }, "stateSelect");
 });
 </script>
 <input id="${id}">

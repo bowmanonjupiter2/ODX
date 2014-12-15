@@ -1,4 +1,4 @@
-<label for="${id}">${label}</label>
+<label for="${id}">Integer between -20000 to +20000:</label>
 <input id="${id}" type="text"
     data-dojo-type="dijit/form/NumberTextBox"
     data-dojo-props="constraints:{min:-20000,max:20000,places:0},${props}"/>

@@ -20,7 +20,7 @@
             "tagName": "text"
         },
           {
-            "defaultValue": "auto",
+            "defaultValue": "",
             "displayName": "Closable",
             "propName": "closable",
             "tagName": "checkbox"

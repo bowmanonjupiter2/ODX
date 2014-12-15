@@ -1,0 +1,11 @@
+{
+    "dijitType": "dijit/DropDownMenu",
+    "props": [
+        {
+            "defaultValue": "menuId",
+            "displayName": "ID",
+            "propName": "id",
+            "tagName": "text"
+        }
+    ]
+}

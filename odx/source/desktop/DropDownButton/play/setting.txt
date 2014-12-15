@@ -4,7 +4,7 @@
             "propName": "disabled",
             "displayName": "Disabled",
             "tagName": "checkbox",
-			"defaultValue": false
+			"defaultValue": ""
         },
         {
             "propName": "id",
@@ -16,19 +16,19 @@
             "propName": "required",
             "displayName": "Required",
             "tagName": "checkbox",
-			"defaultValue": true
+			"defaultValue": "true"
         },
         {
             "propName": "autoWidth",
             "displayName": "AutoWidth",
             "tagName": "checkbox",
-			"defaultValue": false
+			"defaultValue": ""
         },
         {
             "propName": "forceWidth",
             "displayName": "ForceWidth",
             "tagName": "checkbox",
-			"defaultValue": false
+			"defaultValue": ""
         },
         {
             "propName": "label",
@@ -52,7 +52,7 @@
             "propName": "showlabel",
             "displayName": "Showlabel",
             "tagName": "checkbox",
-			"defaultValue": true
+			"defaultValue": "true"
         },
         {
     	  	"propName": "tabIndex",
