@@ -4,7 +4,7 @@
       "propName": "id",
       "displayName": "ID",
       "tagName": "text",
-      "defaultValue": "scontroller-prog",
+      "defaultValue": "controllerID",
       "global": true
     },
     {

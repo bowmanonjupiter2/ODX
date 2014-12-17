@@ -1,6 +1,6 @@
-<button id="previous" data-dojo-type="dijit/form/Button" }">&lt;</button>
+<button id="previous" data-dojo-type="dijit/form/Button"  data-dojo-props="onClick:function(){myStackContainer.back()}"}">&lt;</button>
     <span data-dojo-type="dijit/layout/StackController" data-dojo-props="${props}" id="${id}"></span>
-<button id="next" data-dojo-type="dijit/form/Button" }">&gt;</button>
+<button id="next" data-dojo-type="dijit/form/Button" data-dojo-props="onClick:function(){myStackContainer.forward()}">&gt;</button>
 
 <div data-dojo-type="dijit/layout/StackContainer" data-dojo-id="myStackContainer">
     <div data-dojo-type="dijit/layout/ContentPane" title="Questions">

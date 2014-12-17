@@ -39,6 +39,7 @@ body {
 }
 .play-box{
 	margin-top: 15px;
+	padding: 5px 5px;
 }
 /* ---------- Syntax Highlighting ---------- */
 .play-box .syntaxhighlighter .toolbar {
@@ -64,4 +65,169 @@ body {
 .play-box .syntaxhighlighter .highlighted {
     background-color: #E0E0E0 !important;
 }
+
+.views-main-title-bg {
+	width: 100%;
+	height: 46px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(../images/ODX_UI_demo2_r2_c9.png);
+}
+.views-main-title-text{
+	width:300px;
+	height: 46px;
+	background-repeat: no-repeat;
+	background-image: url(../images/ODX_UI_demo2_r2_c2.png);
+}
+.home-label{
+	position: relative;
+	left: 30px;
+	height: 30px;
+	width: 90px;
+	line-height: 30px;
+	background-size: auto 43px;
+	background-repeat: no-repeat;
+	background-image: url(../images/ODX_UI_demo2_r4_c3.png);
+}
+
+.desktop-widget-label{
+	position: relative;
+	left: 70px;
+	height: 30px;
+	width: 181px;
+	line-height: 30px;
+	background-size: auto 43px;
+	background-repeat: no-repeat;
+	background-image: url(../images/ODX_UI_demo2_r4_c6.png);
+}
+
+.mobile-widget-label{
+	position: relative;
+	left: 100px;
+	height: 30px;
+	width: 181px;
+	line-height: 30px;
+	background-size: auto 43px;
+	background-repeat: no-repeat;
+	background-image: url(../images/ODX_UI_demo2_r4_c14.png);
+}
+
+.menu-bar-bg{
+	background-color:#131313 !important;
+}
+.menu-label{
+	margin-left: 40px !important;
+	color:white !important;
+}
+.searchbox, .searchbox input, .searchbox div{
+	border-radius: 10px;
+	height: 20px;
+}
+.search-button{
+	height: 24px;
+	width: 24px;
+	background-image: url(../images/search_button.png);
+	background-repeat: no-repeat;
+}
+
+.treeFolderOpened{
+	margin-left: 8px;
+	height: 16px;
+	width: 16px;
+	display: inline-block;
+	border: 0;
+	padding: 0;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	background-image: url(../images/tree_item_opened.png);
+}
+
+.treeFolderClosed{
+	margin-left: 8px;
+	height: 16px;
+	width: 16px;
+	display: inline-block;
+	border: 0;
+	padding: 0;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	background-image: url(../images/tree_item_closed.png);
+}
+
+.treeLeaf{
+	height: 16px;
+	width: 16px;
+	display: inline-block;
+	border: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+.dijitTreeExpando{
+	display:none !important;
+}
+
+.dijitTree {
+	overflow-x: hidden !important;
+}
+
+.widget-id{
+	display: block;
+	color: rgb(0, 139, 255);
+	font-weight: bold;
+	margin: 12px 10px;
+	width:400px
+}
+.main-panel{
+	margin: 0px 12px;
+}
+
+.widget-id-text{
+	line-height: 25px;
+	padding: 60px;
+}
+.previous-button{
+	float:left;
+}
+.next-button{
+
+}
+
+.dijitTab{
+	padding: 5px 35px !important;
+	border: 0px solid #b5bcc7 !important;
+}
+.dijitTabContainerTop-container{
+	border:0px !important;
+}
+.dijitTabContainerTop-tabs {
+	border-bottom: 0px solid black !important;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 3px solid white;
+    background : rgba(33, 106, 255, 1); 
+     
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(69,69,69,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(69,69,69,0.4); 
+}
+
 /* ----------------------------------------- */
