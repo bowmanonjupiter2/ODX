@@ -41,7 +41,7 @@ define(
 		json
 	) {
 		var VIEW_NAME = "content";
-		var _thisPage = null;
+		var _thisPage = null;	
 		var overviewTab = null;
 		var playTab = null;
 		var guidenceTab = null;
@@ -58,7 +58,7 @@ define(
 		return {
 			init: function() {
 				console.log("#" + VIEW_NAME + " - init()");
-				_thisPage = this;
+				_thisPage = this;		
 				overviewTab = dijit.byId("desktop-overview-tab");
 				playTab = dijit.byId("desktop-play-tab");
 				guidenceTab = dijit.byId("desktop-guidence-tab");
@@ -79,7 +79,7 @@ define(
 				overviewTab.set("href", _thisPage.data.path + "/overview.html");
 				guidenceTab.set("href", _thisPage.data.path + "/guidence.html");
 				_thisPage._constructPlayPane();
-			},
+			},		
 			_constructPlayPane: function() {
 				//Clean play pane first
 				_thisPage._cleanPlayPane();
@@ -98,7 +98,7 @@ define(
 					_thisPage._renderSettingBox();
 					_thisPage._updateSource();
 				});
-			},
+			},			
 			_renderDemoBox: function() {
 				dojo.forEach(registry.findWidgets(demoBox.containerNode), function(widget) {
 					widget.destroyRecursive();
