@@ -71,12 +71,11 @@ define([
 				});
 				_widgetTree = new Tree({
 					model: widgetModel,
-					openOnClick: false,
+					openOnClick: true,
 					animation: false,
 					onClick: _thisPage.treeItemClick,
 					persist: false,
 					showRoot: false,
-					openOnClick: true,
 					getIconClass: function(item, opened) { /*Customize icon class here*/
 						//return (!item || this.model.mayHaveChildren(item)) ? (opened ? "dijitFolderOpened" : "dijitFolderClosed") : "dijitLeaf"
 						return (!item || this.model.mayHaveChildren(item)) ? (opened ? "treeFolderOpened" : "treeFolderClosed") : "treeLeaf"

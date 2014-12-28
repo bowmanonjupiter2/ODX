@@ -71,7 +71,7 @@ define([
 				});
 				_widgetTree = new Tree({
 					model: widgetModel,
-					openOnClick: false,
+					openOnClick: true,
 					animation: false,
 					onClick: _thisPage.treeItemClick,
 					persist: false,

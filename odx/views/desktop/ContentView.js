@@ -55,10 +55,13 @@ define(
 		var htmSrc = null;
 		var jsSrc = null;
 		var settingStr = null;
+		var title = null;
+
 		return {
 			init: function() {
 				console.log("#" + VIEW_NAME + " - init()");
-				_thisPage = this;		
+				_thisPage = this;	
+				title = dojo.byId("widget-title");				
 				overviewTab = dijit.byId("desktop-overview-tab");
 				playTab = dijit.byId("desktop-play-tab");
 				guidenceTab = dijit.byId("desktop-guidence-tab");
@@ -76,9 +79,11 @@ define(
 				});
 			},
 			afterActivate: function(current, data) {
+				title.innerHTML = this.params.id;
 				overviewTab.set("href", _thisPage.data.path + "/overview.html");
 				guidenceTab.set("href", _thisPage.data.path + "/guidence.html");
 				_thisPage._constructPlayPane();
+
 			},		
 			_constructPlayPane: function() {
 				//Clean play pane first

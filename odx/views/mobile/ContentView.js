@@ -56,13 +56,14 @@ define(
 		var htmSrc = null;
 		var jsSrc = null;
 		var settingStr = null;
+		var title = null;
 
 		return {
-			init: function() {
+			init: function() {			
 				console.log("#" + VIEW_NAME + " - init()");
 				_thisPage = this;
-				overviewTab = dijit.byId("mobile-overview-tab");
-			 
+				title = dojo.byId("mobile-widget-title");				
+				overviewTab = dijit.byId("mobile-overview-tab");			 
 				playTab = dijit.byId("mobile-play-tab");
 				guidenceTab = dijit.byId("mobile-guidence-tab");
 				demoBox = dijit.byId("mobile-play-demo");
@@ -79,7 +80,7 @@ define(
 				});
 			},
 			afterActivate: function(current, data) {
-				 
+				title.innerHTML = this.params.id;
 				overviewTab.set("href", _thisPage.data.path + "/overview.html");
 				guidenceTab.set("href", _thisPage.data.path + "/guidence.html");
 				_thisPage._constructPlayPane();
