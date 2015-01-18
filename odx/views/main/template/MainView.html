@@ -7,10 +7,16 @@
 			<div data-dojo-type="dijit/MenuBarItem" id="welcomeTab" class="menu-label">Home</div>
 			<div data-dojo-type="dijit/MenuBarItem" id="desktopTab" class="menu-label">Desktop widgets</div>
 			<div data-dojo-type="dijit/MenuBarItem" id="mobileTab" class="menu-label">Mobile widgets</div>
-			<div style="float:right; display: inline-flex;">
-			<input data-dojo-type="dijit/form/TextBox" type="text" id="searchBox" placeholder="Search widget..." class="searchbox"/>
-			<a href="#"><div class="search-button"></div></a>
+			<div style="float:right; display: block; position:relative;width:200px">
+			<!-- input data-dojo-type="dijit/form/TextBox" type="text" id="searchBox" placeholder="Search widget..." class="searchbox"/-->
+			<input data-dojo-type="dojox/mobile/SearchBox" id="searchBox" placeholder="Search widget..." class="searchbox"
+			data-dojo-props='store:storeWidgetList, searchAttr:"name", ignoreCase: true, onSearch:this.onSearch'
+			/>
+			<!--a href="#"><div class="search-button"></div></a-->
 			</div>
+		</div>
+		<div style="width: 200px;position: relative;float: right;z-index: 2;right:15px">
+			<ul data-dojo-type="dojox/mobile/RoundRectList" jsId="list" style="padding-right:40px;-webkit-padding-start: 0px;list-style-type: none;background-color: rgba(73, 160, 192, 0.9);-webkit-margin-before: 0em;"></ul>
 		</div>
 	</div>
 	<div id="footer" data-app-constraint="bottom">

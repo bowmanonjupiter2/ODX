@@ -15,6 +15,12 @@ define(
 		"dojo/dom-class",
 		"dojo/dom-construct",
 		"dojox/mobile/TransitionEvent",
+		"dojox/mobile/ListItem",
+		"dojo/_base/array",
+		"dojo/text!../desktop/data/DesktopWidgets.json",
+		"dojo/json",
+		"dojox/mobile/RoundRectList",
+		"dojox/mobile/SearchBox",
 		"dijit/registry",
 		"dojo/domReady!"
 	], function(
@@ -29,18 +35,48 @@ define(
 		dom,
 		domClass,
 		domConstruct,
-		TransitionEvent
+		TransitionEvent,ListItem,array,data,json
 	) {
+		
+		
+		childrenlist = new Array();
+		var i=0;
+		store = new Memory({data: [json.parse(data)],
+			getChildren:function(obj){
+				return obj.children || [];
+			}
+			});
+		var getWidgetList = function(parent) {
+			if (parent == undefined) {
+				parent = store.query({
+					id: "root"
+				})[0];
+			}
+			var children = store.getChildren(parent);
+			if (children.length > 0) {
+				array.forEach(children, function(item) {
+					getWidgetList(item);
+				})
+			} else {
+				childrenlist[i] = parent;
+				i++;
+			}
+		}
+		
+		getWidgetList();
+
+		storeWidgetList = new Memory({data: childrenlist});
 		var VIEW_NAME = "main";
 
 		var _thisPage = null;
+		
 
 		return {
 			init: function() {
 				console.log("#" + VIEW_NAME + " - init()");
 				_thisPage = this;
-
 			},
+	
 			// afterActivate: function(){
 // 				//Get the name of current subView and set specified menu item as hovering
 // 				var currentView = _thisPage.selectedChildren.center.name;
@@ -74,6 +110,22 @@ define(
 					};
 					new TransitionEvent(evt.target, transOpts, evt).dispatch();
 				}
+			},
+			//Search function - Scholes
+			onSearch: function(results, query, options){
+				if(query.name == "*"){
+					list.destroyDescendants();
+					return;
+				}
+			    if(options.start == 0){
+			      list.destroyDescendants();
+			    }
+			    array.forEach(results, function(item){
+			      list.addChild(new ListItem({label: item.name}));
+			    });
+			    if((options.start+results.length) < results.total){
+			      results.nextPage();
+			    }
 			}
 		};
 	}
