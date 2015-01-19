@@ -121,12 +121,30 @@ define(
 			      list.destroyDescendants();
 			    }
 			    array.forEach(results, function(item){
-			      list.addChild(new ListItem({label: item.name}));
+				list.addChild(new ListItem({
+					label : item.name,
+					id : item.name
+				}));
+
+				dojo.query("#" + item.name).onclick(function(e) {
+					var transOpts = {
+						target : "main,desktop,content",
+						url : "#main,desktop",
+						data : item,
+						params : {
+							id : item.id
+						}
+					};
+					new TransitionEvent(e.target, transOpts, e).dispatch();
+					list.destroyDescendants();
+					document.getElementById("searchBox").value = "";
+
+				});
+
 			    });
 			    if((options.start+results.length) < results.total){
 			      results.nextPage();
 			    }
-			}
+		},
 		};
-	}
-);
+});
