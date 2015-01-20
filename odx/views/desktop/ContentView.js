@@ -62,7 +62,7 @@ define(
 				console.log("#" + VIEW_NAME + " - init()");
 				_thisPage = this;	
 				title = dojo.byId("widget-title");				
-				overviewTab = dijit.byId("desktop-overview-tab");
+				//overviewTab = dijit.byId("desktop-overview-tab");
 				playTab = dijit.byId("desktop-play-tab");
 				guidenceTab = dijit.byId("desktop-guidence-tab");
 				demoBox = dijit.byId("desktop-play-demo");
@@ -80,7 +80,7 @@ define(
 			},
 			afterActivate: function(current, data) {
 				title.innerHTML = this.params.id;
-				overviewTab.set("href", _thisPage.data.path + "/overview.html");
+				//overviewTab.set("href", _thisPage.data.path + "/overview.html");
 				guidenceTab.set("href", _thisPage.data.path + "/guidence.html");
 				_thisPage._constructPlayPane();
 

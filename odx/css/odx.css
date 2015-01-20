@@ -191,6 +191,9 @@ body {
 .next-button{
 
 }
+.property-wrapper{
+	line-height:20px;
+}
 
 .dijitTab{
 	padding: 5px 35px !important;
