@@ -4,56 +4,48 @@
             "children": [
                 {
                     "id": "dijit/DropDownMenu",
-                    "name": "DropDown Menu"
+                    "name": "Drop-Down Menu"
                 } 
             ],
             "id": "menu",
-            "name": "Menu Widgets",
+            "name": "Menu",
             "type": "group"
         },
         {
-            "children": [],
-            "id": "tree",
-            "name": "Tree Widgets",
-            "type": "group"
-        },
-        {
-            "children": [],
-            "id": "misc",
-            "name": "Miscellaneous Widgets",
-            "type": "group"
-        },
-        {
-            "children": [
+            "children": [         	
+                {
+                    "id": "dijit/form/Form",
+                    "name": "Form"                  
+                },            
             	{
             		"children": [
             			 {
                     		"id": "dijit/form/CurrencyTextBox",
-              			    "name": "CurrencyTextBox"
+              			    "name": "Currency TextBox"
               			 },
               			 {
                     		"id": "dijit/form/DateTextBox",
-              			    "name": "DateTextBox"
+              			    "name": "Date TextBox"
               			 },
               			 {
                     		"id": "dijit/form/MappedTextBox",
-              			    "name": "MappedTextBox"
+              			    "name": "Mapped TextBox"
               			 },
               			 {
                     		"id": "dijit/form/NumberSpinner",
-              			    "name": "NumberSpinner"
+              			    "name": "Number Spinner"
               			 },
               			 {
                     		"id": "dijit/form/NumberTextBox",
-              			    "name": "NumberTextBox"
+              			    "name": "Number TextBox"
               			 },
               			 {
                     		"id": "dijit/form/RangeBoundTextBox",
-              			    "name": "RangeBoundTextBox"
+              			    "name": "RangeBound TextBox"
               			 },
               			 {
                     		"id": "dijit/form/SimpleTextarea",
-              			    "name": "SimpleTextarea"
+              			    "name": "Simple Textarea"
               			 },
               			 {
                     		"id": "dijit/form/Textarea",
@@ -65,11 +57,11 @@
               			 },
               			 {
                     		"id": "dijit/form/TimeTextBox",
-              			    "name": "TimeTextBox"
+              			    "name": "Time TextBox"
               			 },
               			 {
                     		"id": "dijit/form/ValidationTextBox",
-              			    "name": "ValidationTextBox"
+              			    "name": "Validation TextBox"
               			 },
               			 {
                     		"id": "dijit/form/CheckBox",
@@ -77,7 +69,7 @@
               			 }
             		],
             		"id": "textbox",
-            		"name": "Text Boxes",
+            		"name": "Textbox",
             		"type": "group"
             	},
             	{
@@ -92,15 +84,15 @@
               			 },
               			 {
                     		"id": "dijit/form/FilteringSelect",
-              			    "name": "FilteringSelect"
+              			    "name": "Filtering Select"
               			 },
               			 {
                     		"id": "dijit/form/MultiSelect",
-              			    "name": "MultiSelect"
+              			    "name": "Multi-Select"
               			 }
             		],
             		"id": "SelectTypeWidgets",
-            		"name": "Select Type Widgets",
+            		"name": "Select",
             		"type": "group"
             	},
             	{
@@ -115,48 +107,58 @@
               			 },
               			 {
                     		"id": "dijit/form/DropDownButton",
-              			    "name": "DropDownButton"
+              			    "name": "Drop-Down Button"
               			 },
               			 {
                     		"id": "dijit/form/ToggleButton",
-              			    "name": "ToggleButton"
+              			    "name": "Toggle Button"
               			 }
             		],
             		"id": "Buttons",
-            		"name": "Buttons",
+            		"name": "Button",
             		"type": "group"
             	},
-				{
-                    "id": "dijit/form/VerticalRule",
-                    "name": "VerticalRule"                
-                },
-                {
-                    "id": "dijit/form/VerticalRuleLabels",
-                    "name": "VerticalRuleLabels"                  
-                },
-                {
-                    "id": "dijit/form/VerticalSlider",
-                    "name": "VerticalSlider"                  
-                },
-                {
-                    "id": "dijit/form/Form",
-                    "name": "Form"                  
-                },
-                {
-                    "id": "dijit/form/HorizontalRule",
-                    "name": "HorizontalRule"                  
-                },
-                {
-                    "id": "dijit/form/HorizontalRuleLabels",
-                    "name": "HorizontalRuleLabels"                  
-                },
-                {
-                    "id": "dijit/form/HorizontalSlider",
-                    "name": "HorizontalSlider"                  
-                }                               
+            	{
+            		"children": [
+						{
+		                    "id": "dijit/form/VerticalRule",
+		                    "name": "VerticalRule"                
+		                },
+		                {
+		                    "id": "dijit/form/VerticalRuleLabels",
+		                    "name": "VerticalRuleLabels"                  
+		                },
+		                {
+		                    "id": "dijit/form/HorizontalRule",
+		                    "name": "HorizontalRule"                  
+		                },
+		                {
+		                    "id": "dijit/form/HorizontalRuleLabels",
+		                    "name": "HorizontalRuleLabels"                  
+		                }
+            		],
+            		"id": "Rulers",
+            		"name": "Ruler",
+            		"type": "group"
+            	},
+            	{
+            		"children": [
+		                {
+		                    "id": "dijit/form/VerticalSlider",
+		                    "name": "VerticalSlider"                  
+		                },
+		                {
+		                    "id": "dijit/form/HorizontalSlider",
+		                    "name": "HorizontalSlider"                  
+		                }		                
+            		],
+            		"id": "Sliders",
+            		"name": "Slider",
+            		"type": "group"
+            	}                               
             ],
             "id": "form",
-            "name": "Form Widgets",
+            "name": "Form",
             "type": "group"
         },
         {
@@ -193,7 +195,20 @@
             "id": "layout",
             "name": "Layout",
             "type": "group"
+        },
+        {
+            "children": [],
+            "id": "tree",
+            "name": "Tree",
+            "type": "group"
+        },
+        {
+            "children": [],
+            "id": "misc",
+            "name": "Miscellaneous",
+            "type": "group"
         }
+        
     ],
     "id": "root",
     "name": "Desktop"

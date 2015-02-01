@@ -2,162 +2,156 @@
   "props": [
     {
       "propName": "autoWidth",
-      "displayName": "AutoWidth",
+      "displayName": "autoWidth",
       "tagName": "checkbox",
       "defaultValue": "true"
-    },
-    {
-      "propName": "dropDownDefaultValue",
-      "displayName": "DropDownDefaultValue",
-      "tagName": "text",
-      "defaultValue": "2005-12-30"
     },
     {
       "propName": "forceWidth",
-      "displayName": "ForceWidth",
+      "displayName": "forceWidth",
       "tagName": "checkbox",
-      "defaultValue": "true"
+      "defaultValue": "false"
     },
     {
       "propName": "hasDownArrow",
-      "displayName": "Has DownArrow",
+      "displayName": "hasDownArrow",
       "tagName": "checkbox",
       "defaultValue": "true"
     },
     {
       "propName": "disable",
-      "displayName": "Disable",
+      "displayName": "disable",
       "tagName": "checkbox",
-      "defaultValue": "true"
-    },
-    {
-      "propName": "id",
-      "displayName": "ID",
-      "tagName": "text",
-      "defaultValue": "myDateTextBox",
-      "global": true
-    },
-    {
-      "propName": "name",
-      "displayName": "Name",
-      "tagName": "text",
-      "defaultValue": "myDateTextBox",
-      "global": true
-    },
-    {
-      "propName": "label",
-      "displayName": "Label",
-      "tagName": "text",
-      "defaultValue": "myDateTextBox",
-      "global": true
-    },
-    {
-      "propName": "invalidMessage",
-      "displayName": "InvalidMessage",
-      "tagName": "text",
-      "defaultValue": "Message invalid"
+      "defaultValue": "false"
     },
     {
       "propName": "lowercase",
-      "displayName": "Lowercase",
+      "displayName": "lowercase",
       "tagName": "checkbox",
       "defaultValue":"true"
-    },
-    {
-      "propName": "maxLength",
-      "displayName": "MaxLength",
-      "tagName": "text",
-      "defaultValue": "256"
-    },
-    {
-      "propName": "maxHeigth",
-      "displayName": "MaxHeigth",
-      "tagName": "text",
-      "defaultValue": "256"
-    },
-    {
-      "propName": "missingMessage",
-      "displayName": "MissingMessage",
-      "tagName": "text",
-      "defaultValue": "please enter message"
-    },
-    {
-      "propName": "placeHolder",
-      "displayName": "PlaceHolder",
-      "tagName": "text",
-      "defaultValue": "please enter message"
-    },
-    {
-      "propName": "promptMessage",
-      "displayName": "PromptMessage",
-      "tagName": "text",
-      "defaultValue": "please enter message"
     },
     {
       "propName": "propercase",
-      "displayName": "Propercase",
+      "displayName": "propercase",
       "tagName": "checkbox",
-      "defaultValue":"true"
-    },
-    {
-      "propName": "rangeMessage",
-      "displayName": "Range Message",
-      "tagName": "text",
-      "defaultValue": "Message is too long"
+      "defaultValue":"false"
     },
     {
       "propName": "readOnly",
-      "displayName": "Read only",
+      "displayName": "readOnly",
       "tagName": "checkbox",
-      "defaultValue":"true"
+      "defaultValue":"false"
     },
     {
       "propName": "required",
-      "displayName": "Required",
+      "displayName": "required",
       "tagName": "checkbox",
       "defaultValue":"true"
     },
     {
       "propName": "selectOnClick",
-      "displayName": "Select On Click",
+      "displayName": "selectOnClick",
       "tagName": "checkbox",
       "defaultValue": "true"
     },
     {
+        "propName": "uppercase",
+        "displayName": "uppercase",
+        "tagName": "checkbox",
+        "defaultValue":"false"
+    },
+    {
+      "propName": "dropDownDefaultValue",
+      "displayName": "dropDownDefaultValue",
+      "tagName": "text",
+      "defaultValue": "1900-01-01"
+    },
+    {
+      "propName": "id",
+      "displayName": "id",
+      "tagName": "text",
+      "defaultValue": "dateTextBoxId",
+      "global": true
+    },
+    {
+      "propName": "name",
+      "displayName": "name",
+      "tagName": "text",
+      "defaultValue": "dateTextBoxName",
+      "global": true
+    },
+    {
+      "propName": "label",
+      "displayName": "label",
+      "tagName": "text",
+      "defaultValue": "dateTextBoxLabel",
+      "global": true
+    },
+    {
+      "propName": "invalidMessage",
+      "displayName": "invalidMessage",
+      "tagName": "text",
+      "defaultValue": "invalid input"
+    },
+    {
+      "propName": "maxLength",
+      "displayName": "maxLength",
+      "tagName": "text",
+      "defaultValue": "256"
+    },
+    {
+      "propName": "maxHeigth",
+      "displayName": "maxHeigth",
+      "tagName": "text",
+      "defaultValue": "256"
+    },
+    {
+      "propName": "missingMessage",
+      "displayName": "missingMessage",
+      "tagName": "text",
+      "defaultValue": "please input a date"
+    },
+    {
+      "propName": "placeHolder",
+      "displayName": "placeHolder",
+      "tagName": "text",
+      "defaultValue": "please input a date"
+    },
+    {
+      "propName": "promptMessage",
+      "displayName": "promptMessage",
+      "tagName": "text",
+      "defaultValue": "please enter"
+    },
+    {
+      "propName": "rangeMessage",
+      "displayName": "rangeMessage",
+      "tagName": "text",
+      "defaultValue": "out of range"
+    },
+    {
       "propName": "tabIndex",
-      "displayName": "TabIndex",
+      "displayName": "tabIndex",
       "tagName": "text",
       "defaultValue": "1"
     },
     {
       "propName": "title",
-      "displayName": "Title",
+      "displayName": "title",
       "tagName": "text",
-      "defaultValue": "myDateTextBox"
+      "defaultValue": "dateTextBoxTitle"
     },
     {
       "propName": "tooltip",
-      "displayName": "Tooltip",
+      "displayName": "tooltip",
       "tagName": "text",
-      "defaultValue": "Enter Date"
-    },
-    {
-      "propName": "tabIndex",
-      "displayName": "TabIndex",
-      "tagName": "text",
-      "defaultValue": "1"
-    },
-    {
-        "propName": "uppercase",
-        "displayName": "Uppercase",
-        "tagName": "checkbox",
-        "defaultValue":"true"
+      "defaultValue": "this is a date textbox"
     },
     {
       "propName": "value",
-      "displayName": "Value",
+      "displayName": "value",
       "tagName": "text",
-      "defaultValue": "2005-12-30"
+      "defaultValue": "1900-01-01"
     }
   ]
 }

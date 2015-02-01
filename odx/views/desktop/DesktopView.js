@@ -82,7 +82,7 @@ define([
 					},
 				}, "desktop-widgets-list");
 				_widgetTree.startup();
-				_widgetTree.expandAll();
+				//_widgetTree.expandAll();
 			},
 			treeItemClick: function(item, node, e) {
 				if (item.type != "group") {

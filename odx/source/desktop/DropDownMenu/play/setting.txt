@@ -2,10 +2,34 @@
     "dijitType": "dijit/DropDownMenu",
     "props": [
         {
-            "defaultValue": "menuId",
-            "displayName": "ID",
+			"propName": "activated",
+            "tagName": "checkbox",
+            "displayName": "activated",
+          	"defaultValue": "true"                        
+        },
+        {
+			"propName": "autoFocus",
+            "tagName": "checkbox",
+            "displayName": "autoFocus",
+          	"defaultValue": "true"                        
+        }, 
+        {
+			"propName": "refocus",
+            "tagName": "checkbox",
+            "displayName": "refocus",
+          	"defaultValue": "true"                        
+        },
+        {
+			"propName": "multiCharSearchDuration",
+            "tagName": "text",
+            "displayName": "multiCharSearchDuration",
+          	"defaultValue": "0"                        
+        },                        
+        {            
             "propName": "id",
-            "tagName": "text"
-        }
+            "tagName": "text",
+            "displayName": "id",
+            "defaultValue": "a_drop-down_menu_id"            
+        }                        
     ]
 }

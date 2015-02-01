@@ -1,139 +1,139 @@
 {
-  "props": [
-    {
-      "propName": "currency",
-      "displayName": "Currency",
-      "tagName": "text",
-      "defaultValue": "EUR"
-    },
-    {
-      "propName": "disable",
-      "displayName": "Disable",
-      "tagName": "checkbox",
-      "defaultValue": "true"
-    },
-    {
-      "propName": "id",
-      "displayName": "ID",
-      "tagName": "text",
-      "defaultValue": "myCurrency",
-      "global": true
-    },
-    {
-      "propName": "name",
-      "displayName": "Name",
-      "tagName": "text",
-      "defaultValue": "myCurrency",
-      "global": true
-    },
-    {
-      "propName": "label",
-      "displayName": "Label",
-      "tagName": "text",
-      "defaultValue": "myCurrency",
-      "global": true
-    },
-    {
-      "propName": "invalidMessage",
-      "displayName": "InvalidMessage",
-      "tagName": "text",
-      "defaultValue": "Message invalid"
-    },
-    {
-      "propName": "lowercase",
-      "displayName": "Lowercase",
-      "tagName": "checkbox",
-      "defaultValue":"true"
-    },
-    {
-      "propName": "maxLength",
-      "displayName": "MaxLength",
-      "tagName": "text",
-      "defaultValue": "256"
-    },
-    {
-      "propName": "missingMessage",
-      "displayName": "MissingMessage",
-      "tagName": "text",
-      "defaultValue": "please enter message"
-    },
-    {
-      "propName": "placeHolder",
-      "displayName": "PlaceHolder",
-      "tagName": "text",
-      "defaultValue": "please enter message"
-    },
-    {
-      "propName": "promptMessage",
-      "displayName": "PromptMessage",
-      "tagName": "text",
-      "defaultValue": "please enter message"
-    },
-    {
-      "propName": "propercase",
-      "displayName": "Propercase",
-      "tagName": "checkbox",
-      "defaultValue":"true"
-    },
-    {
-      "propName": "rangeMessage",
-      "displayName": "Range Message",
-      "tagName": "text",
-      "defaultValue": "Message is too long"
-    },
-    {
-      "propName": "readOnly",
-      "displayName": "Read only",
-      "tagName": "checkbox",
-      "defaultValue":"true"
-    },
-    {
-      "propName": "required",
-      "displayName": "Required",
-      "tagName": "checkbox",
-      "defaultValue":"true"
-    },
-    {
-      "propName": "selectOnClick",
-      "displayName": "Select On Click",
-      "tagName": "checkbox",
-      "defaultValue": "true"
-    },
-    {
-      "propName": "tabIndex",
-      "displayName": "TabIndex",
-      "tagName": "text",
-      "defaultValue": "1"
-    },
-    {
-      "propName": "title",
-      "displayName": "Title",
-      "tagName": "text",
-      "defaultValue": "myCurrencyTextBox"
-    },
-    {
-      "propName": "tooltip",
-      "displayName": "Tooltip",
-      "tagName": "text",
-      "defaultValue": "Enter Currency"
-    },
-    {
-        "propName": "trim",
-        "displayName": "Trim",
-        "tagName": "checkbox",
-        "defaultValue":"true"
-    },
-    {
-        "propName": "uppercase",
-        "displayName": "Uppercase",
-        "tagName": "checkbox",
-        "defaultValue":"true"
-    },
-    {
-      "propName": "value",
-      "displayName": "Value",
-      "tagName": "text",
-      "defaultValue": "54775,53"
-    }
-  ]
+    "props":[
+        {
+            "propName":"disable",
+            "displayName":"disable",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"readOnly",
+            "displayName":"readOnly",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"lowercase",
+            "displayName":"lowercase",
+            "tagName":"checkbox",
+            "defaultValue":"true"
+        },
+        {
+            "propName":"propercase",
+            "displayName":"propercase",
+            "tagName":"checkbox",
+            "defaultValue":"true"
+        },
+        {
+            "propName":"required",
+            "displayName":"required",
+            "tagName":"checkbox",
+            "defaultValue":"true"
+        },
+        {
+            "propName":"selectOnClick",
+            "displayName":"selectOnClick",
+            "tagName":"checkbox",
+            "defaultValue":"true"
+        },
+        {
+            "propName":"trim",
+            "displayName":"trim",
+            "tagName":"checkbox",
+            "defaultValue":"true"
+        },
+        {
+            "propName":"uppercase",
+            "displayName":"uppercase",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"currency",
+            "displayName":"currency",
+            "tagName":"text",
+            "defaultValue":"EUR"
+        },
+        {
+            "propName":"id",
+            "displayName":"id",
+            "tagName":"text",
+            "defaultValue":"myCurrency",
+            "global":true
+        },
+        {
+            "propName":"name",
+            "displayName":"name",
+            "tagName":"text",
+            "defaultValue":"myCurrencyName",
+            "global":true
+        },
+        {
+            "propName":"label",
+            "displayName":"label",
+            "tagName":"text",
+            "defaultValue":"myCurrencyLabel",
+            "global":true
+        },
+        {
+            "propName":"invalidMessage",
+            "displayName":"invalidMessage",
+            "tagName":"text",
+            "defaultValue":"invalid message"
+        },
+        {
+            "propName":"maxLength",
+            "displayName":"maxLength",
+            "tagName":"text",
+            "defaultValue":"256"
+        },
+        {
+            "propName":"missingMessage",
+            "displayName":"missingMessage",
+            "tagName":"text",
+            "defaultValue":"please enter"
+        },
+        {
+            "propName":"placeHolder",
+            "displayName":"placeHolder",
+            "tagName":"text",
+            "defaultValue":"please enter"
+        },
+        {
+            "propName":"promptMessage",
+            "displayName":"promptMessage",
+            "tagName":"text",
+            "defaultValue":"this is a currency textbox"
+        },
+        {
+            "propName":"rangeMessage",
+            "displayName":"rangeMessage",
+            "tagName":"text",
+            "defaultValue":"out of range"
+        },
+        {
+            "propName":"tabIndex",
+            "displayName":"tabIndex",
+            "tagName":"text",
+            "defaultValue":"1"
+        },
+        {
+            "propName":"title",
+            "displayName":"title",
+            "tagName":"text",
+            "defaultValue":"A currency textbox"
+        },
+        {
+            "propName":"tooltip",
+            "displayName":"tooltip",
+            "tagName":"text",
+            "defaultValue":"Currentcy Textbox"
+        },
+        {
+            "propName":"value",
+            "displayName":"value",
+            "tagName":"text",
+            "defaultValue":"1,000"
+        }
+    ]
 }

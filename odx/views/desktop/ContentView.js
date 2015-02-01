@@ -81,7 +81,7 @@ define(
 			afterActivate: function(current, data) {
 				title.innerHTML = this.params.id;
 				//overviewTab.set("href", _thisPage.data.path + "/overview.html");
-				guidenceTab.set("href", _thisPage.data.path + "/guidence.html");
+				guidenceTab.set("href", _thisPage.data.path + "/guide.html");
 				_thisPage._constructPlayPane();
 
 			},		
@@ -138,8 +138,10 @@ define(
 				var textfieldTmpl = '<div class="property-wrapper"><label class="property-label" for="${propName}">${displayName}</label><br/><input type="text" class="property" name="${propName}" value="${defaultValue}"/></div>';
 				var uncheckboxTmpl = '<div class="property-wrapper"><input type="checkbox" class="property" name="${propName}"/><label class="property-label" for="${propName}">${displayName}</label></div>';
 				var checkboxTmpl = '<div class="property-wrapper"><input type="checkbox" class="property" name="${propName}" checked=${defaultValue}/><label class="property-label" for="${propName}">${displayName}</label></div>';
-				var textareaTmpl = '<div class="property-wrapper"><label class="property-label" for="${propName}">${displayName}</label><br/><textarea class="property" name="${propName}">${defaultValue}</textarea></div>';
+				var textareaTmpl = '<div class="property-wrapper"><label class="property-label" for="${propName}">${displayName}</label><!--br/--><textarea class="property" name="${propName}">${defaultValue}</textarea></div>';
+				
 				var newPropDom = null;
+				
 				array.forEach(settingSrcOrgi.props, function(prop, index) {
 					switch (prop.tagName) {
 						case "text":

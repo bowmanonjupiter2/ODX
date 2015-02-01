@@ -17,7 +17,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: Arial, Helvetica, "Liberation Sans", FreeSans,
-		sans-serif !important;
+		sans-serif, consolas !important;
 	font-size: 14px !important;
 	background: #FFF;
 	color: #222;
@@ -30,22 +30,22 @@ body {
 
 #desktop-play-left {
 	float: left;
-	width: 75%;
+	width: 83%;
 }
 
 #desktop-play-right {
 	float: right;
-	width: 25%;
+	width: 17%;
 }
 
 #mobile-play-left {
 	float: left;
-	width: 75%;
+	width: 83%;
 }
 
 #mobile-play-right {
 	float: right;
-	width: 25%;
+	width: 17%;
 }
 
 .play-box {
@@ -91,9 +91,10 @@ body {
 	background-image: url(../images/ODX_UI_demo2_r2_c9.png);
 }
 
-.views-main-footer{
-	float:right;
+.views-main-footer {
+	float: right;
 }
+
 .views-main-title-text {
 	width: 300px;
 	height: 46px;
@@ -146,6 +147,7 @@ body {
 .searchbox,.searchbox input,.searchbox div {
 	border-radius: 10px;
 	height: 20px;
+	padding-left: 5px;
 }
 
 .search-button {
@@ -222,7 +224,16 @@ body {
 }
 
 .property-wrapper {
-	line-height: 20px;
+	line-height: 18px;
+	padding-bottom: 8px;
+}
+
+.property-label {
+	font-style: bold;
+}
+
+.property {
+	
 }
 
 .dijitTab {
@@ -240,7 +251,7 @@ body {
 
 /* Let's get this party started */
 ::-webkit-scrollbar {
-	width: 10px;
+	width: 8px;
 }
 
 /* Track */
