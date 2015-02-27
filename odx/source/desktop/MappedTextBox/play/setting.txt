@@ -2,136 +2,136 @@
   "props": [
     {
       "propName": "disable",
-      "displayName": "Disable",
+      "displayName": "disable",
       "tagName": "checkbox",
       "defaultValue": "true"
     },    
     {
       "propName": "lowercase",
-      "displayName": "Lowercase",
+      "displayName": "lowercase",
       "tagName": "checkbox",
       "defaultValue":"true"
     },    
     {
       "propName": "propercase",
-      "displayName": "Propercase",
+      "displayName": "propercase",
       "tagName": "checkbox",
       "defaultValue":"true"
     },
     {
       "propName": "readOnly",
-      "displayName": "Read only",
+      "displayName": "readOnly",
       "tagName": "checkbox",
       "defaultValue":"true"
     },
     {
       "propName": "required",
-      "displayName": "Required",
+      "displayName": "required",
       "tagName": "checkbox",
       "defaultValue":"true"
     },
     {
       "propName": "selectOnClick",
-      "displayName": "Select On Click",
+      "displayName": "selectOnClick",
       "tagName": "checkbox",
       "defaultValue": "true"
     },    
     {
         "propName": "trim",
-        "displayName": "Trim",
+        "displayName": "trim",
         "tagName": "checkbox",
         "defaultValue":"true"
     },
     {
         "propName": "uppercase",
-        "displayName": "Uppercase",
+        "displayName": "uppercase",
         "tagName": "checkbox",
         "defaultValue":"true"
     },  
     {
       "propName": "id",
-      "displayName": "ID",
+      "displayName": "id",
       "tagName": "text",
       "defaultValue": "myMappedTextbox",
       "global": true
     },
     {
       "propName": "name",
-      "displayName": "Name",
+      "displayName": "name",
       "tagName": "text",
       "defaultValue": "myMappedTextbox",
       "global": true
     },
     {
       "propName": "label",
-      "displayName": "Label",
+      "displayName": "label",
       "tagName": "text",
       "defaultValue": "myMappedTextbox",
       "global": true
     },
     {
       "propName": "invalidMessage",
-      "displayName": "InvalidMessage",
+      "displayName": "invalidMessage",
       "tagName": "text",
       "defaultValue": "Message invalid"
     },
     {
       "propName": "maxLength",
-      "displayName": "MaxLength",
+      "displayName": "maxLength",
       "tagName": "text",
       "defaultValue": "256"
     },
     {
       "propName": "missingMessage",
-      "displayName": "MissingMessage",
+      "displayName": "missingMessage",
       "tagName": "text",
       "defaultValue": "please enter message"
     },
     {
       "propName": "placeHolder",
-      "displayName": "PlaceHolder",
+      "displayName": "placeHolder",
       "tagName": "text",
       "defaultValue": "please enter message"
     },
     {
       "propName": "promptMessage",
-      "displayName": "PromptMessage",
+      "displayName": "promptMessage",
       "tagName": "text",
       "defaultValue": "please enter message"
     },
     {
       "propName": "rangeMessage",
-      "displayName": "Range Message",
+      "displayName": "rangeMessage",
       "tagName": "text",
       "defaultValue": "Message is too long"
     },
     {
       "propName": "tabIndex",
-      "displayName": "TabIndex",
+      "displayName": "tabIndex",
       "tagName": "text",
       "defaultValue": "1"
     },
     {
       "propName": "title",
-      "displayName": "Title",
+      "displayName": "title",
       "tagName": "text",
       "defaultValue": "myMappedTextBox"
     },
     {
       "propName": "tooltip",
-      "displayName": "Tooltip",
+      "displayName": "tooltip",
       "tagName": "text",
       "defaultValue": "Enter Text"
     },
     {
       "propName": "tabIndex",
-      "displayName": "TabIndex",
+      "displayName": "tabIndex",
       "tagName": "text",
       "defaultValue": "1"
     },
     {
       "propName": "value",
-      "displayName": "Value",
+      "displayName": "value",
       "tagName": "text",
       "defaultValue": "YEAH"
     }

@@ -113,6 +113,7 @@ define(
 					id: "demo",
 					className: "",
 					innerHTML: htmSrc
+					//innerHTML : jsSrc
 				}, demoBox.containerNode);
 				parser.parse(newNode);
 			},

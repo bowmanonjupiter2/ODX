@@ -1,1 +1,1 @@
-<div data-dojo-type="dijit/form/NumberSpinner" data-dojo-props="value:1000">
+<div data-dojo-type="dijit/form/MappedTextBox" data-dojo-props="${props}">

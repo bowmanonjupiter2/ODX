@@ -1,215 +1,214 @@
 {
-    "children": [
+    "children":[
         {
-            "children": [
+            "children":[
                 {
-                    "id": "dijit/DropDownMenu",
-                    "name": "Drop-Down Menu"
-                } 
+                    "id":"dijit/DropDownMenu",
+                    "name":"Drop-Down Menu"
+                }
             ],
-            "id": "menu",
-            "name": "Menu",
-            "type": "group"
+            "id":"menu",
+            "name":"Menu",
+            "type":"group"
         },
         {
-            "children": [         	
+            "children":[
                 {
-                    "id": "dijit/form/Form",
-                    "name": "Form"                  
-                },            
-            	{
-            		"children": [
-            			 {
-                    		"id": "dijit/form/CurrencyTextBox",
-              			    "name": "Currency TextBox"
-              			 },
-              			 {
-                    		"id": "dijit/form/DateTextBox",
-              			    "name": "Date TextBox"
-              			 },
-              			 {
-                    		"id": "dijit/form/MappedTextBox",
-              			    "name": "Mapped TextBox"
-              			 },
-              			 {
-                    		"id": "dijit/form/NumberSpinner",
-              			    "name": "Number Spinner"
-              			 },
-              			 {
-                    		"id": "dijit/form/NumberTextBox",
-              			    "name": "Number TextBox"
-              			 },
-              			 {
-                    		"id": "dijit/form/RangeBoundTextBox",
-              			    "name": "RangeBound TextBox"
-              			 },
-              			 {
-                    		"id": "dijit/form/SimpleTextarea",
-              			    "name": "Simple Textarea"
-              			 },
-              			 {
-                    		"id": "dijit/form/Textarea",
-              			    "name": "Textarea"
-              			 },
-              			 {
-                    		"id": "dijit/form/TextBox",
-              			    "name": "TextBox"
-              			 },
-              			 {
-                    		"id": "dijit/form/TimeTextBox",
-              			    "name": "Time TextBox"
-              			 },
-              			 {
-                    		"id": "dijit/form/ValidationTextBox",
-              			    "name": "Validation TextBox"
-              			 },
-              			 {
-                    		"id": "dijit/form/CheckBox",
-              			    "name": "CheckBox"
-              			 }
-            		],
-            		"id": "textbox",
-            		"name": "Textbox",
-            		"type": "group"
-            	},
-            	{
-            		"children": [
-            			 {
-                    		"id": "dijit/form/Select",
-              			    "name": "Select"
-              			 },
-              			 {
-                    		"id": "dijit/form/ComboBox",
-              			    "name": "ComboBox"
-              			 },
-              			 {
-                    		"id": "dijit/form/FilteringSelect",
-              			    "name": "Filtering Select"
-              			 },
-              			 {
-                    		"id": "dijit/form/MultiSelect",
-              			    "name": "Multi-Select"
-              			 }
-            		],
-            		"id": "SelectTypeWidgets",
-            		"name": "Select",
-            		"type": "group"
-            	},
-            	{
-            		"children": [
-            			 {
-                    		"id": "dijit/form/Button",
-              			    "name": "Button"
-              			 },
-              			 {
-                    		"id": "dijit/form/ComboButton",
-              			    "name": "ComboButton"
-              			 },
-              			 {
-                    		"id": "dijit/form/DropDownButton",
-              			    "name": "Drop-Down Button"
-              			 },
-              			 {
-                    		"id": "dijit/form/ToggleButton",
-              			    "name": "Toggle Button"
-              			 }
-            		],
-            		"id": "Buttons",
-            		"name": "Button",
-            		"type": "group"
-            	},
-            	{
-            		"children": [
-						{
-		                    "id": "dijit/form/VerticalRule",
-		                    "name": "VerticalRule"                
-		                },
-		                {
-		                    "id": "dijit/form/VerticalRuleLabels",
-		                    "name": "VerticalRuleLabels"                  
-		                },
-		                {
-		                    "id": "dijit/form/HorizontalRule",
-		                    "name": "HorizontalRule"                  
-		                },
-		                {
-		                    "id": "dijit/form/HorizontalRuleLabels",
-		                    "name": "HorizontalRuleLabels"                  
-		                }
-            		],
-            		"id": "Rulers",
-            		"name": "Ruler",
-            		"type": "group"
-            	},
-            	{
-            		"children": [
-		                {
-		                    "id": "dijit/form/VerticalSlider",
-		                    "name": "VerticalSlider"                  
-		                },
-		                {
-		                    "id": "dijit/form/HorizontalSlider",
-		                    "name": "HorizontalSlider"                  
-		                }		                
-            		],
-            		"id": "Sliders",
-            		"name": "Slider",
-            		"type": "group"
-            	}                               
+                    "id":"dijit/form/Form",
+                    "name":"Form"
+                },
+                {
+                    "children":[
+                        {
+                            "id":"dijit/form/CurrencyTextBox",
+                            "name":"Currency TextBox"
+                        },
+                        {
+                            "id":"dijit/form/DateTextBox",
+                            "name":"Date TextBox"
+                        },
+                        {
+                            "id":"dijit/form/MappedTextBox",
+                            "name":"Mapped TextBox"
+                        },
+                        {
+                            "id":"dijit/form/NumberSpinner",
+                            "name":"Number Spinner"
+                        },
+                        {
+                            "id":"dijit/form/NumberTextBox",
+                            "name":"Number TextBox"
+                        },
+                        {
+                            "id":"dijit/form/SimpleTextarea",
+                            "name":"Simple Textarea"
+                        },
+                        {
+                            "id":"dijit/form/Textarea",
+                            "name":"Textarea"
+                        },
+                        {
+                            "id":"dijit/form/TextBox",
+                            "name":"TextBox"
+                        },
+                        {
+                            "id":"dijit/form/TimeTextBox",
+                            "name":"Time TextBox"
+                        },
+                        {
+                            "id":"dijit/form/ValidationTextBox",
+                            "name":"Validation TextBox"
+                        },
+                        {
+                            "id":"dijit/form/CheckBox",
+                            "name":"CheckBox"
+                        }
+                    ],
+                    "id":"textbox",
+                    "name":"Textbox",
+                    "type":"group"
+                },
+                {
+                    "children":[
+                        {
+                            "id":"dijit/form/Select",
+                            "name":"Select"
+                        },
+                        {
+                            "id":"dijit/form/ComboBox",
+                            "name":"ComboBox"
+                        },
+                        {
+                            "id":"dijit/form/FilteringSelect",
+                            "name":"Filtering Select"
+                        },
+                        {
+                            "id":"dijit/form/MultiSelect",
+                            "name":"Multi-Select"
+                        }
+                    ],
+                    "id":"SelectTypeWidgets",
+                    "name":"Select",
+                    "type":"group"
+                },
+                {
+                    "children":[
+                        {
+                            "id":"dijit/form/Button",
+                            "name":"Button"
+                        },
+                        {
+                            "id":"dijit/form/ComboButton",
+                            "name":"ComboButton"
+                        },
+                        {
+                            "id":"dijit/form/DropDownButton",
+                            "name":"Drop-Down Button"
+                        },
+                        {
+                            "id":"dijit/form/ToggleButton",
+                            "name":"Toggle Button"
+                        }
+                    ],
+                    "id":"Buttons",
+                    "name":"Button",
+                    "type":"group"
+                },
+                {
+                    "children":[
+                        {
+                            "id":"dijit/form/VerticalRule",
+                            "name":"VerticalRule"
+                        },
+                        {
+                            "id":"dijit/form/VerticalRuleLabels",
+                            "name":"VerticalRuleLabels"
+                        },
+                        {
+                            "id":"dijit/form/HorizontalRule",
+                            "name":"HorizontalRule"
+                        },
+                        {
+                            "id":"dijit/form/HorizontalRuleLabels",
+                            "name":"HorizontalRuleLabels"
+                        }
+                    ],
+                    "id":"Rulers",
+                    "name":"Ruler",
+                    "type":"group"
+                },
+                {
+                    "children":[
+                        {
+                            "id":"dijit/form/VerticalSlider",
+                            "name":"VerticalSlider"
+                        },
+                        {
+                            "id":"dijit/form/HorizontalSlider",
+                            "name":"HorizontalSlider"
+                        }
+                    ],
+                    "id":"Sliders",
+                    "name":"Slider",
+                    "type":"group"
+                }
             ],
-            "id": "form",
-            "name": "Form",
-            "type": "group"
+            "id":"form",
+            "name":"Form",
+            "type":"group"
         },
         {
-            "children": [
-           		 {
-            		"id":"dijit/layout/AccordionContainer",
-            		"name":"AccordionContainer"
-           		 },
-           		 {
-            		"id":"dijit/layout/BorderContainer",
-            		"name":"BorderContainer"
-           		 },
-           		 {
-            		"id":"dijit/layout/ContentPane",
-            		"name":"ContentPane"
-           		 },
-           		 {
-            		"id":"dijit/layout/StackController",
-            		"name":"StackController"
-           		 },
-           		 {
-            		"id":"dijit/layout/LinkPane",
-            		"name":"LinkPane"
-           		 },
-           		 {
-            		"id":"dijit/layout/StackContainer",
-            		"name":"StackContainer"
-           		 },
-           		 {
-            		"id":"dijit/layout/TabContainer",
-            		"name":"TabContainer"
-           		 }
+            "children":[
+                {
+                    "id":"dijit/layout/AccordionContainer",
+                    "name":"AccordionContainer"
+                },
+                {
+                    "id":"dijit/layout/BorderContainer",
+                    "name":"BorderContainer"
+                },
+                {
+                    "id":"dijit/layout/ContentPane",
+                    "name":"ContentPane"
+                },
+                {
+                    "id":"dijit/layout/StackController",
+                    "name":"StackController"
+                },
+                {
+                    "id":"dijit/layout/LinkPane",
+                    "name":"LinkPane"
+                },
+                {
+                    "id":"dijit/layout/StackContainer",
+                    "name":"StackContainer"
+                },
+                {
+                    "id":"dijit/layout/TabContainer",
+                    "name":"TabContainer"
+                }
             ],
-            "id": "layout",
-            "name": "Layout",
-            "type": "group"
+            "id":"layout",
+            "name":"Layout",
+            "type":"group"
         },
         {
-            "children": [],
-            "id": "tree",
-            "name": "Tree",
-            "type": "group"
+            "children":[
+                
+            ],
+            "id":"tree",
+            "name":"Tree",
+            "type":"group"
         },
         {
-            "children": [],
-            "id": "misc",
-            "name": "Miscellaneous",
-            "type": "group"
+            "children":[
+                
+            ],
+            "id":"misc",
+            "name":"Miscellaneous",
+            "type":"group"
         }
-        
     ],
-    "id": "root",
-    "name": "Desktop"
+    "id":"root",
+    "name":"Desktop"
 }

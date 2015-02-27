@@ -2,136 +2,130 @@
   "props": [
     {
       "propName": "disable",
-      "displayName": "Disable",
+      "displayName": "disable",
       "tagName": "checkbox",
       "defaultValue": "true"
     },
     {
+      "propName": "propercase",
+      "displayName": "propercase",
+      "tagName": "checkbox",
+      "defaultValue":"true"
+    },
+    {
+      "propName": "lowercase",
+      "displayName": "lowercase",
+      "tagName": "checkbox",
+      "defaultValue":"true"
+    },
+    {
+      "propName": "readOnly",
+      "displayName": "readOnly",
+      "tagName": "checkbox",
+      "defaultValue":"true"
+    },
+    {
+      "propName": "required",
+      "displayName": "required",
+      "tagName": "checkbox",
+      "defaultValue":"true"
+    },
+    {
+      "propName": "selectOnClick",
+      "displayName": "selectOnClick",
+      "tagName": "checkbox",
+      "defaultValue": "true"
+    },
+    {
+        "propName": "trim",
+        "displayName": "trim",
+        "tagName": "checkbox",
+        "defaultValue":"true"
+    },
+    {
+        "propName": "uppercase",
+        "displayName": "uppercase",
+        "tagName": "checkbox",
+        "defaultValue":"true"
+    },
+    {
       "propName": "id",
-      "displayName": "ID",
+      "displayName": "id",
       "tagName": "text",
       "defaultValue": "myNumberTextBox",
       "global": true
     },
     {
       "propName": "name",
-      "displayName": "Name",
+      "displayName": "name",
       "tagName": "text",
-      "defaultValue": "elevation",
+      "defaultValue": "myNumberTextBoxName",
       "global": true
     },
     {
       "propName": "label",
-      "displayName": "Label",
+      "displayName": "label",
       "tagName": "text",
-      "defaultValue": "myNumberTextBox",
+      "defaultValue": "myNumberTextBoxLbl",
       "global": true
     },
     {
       "propName": "invalidMessage",
-      "displayName": "InvalidMessage",
+      "displayName": "invalidMessage",
       "tagName": "text",
-      "defaultValue": "Please enter a numeric value."
-    },
-    {
-      "propName": "lowercase",
-      "displayName": "Lowercase",
-      "tagName": "checkbox",
-      "defaultValue":"true"
+      "defaultValue": "invalid value"
     },
     {
       "propName": "maxLength",
-      "displayName": "MaxLength",
+      "displayName": "maxLength",
       "tagName": "text",
       "defaultValue": "256"
     },
     {
       "propName": "missingMessage",
-      "displayName": "MissingMessage",
+      "displayName": "missingMessage",
       "tagName": "text",
-      "defaultValue": "please enter message"
+      "defaultValue": "please enter"
     },
     {
       "propName": "placeHolder",
-      "displayName": "PlaceHolder",
+      "displayName": "placeHolder",
       "tagName": "text",
-      "defaultValue": "please enter message"
+      "defaultValue": "please enter"
     },
     {
       "propName": "promptMessage",
-      "displayName": "PromptMessage",
+      "displayName": "promptMessage",
       "tagName": "text",
-      "defaultValue": "please enter message"
-    },
-    {
-      "propName": "propercase",
-      "displayName": "Propercase",
-      "tagName": "checkbox",
-      "defaultValue":"true"
+      "defaultValue": "please enter"
     },
     {
       "propName": "rangeMessage",
-      "displayName": "Range Message",
+      "displayName": "rangeMessage",
       "tagName": "text",
-      "defaultValue": "Invalid elevation."
-    },
-    {
-      "propName": "readOnly",
-      "displayName": "Read only",
-      "tagName": "checkbox",
-      "defaultValue":"true"
-    },
-    {
-      "propName": "required",
-      "displayName": "Required",
-      "tagName": "checkbox",
-      "defaultValue":"true"
-    },
-    {
-      "propName": "selectOnClick",
-      "displayName": "Select On Click",
-      "tagName": "checkbox",
-      "defaultValue": "true"
+      "defaultValue": "out of range"
     },
     {
       "propName": "tabIndex",
-      "displayName": "TabIndex",
+      "displayName": "tabIndex",
       "tagName": "text",
       "defaultValue": "1"
     },
     {
       "propName": "title",
-      "displayName": "Title",
+      "displayName": "title",
       "tagName": "text",
-      "defaultValue": "myNumberTextBox"
+      "defaultValue": "myNumberTextBoxTitle"
     },
     {
       "propName": "tooltip",
-      "displayName": "Tooltip",
+      "displayName": "tooltip",
       "tagName": "text",
-      "defaultValue": "Enter Currency"
-    },
-    {
-      "propName": "tabIndex",
-      "displayName": "TabIndex",
-      "tagName": "text",
-      "defaultValue": "1"
-    },
-    {
-        "propName": "trim",
-        "displayName": "Trim",
-        "tagName": "checkbox",
-        "defaultValue":"true"
-    },
-    {
-        "propName": "uppercase",
-        "displayName": "Uppercase",
-        "tagName": "checkbox",
-        "defaultValue":"true"
+      "defaultValue": "Numberic Text"
     },
     {
       "propName": "value",
-      "displayName": "Value",
+      "displayName": "value",
       "tagName": "text",
       "defaultValue": "100"
     }
