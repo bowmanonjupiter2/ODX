@@ -16,9 +16,9 @@ html,body,.dijitTabPaneWrapper,.dijitTabContainerTopChildWrapper,#mobile-play-le
 body {
 	margin: 0;
 	padding: 0;
-	font-family: Arial, Helvetica, "Liberation Sans", FreeSans,
-		sans-serif, consolas !important;
-	font-size: 14px !important;
+	font-family: consolas !important, Arial, Helvetica, "Liberation Sans", FreeSans,
+		sans-serif;
+	font-size: 12px !important;
 	background: #FFF;
 	color: #222;
 }

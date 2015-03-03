@@ -43,9 +43,9 @@ define(
 		var VIEW_NAME = "content";
 
 		var _thisPage = null;
-		var overviewTab = null;
+		//var overviewTab = null;
 		var playTab = null;
-		var guidenceTab = null;
+		//var guidenceTab = null;
 		var demoBox = null;
 		var declarationBox = null;
 		var programmaticBox = null;
@@ -63,9 +63,9 @@ define(
 				console.log("#" + VIEW_NAME + " - init()");
 				_thisPage = this;
 				title = dojo.byId("mobile-widget-title");				
-				overviewTab = dijit.byId("mobile-overview-tab");			 
+				//overviewTab = dijit.byId("mobile-overview-tab");			 
 				playTab = dijit.byId("mobile-play-tab");
-				guidenceTab = dijit.byId("mobile-guidence-tab");
+				//guidenceTab = dijit.byId("mobile-guidence-tab");
 				demoBox = dijit.byId("mobile-play-demo");
 				declarationBox = dijit.byId("mobile-play-declaration");
 				programmaticBox = dijit.byId("mobile-play-programmatic");
@@ -81,8 +81,8 @@ define(
 			},
 			afterActivate: function(current, data) {
 				title.innerHTML = this.params.id;
-				overviewTab.set("href", _thisPage.data.path + "/overview.html");
-				guidenceTab.set("href", _thisPage.data.path + "/guidence.html");
+				//overviewTab.set("href", _thisPage.data.path + "/overview.html");
+				//guidenceTab.set("href", _thisPage.data.path + "/guidence.html");
 				_thisPage._constructPlayPane();
 
 			},

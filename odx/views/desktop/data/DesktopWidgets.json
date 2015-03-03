@@ -4,7 +4,7 @@
             "children":[
                 {
                     "id":"dijit/DropDownMenu",
-                    "name":"Drop-Down Menu"
+                    "name":"DropDownMenu"
                 }
             ],
             "id":"menu",
@@ -21,27 +21,27 @@
                     "children":[
                         {
                             "id":"dijit/form/CurrencyTextBox",
-                            "name":"Currency TextBox"
+                            "name":"CurrencyTextBox"
                         },
                         {
                             "id":"dijit/form/DateTextBox",
-                            "name":"Date TextBox"
+                            "name":"DateTextBox"
                         },
                         {
                             "id":"dijit/form/MappedTextBox",
-                            "name":"Mapped TextBox"
+                            "name":"MappedTextBox"
                         },
                         {
                             "id":"dijit/form/NumberSpinner",
-                            "name":"Number Spinner"
+                            "name":"NumberSpinner"
                         },
                         {
                             "id":"dijit/form/NumberTextBox",
-                            "name":"Number TextBox"
+                            "name":"NumberTextBox"
                         },
                         {
                             "id":"dijit/form/SimpleTextarea",
-                            "name":"Simple Textarea"
+                            "name":"SimpleTextarea"
                         },
                         {
                             "id":"dijit/form/Textarea",
@@ -53,11 +53,11 @@
                         },
                         {
                             "id":"dijit/form/TimeTextBox",
-                            "name":"Time TextBox"
+                            "name":"TimeTextBox"
                         },
                         {
                             "id":"dijit/form/ValidationTextBox",
-                            "name":"Validation TextBox"
+                            "name":"ValidationTextBox"
                         },
                         {
                             "id":"dijit/form/CheckBox",
@@ -80,11 +80,11 @@
                         },
                         {
                             "id":"dijit/form/FilteringSelect",
-                            "name":"Filtering Select"
+                            "name":"FilteringSelect"
                         },
                         {
                             "id":"dijit/form/MultiSelect",
-                            "name":"Multi-Select"
+                            "name":"MultiSelect"
                         }
                     ],
                     "id":"SelectTypeWidgets",
@@ -103,11 +103,11 @@
                         },
                         {
                             "id":"dijit/form/DropDownButton",
-                            "name":"Drop-Down Button"
+                            "name":"DropDownButton"
                         },
                         {
                             "id":"dijit/form/ToggleButton",
-                            "name":"Toggle Button"
+                            "name":"ToggleButton"
                         }
                     ],
                     "id":"Buttons",
