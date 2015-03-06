@@ -224,16 +224,17 @@ body {
 }
 
 .property-wrapper {
-	line-height: 18px;
-	padding-bottom: 8px;
+	line-height: 15px;
+	padding-bottom: 5px;
 }
 
 .property-label {
-	font-style: bold;
+	font-weight: bold;
 }
 
 .property {
-	
+	font-family: consolas;
+	font-size: 10px;
 }
 
 .dijitTab {
@@ -247,6 +248,11 @@ body {
 
 .dijitTabContainerTop-tabs {
 	border-bottom: 0px solid black !important;
+}
+
+.main-panel{
+	top:10px !important;
+	
 }
 
 /* Let's get this party started */

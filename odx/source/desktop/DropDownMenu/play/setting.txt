@@ -18,18 +18,18 @@
             "tagName": "checkbox",
             "displayName": "refocus",
           	"defaultValue": "true"                        
+        },                       
+        {            
+            "propName": "id",
+            "tagName": "text",
+            "displayName": "id",
+            "defaultValue": "a_drop-down_menu_id"            
         },
         {
 			"propName": "multiCharSearchDuration",
             "tagName": "text",
             "displayName": "multiCharSearchDuration",
           	"defaultValue": "0"                        
-        },                        
-        {            
-            "propName": "id",
-            "tagName": "text",
-            "displayName": "id",
-            "defaultValue": "a_drop-down_menu_id"            
-        }                        
+        }                         
     ]
 }

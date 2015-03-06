@@ -19,8 +19,8 @@
       "defaultValue": "true"
     },
     {
-      "propName": "disable",
-      "displayName": "disable",
+      "propName": "disabled",
+      "displayName": "disabled",
       "tagName": "checkbox",
       "defaultValue": "false"
     },

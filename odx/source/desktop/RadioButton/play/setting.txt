@@ -57,9 +57,9 @@
     },
     {
       "propName": "disabled",
-      "displayName": "Disabled",
+      "displayName": "disabled",
       "tagName": "checkbox",
-	  "defaultValue": "true"
+	  "defaultValue": "false"
     },
     {
       "propName": "readonly",

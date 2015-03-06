@@ -1,8 +1,8 @@
 {
     "props":[
         {
-            "propName":"disable",
-            "displayName":"disable",
+            "propName":"disabled",
+            "displayName":"disabled",
             "tagName":"checkbox",
             "defaultValue":"false"
         },
@@ -127,7 +127,7 @@
             "propName":"tooltip",
             "displayName":"tooltip",
             "tagName":"text",
-            "defaultValue":"Currentcy Textbox"
+            "defaultValue":"A currency textbox"
         },
         {
             "propName":"value",
