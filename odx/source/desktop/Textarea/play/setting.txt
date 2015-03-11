@@ -1,121 +1,121 @@
 {
   "props": [
     {
-      "propName": "disable",
-      "displayName": "Disable",
+      "propName": "disabled",
+      "displayName": "disabled",
       "tagName": "checkbox",
       "defaultValue": "true"
     },
     {
-      "propName": "id",
-      "displayName": "ID",
-      "tagName": "text",
-      "defaultValue": "myNumberTextBox",
-      "global": true
-    },
-    {
-      "propName": "name",
-      "displayName": "Name",
-      "tagName": "text",
-      "defaultValue": "myNumberTextBox",
-      "global": true
-    },
-    {
-      "propName": "cols",
-      "displayName": "Cols",
-      "tagName": "text",
-      "defaultValue": "25"
-    },
-    {
-      "propName": "rows",
-      "displayName": "Rows",
-      "tagName": "text",
-      "defaultValue": "4"
-    },
-    {
-      "propName": "label",
-      "displayName": "Label",
-      "tagName": "text",
-      "defaultValue": "myNumberTextBox",
-      "global": true
-    },
-    {
       "propName": "lowercase",
-      "displayName": "Lowercase",
+      "displayName": "lowercase",
       "tagName": "checkbox",
       "defaultValue":"true"
     },
     {
-      "propName": "maxLength",
-      "displayName": "MaxLength",
-      "tagName": "text",
-      "defaultValue": "256"
-    },
-    {
-      "propName": "placeHolder",
-      "displayName": "PlaceHolder",
-      "tagName": "text",
-      "defaultValue": "please enter message"
-    },
-    {
       "propName": "propercase",
-      "displayName": "Propercase",
+      "displayName": "propercase",
       "tagName": "checkbox",
       "defaultValue":"true"
     },
     {
       "propName": "readOnly",
-      "displayName": "Read only",
+      "displayName": "readOnly",
       "tagName": "checkbox",
       "defaultValue":"true"
     },
     {
       "propName": "required",
-      "displayName": "Required",
+      "displayName": "required",
       "tagName": "checkbox",
       "defaultValue":"true"
     },
     {
       "propName": "selectOnClick",
-      "displayName": "Select On Click",
+      "displayName": "selectOnClick",
       "tagName": "checkbox",
       "defaultValue": "true"
     },
     {
-      "propName": "tabIndex",
-      "displayName": "TabIndex",
-      "tagName": "text",
-      "defaultValue": "1"
-    },
-    {
-      "propName": "title",
-      "displayName": "Title",
-      "tagName": "text",
-      "defaultValue": "myNumberTextBox"
-    },
-    {
-      "propName": "tooltip",
-      "displayName": "Tooltip",
-      "tagName": "text",
-      "defaultValue": "Enter Number"
-    },
-    {
         "propName": "uppercase",
-        "displayName": "Uppercase",
+        "displayName": "uppercase",
         "tagName": "checkbox",
         "defaultValue":"true"
     },
     {
         "propName": "trim",
-        "displayName": "Trim",
+        "displayName": "trim",
         "tagName": "checkbox",
         "defaultValue":"true"
     },
     {
-      "propName": "value",
-      "displayName": "Value",
+      "propName": "id",
+      "displayName": "id",
       "tagName": "text",
-      "defaultValue":  "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+      "defaultValue": "myTextAreaId",
+      "global": true
+    },
+    {
+      "propName": "name",
+      "displayName": "name",
+      "tagName": "text",
+      "defaultValue": "myTextAreaName",
+      "global": true
+    },
+    {
+      "propName": "cols",
+      "displayName": "cols",
+      "tagName": "text",
+      "defaultValue": "25"
+    },
+    {
+      "propName": "rows",
+      "displayName": "rows",
+      "tagName": "text",
+      "defaultValue": "4"
+    },
+    {
+      "propName": "label",
+      "displayName": "label",
+      "tagName": "text",
+      "defaultValue": "myTextAreaLabel",
+      "global": true
+    },
+    {
+      "propName": "maxLength",
+      "displayName": "maxLength",
+      "tagName": "text",
+      "defaultValue": "256"
+    },
+    {
+      "propName": "placeHolder",
+      "displayName": "placeHolder",
+      "tagName": "text",
+      "defaultValue": "please enter"
+    },
+    {
+      "propName": "tabIndex",
+      "displayName": "tabIndex",
+      "tagName": "text",
+      "defaultValue": "1"
+    },
+    {
+      "propName": "title",
+      "displayName": "title",
+      "tagName": "text",
+      "defaultValue": "myTextAreaTitle"
+    },
+    {
+      "propName": "tooltip",
+      "displayName": "tooltip",
+      "tagName": "text",
+      "defaultValue": "a text area"
+    },
+    {
+      "propName": "value",
+      "displayName": "value",
+      "tagName": "text",
+      "defaultValue":  "This is a test."
     }
   ]
 }

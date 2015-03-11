@@ -52,7 +52,7 @@
             "propName":"currency",
             "displayName":"currency",
             "tagName":"text",
-            "defaultValue":"EUR"
+            "defaultValue":"$"
         },
         {
             "propName":"id",
@@ -133,7 +133,7 @@
             "propName":"value",
             "displayName":"value",
             "tagName":"text",
-            "defaultValue":"1,000"
+            "defaultValue":"$1,000.00"
         }
     ]
 }

@@ -58,10 +58,6 @@
                         {
                             "id":"dijit/form/ValidationTextBox",
                             "name":"ValidationTextBox"
-                        },
-                        {
-                            "id":"dijit/form/CheckBox",
-                            "name":"CheckBox"
                         }
                     ],
                     "id":"textbox",
@@ -70,6 +66,10 @@
                 },
                 {
                     "children":[
+                        {
+                            "id":"dijit/form/CheckBox",
+                            "name":"CheckBox"
+                        },
                         {
                             "id":"dijit/form/Select",
                             "name":"Select"
