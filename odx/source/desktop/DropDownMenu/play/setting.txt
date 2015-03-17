@@ -1,35 +1,101 @@
 {
-    "dijitType": "dijit/DropDownMenu",
-    "props": [
+    "dijitType":"dijit/DropDownMenu",
+    "props":[
         {
-			"propName": "activated",
-            "tagName": "checkbox",
-            "displayName": "activated",
-          	"defaultValue": "true"                        
+            "propName":"active",
+            "displayName":"active",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-			"propName": "autoFocus",
-            "tagName": "checkbox",
-            "displayName": "autoFocus",
-          	"defaultValue": "true"                        
-        }, 
-        {
-			"propName": "refocus",
-            "tagName": "checkbox",
-            "displayName": "refocus",
-          	"defaultValue": "true"                        
-        },                       
-        {            
-            "propName": "id",
-            "tagName": "text",
-            "displayName": "id",
-            "defaultValue": "a_drop-down_menu_id"            
+            "propName":"activated",
+            "displayName":"activated",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-			"propName": "multiCharSearchDuration",
-            "tagName": "text",
-            "displayName": "multiCharSearchDuration",
-          	"defaultValue": "0"                        
-        }                         
+            "propName":"autoFocus",
+            "displayName":"autoFocus",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"focused",
+            "displayName":"focused",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"hovering",
+            "displayName":"hovering",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"refocus",
+            "tagName":"checkbox",
+            "displayName":"refocus",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"selected",
+            "displayName":"selected",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"dir",
+            "displayName":"dir",
+            "tagName":"text",
+            "defaultValue":"ltr"
+        },
+        {
+            "propName":"id",
+            "displayName":"id",
+            "tagName":"text",
+            "defaultValue":"myDropDownMenuId"
+        },
+        {
+            "propName":"multiCharSearchDuration",
+            "tagName":"text",
+            "displayName":"multiCharSearchDuration",
+            "defaultValue":"1"
+        },
+        {
+            "propName":"passivePopupDelay",
+            "displayName":"passivePopupDelay",
+            "tagName":"text",
+            "defaultValue":"99999"
+        },
+        {
+            "propName":"popupDelay",
+            "displayName":"popupDelay",
+            "tagName":"text",
+            "defaultValue":"3"
+        },
+        {
+            "propName":"style",
+            "displayName":"style",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"tabIndex",
+            "displayName":"tabIndex",
+            "tagName":"text",
+            "defaultValue":"1"
+        },
+        {
+            "propName":"title",
+            "displayName":"title",
+            "tagName":"text",
+            "defaultValue":"myDropDownMenuTitle"
+        },
+        {
+            "propName":"tooltip",
+            "displayName":"tooltip",
+            "tagName":"text",
+            "defaultValue":"myDropDownMenuTitle"
+        }
     ]
 }

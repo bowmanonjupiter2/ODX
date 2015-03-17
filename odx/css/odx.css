@@ -30,22 +30,22 @@ body {
 
 #desktop-play-left {
 	float: left;
-	width: 82%;
+	width: 83%;
 }
 
 #desktop-play-right {
 	float: right;
-	width: 18%;
+	width: 17%;
 }
 
 #mobile-play-left {
 	float: left;
-	width: 82%;
+	width: 83%;
 }
 
 #mobile-play-right {
 	float: right;
-	width: 18%;
+	width: 17%;
 }
 
 .play-box {

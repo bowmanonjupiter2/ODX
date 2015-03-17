@@ -1,1 +1,1 @@
-No programmatic sample available, please refer to declarative.
+no programmatic sample available, please refer to declarative.
