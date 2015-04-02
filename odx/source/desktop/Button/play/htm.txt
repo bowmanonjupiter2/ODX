@@ -1,1 +1,1 @@
-<div data-dojo-type="dijit/form/Button" data-dojo-props="${props}" id="${id}"></div>
+<button data-dojo-type="dijit/form/Button" id="${id}" data-dojo-props="${props}" >Click</button>

@@ -1,23 +1,15 @@
-<script type="text/javascript">
-require(["dijit/form/MappedTextBox", "dojo/domReady!"], function(MappedTextBox){
-    var textbox = new MappedTextBox({
+require(["dijit/form/MappedTextBox", "dojo/domReady!"], function(mappedTextBox){
+    var textbox = new MappedTextBox(${props}, {
         format: function(value){
-            // format set value to display to user.
             var displayed = this.get("displayedValue");
             if(value.toUpperCase() == displayed.toUpperCase()){
-                // leave user input alone
                 return displayed;
             }else{
-                // update to new value
                 return value;
             }
         },
         parse: function(displayedValue){
-            // parse user input to send canonical value to server
             return displayedValue.toUpperCase();
         }
-    }, "textBox").startup();
-    textbox.set("value", "HI");
+    }, "${id}").startup();
 });
-</script>
-<div id="textBox" />

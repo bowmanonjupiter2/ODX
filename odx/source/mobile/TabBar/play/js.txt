@@ -1,6 +1,3 @@
-<input id="${id}">
-<script type="text/javascript">
 require(["dojox/mobile", "dojox/mobile/parser", "dojox/mobile/TabBar"], function(TabBar, dom){
-    var TabBar = new TabBar({${props}}, "${id}");
+    var TabBar = new TabBar({${props}}, "${id}").startup();
 });
-</script>

@@ -1,70 +1,142 @@
 {
-    "props": [
-    	{
-            "propName": "disabled",
-            "displayName": "Disabled",
-            "tagName": "checkbox",
-			"defaultValue": "true"
+    "props":[
+        {
+            "propName":"active",
+            "displayName":"active",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "propName": "id",
-            "displayName": "ID",
-            "tagName": "text",
-            "defaultValue": "comboboxID"
+            "propName":"disabled",
+            "displayName":"disabled",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "propName": "name",
-            "displayName": "Name",
-            "tagName": "text",
-            "defaultValue": "myComboBox"
+            "propName":"focused",
+            "displayName":"focused",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "propName": "readOnly",
-            "displayName": "Read only",
-            "tagName": "checkbox",
-			"defaultValue": "true"
+            "propName":"hovering",
+            "displayName":"hovering",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "propName": "size",
-            "displayName": "Size",
-            "tagName": "text",
-			"defaultValue": "5"
+            "propName":"intermediateChanges",
+            "displayName":"intermediateChanges",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "propName": "options",
-            "displayName": "Options",
-            "tagName": "option",
-            "defaultValue": "Apple\rOrange\rBanana"
+            "propName":"multiple",
+            "displayName":"multiple",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "propName": "required",
-            "displayName": "Required",
-            "tagName": "checkbox",
-			"defaultValue": "true"
+            "propName":"readOnly",
+            "displayName":"readOnly",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-    	  	"propName": "tabIndex",
-      		"displayName": "TabIndex",
-      		"tagName": "text",
-      		"defaultValue": "1"
-    	},
-    	{
-    	  	"propName": "title",
-      		"displayName": "Title",
-      		"tagName": "text",
-      		"defaultValue": "myComboBox"
-    	},
-    	{
-     		"propName": "tooltip",
-      		"displayName": "Tooltip",
-      		"tagName": "text",
-      		"defaultValue": "NULL"
-    	},
-   	 	{
-      		"propName": "value",
-      		"displayName": "Value",
-      		"tagName": "text",
-      		"defaultValue": "Apple"
-    	}
+            "propName":"required",
+            "displayName":"required",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"scrollOnFocus",
+            "displayName":"scrollOnFocus",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"searchContainerNode",
+            "displayName":"searchContainerNode",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"alt",
+            "displayName":"alt",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"dir",
+            "displayName":"dir",
+            "tagName":"text",
+            "defaultValue":"ltr"
+        },
+        {
+            "propName":"id",
+            "displayName":"id",
+            "tagName":"text",
+            "defaultValue":"myMultiSelectId"
+        },
+        {
+            "propName":"name",
+            "displayName":"name",
+            "tagName":"text",
+            "defaultValue":"myMultiSelectName"
+        },
+        {
+            "propName":"options",
+            "displayName":"options",
+            "tagName":"option",
+            "defaultValue":"Apple\rOrange\rBanana\rStrawberry\rPear"
+        },
+        {
+            "propName":"size",
+            "displayName":"size",
+            "tagName":"text",
+            "defaultValue":"5"
+        },
+        {
+            "propName":"style",
+            "displayName":"style",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"tabIndex",
+            "displayName":"tabIndex",
+            "tagName":"text",
+            "defaultValue":"1"
+        },
+        {
+            "propName":"templatePath",
+            "displayName":"templatePath",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"title",
+            "displayName":"title",
+            "tagName":"text",
+            "defaultValue":"myMultiSelectTitle"
+        },
+        {
+            "propName":"tooltip",
+            "displayName":"tooltip",
+            "tagName":"text",
+            "defaultValue":"this is a multi-select"
+        },
+        {
+            "propName":"type",
+            "displayName":"type",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"value",
+            "displayName":"value",
+            "tagName":"text",
+            "defaultValue":"Apple"
+        }
     ]
 }

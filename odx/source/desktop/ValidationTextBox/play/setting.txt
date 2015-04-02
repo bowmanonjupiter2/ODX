@@ -61,6 +61,12 @@
             "defaultValue":"false"
         },
         {
+            "propName":"searchContainerNode",
+            "displayName":"searchContainerNode",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
             "propName":"scrollOnFocus",
             "displayName":"scrollOnFocus",
             "tagName":"checkbox",
@@ -89,6 +95,12 @@
             "displayName":"dir",
             "tagName":"text",
             "defaultValue":"ltr"
+        },
+        {
+            "propName":"displayedValue",
+            "displayName":"displayedValue",
+            "tagName":"text",
+            "defaultValue":""
         },
         {
             "propName":"id",
@@ -125,6 +137,12 @@
             "displayName":"missingMessage",
             "tagName":"text",
             "defaultValue":"please enter"
+        },
+        {
+            "propName":"regExp",
+            "displayName":"regExp",
+            "tagName":"text",
+            "defaultValue":""
         },
         {
             "propName":"pattern",
@@ -178,7 +196,7 @@
             "propName":"value",
             "displayName":"value",
             "tagName":"text",
-            "defaultValue":"test"
+            "defaultValue":"Hello Dojo"
         }
     ]
 }

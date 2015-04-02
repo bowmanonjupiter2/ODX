@@ -1,40 +1,70 @@
 {
-    "props": [
+    "props":[
         {
-            "propName": "id",
-            "displayName": "ID",
-            "tagName": "text",
-            "defaultValue":"aVerticalRule" 
+            "propName":"focused",
+            "displayName":"focused",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "propName": "container",
-            "displayName": "Container",
-            "tagName": "text",
-            "defaultValue":"container" 
-        },
-	{
-      	 "propName": "style",
-     	 "displayName": "Style",
-     	 "tagName": "text",
-     	 "defaultValue": "height: 150px"
-    	},
-        {
-            "propName": "count",
-            "displayName": "Count",
-            "tagName": "text",
-            "defaultValue":"19" 
+            "propName":"seartchContainerNode",
+            "displayName":"seartchContainerNode",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "propName": "title",
-            "displayName": "Title",
-            "tagName": "text",
-            "defaultValue":"This is a VerticalRule" 
-        },   
+            "propName":"container",
+            "displayName":"container",
+            "tagName":"text",
+            "defaultValue":"rightDecoration"
+        },
         {
-            "propName": "tooltip",
-            "displayName": "ToolTip",
-            "tagName": "text",
-            "defaultValue":"A VerticalRule use for decoration." 
-        }      
+            "propName":"count",
+            "displayName":"count",
+            "tagName":"text",
+            "defaultValue":"5"
+        },
+        {
+            "propName":"dir",
+            "displayName":"dir",
+            "tagName":"text",
+            "defaultValue":"ltr"
+        },
+        {
+            "propName":"id",
+            "displayName":"id",
+            "tagName":"text",
+            "defaultValue":"myVerticalRuleId"
+        },
+        {
+            "propName":"ruleStyle",
+            "displayName":"ruleStyle",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"style",
+            "displayName":"style",
+            "tagName":"text",
+            "defaultValue":"width:.6em"
+        },
+        {
+            "propName":"templatePath",
+            "displayName":"templatePath",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"title",
+            "displayName":"title",
+            "tagName":"text",
+            "defaultValue":"myVerticalTitle"
+        },
+        {
+            "propName":"tooltip",
+            "displayName":"tooltip",
+            "tagName":"text",
+            "defaultValue":"a vertical rule"
+        }
     ]
 }

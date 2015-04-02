@@ -1,41 +1,118 @@
 {
-    "dijitType": "dojox/mobile/Button",
-    "props": [
-     {
-      "propName": "id",
-      "displayName": "ID",
-      "tagName": "text",
-      "defaultValue": "id"
-    },
+    "props":[
         {
-      "propName": "label",
-      "displayName": "Label",
-      "tagName": "text",
-      "defaultValue": "label"
-    },
-       {
-      "propName": "disabled",
-      "displayName": "Disabled",
-      "tagName": "checkbox",
-	  "defaultValue": ""
-    },
-    {
-      "propName": "onClick",
-      "displayName": "onClick",
-      "tagName": "function",
-	  "defaultValue": "function(e){ alert('button clicked');return true;}"
-    },
-     {
-      "propName": "duration",
-      "displayName": "Duration",
-      "tagName": "text",
-      "defaultValue": "1000"
-    },
-       {
-      "propName": "theme",
-      "displayName": "theme",
-      "tagName": "theme",
-	  "defaultValue": ""
-    }
+            "propName":"disabled",
+            "displayName":"disabled",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"focused",
+            "displayName":"focused",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"intermediateChanges",
+            "displayName":"intermediateChanges",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"scrollOnFocus",
+            "displayName":"scrollOnFocus",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"alt",
+            "displayName":"alt",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"class",
+            "displayName":"class",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"dir",
+            "displayName":"dir",
+            "tagName":"text",
+            "defaultValue":"ltr"
+        },
+        {
+            "propName":"duration",
+            "displayName":"duration",
+            "tagName":"text",
+            "defaultValue":"1000"
+        },
+        {
+            "propName":"id",
+            "displayName":"id",
+            "tagName":"text",
+            "defaultValue":"myButtonId"
+        },
+        {
+            "propName":"label",
+            "displayName":"label",
+            "tagName":"text",
+            "defaultValue":"myButtonLbl"
+        },
+        {
+            "propName":"name",
+            "displayName":"name",
+            "tagName":"text",
+            "defaultValue":"myButtonName"
+        },
+        {
+            "propName":"onClick",
+            "displayName":"onClick",
+            "tagName":"function",
+            "defaultValue":"function(e){ alert('button clicked');return true;}"
+        },
+        {
+            "propName":"style",
+            "displayName":"style",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"tabIndex",
+            "displayName":"tabIndex",
+            "tagName":"text",
+            "defaultValue":"1"
+        },
+        {
+            "propName":"title",
+            "displayName":"title",
+            "tagName":"text",
+            "defaultValue":"myBtnTitle"
+        },
+        {
+            "propName":"tooltip",
+            "displayName":"tooltip",
+            "tagName":"text",
+            "defaultValue":"button"
+        },
+        {
+            "propName":"type",
+            "displayName":"type",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"value",
+            "displayName":"value",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"theme",
+            "displayName":"theme",
+            "tagName":"theme",
+            "defaultValue":""
+        }
     ]
 }

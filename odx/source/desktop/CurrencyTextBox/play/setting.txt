@@ -1,8 +1,44 @@
 {
     "props":[
         {
+            "propName":"active",
+            "displayName":"active",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
             "propName":"disabled",
             "displayName":"disabled",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"focused",
+            "displayName":"focused",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"hovering",
+            "displayName":"hovering",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"intermediateChanges",
+            "displayName":"intermediateChanges",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"lowercase",
+            "displayName":"lowercase",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"propercase",
+            "displayName":"propercase",
             "tagName":"checkbox",
             "defaultValue":"false"
         },
@@ -13,34 +49,34 @@
             "defaultValue":"false"
         },
         {
-            "propName":"lowercase",
-            "displayName":"lowercase",
-            "tagName":"checkbox",
-            "defaultValue":"true"
-        },
-        {
-            "propName":"propercase",
-            "displayName":"propercase",
-            "tagName":"checkbox",
-            "defaultValue":"true"
-        },
-        {
             "propName":"required",
             "displayName":"required",
             "tagName":"checkbox",
-            "defaultValue":"true"
+            "defaultValue":"false"
         },
         {
             "propName":"selectOnClick",
             "displayName":"selectOnClick",
             "tagName":"checkbox",
-            "defaultValue":"true"
+            "defaultValue":"false"
+        },
+        {
+            "propName":"scrollOnFocus",
+            "displayName":"scrollOnFocus",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"searchContainerNode",
+            "displayName":"searchContainerNode",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
             "propName":"trim",
             "displayName":"trim",
             "tagName":"checkbox",
-            "defaultValue":"true"
+            "defaultValue":"false"
         },
         {
             "propName":"uppercase",
@@ -49,30 +85,28 @@
             "defaultValue":"false"
         },
         {
+            "propName":"alt",
+            "displayName":"alt",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
             "propName":"currency",
             "displayName":"currency",
             "tagName":"text",
-            "defaultValue":"$"
+            "defaultValue":"USD"
+        },
+        {
+            "propName":"dir",
+            "displayName":"dir",
+            "tagName":"text",
+            "defaultValue":"ltr"
         },
         {
             "propName":"id",
             "displayName":"id",
             "tagName":"text",
-            "defaultValue":"myCurrency",
-            "global":true
-        },
-        {
-            "propName":"name",
-            "displayName":"name",
-            "tagName":"text",
-            "defaultValue":"myCurrencyName",
-            "global":true
-        },
-        {
-            "propName":"label",
-            "displayName":"label",
-            "tagName":"text",
-            "defaultValue":"myCurrencyLabel",
+            "defaultValue":"myCurrTextBoxId",
             "global":true
         },
         {
@@ -80,6 +114,13 @@
             "displayName":"invalidMessage",
             "tagName":"text",
             "defaultValue":"invalid message"
+        },
+        {
+            "propName":"label",
+            "displayName":"label",
+            "tagName":"text",
+            "defaultValue":"myCurrTextBoxLabel",
+            "global":true
         },
         {
             "propName":"maxLength",
@@ -92,6 +133,19 @@
             "displayName":"missingMessage",
             "tagName":"text",
             "defaultValue":"please enter"
+        },
+        {
+            "propName":"name",
+            "displayName":"name",
+            "tagName":"text",
+            "defaultValue":"myCurrTextBoxName",
+            "global":true
+        },
+        {
+            "propName":"pattern",
+            "displayName":"pattern",
+            "tagName":"text",
+            "defaultValue":".*"
         },
         {
             "propName":"placeHolder",
@@ -112,6 +166,18 @@
             "defaultValue":"out of range"
         },
         {
+            "propName":"regExp",
+            "displayName":"regExp",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"style",
+            "displayName":"style",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
             "propName":"tabIndex",
             "displayName":"tabIndex",
             "tagName":"text",
@@ -121,7 +187,7 @@
             "propName":"title",
             "displayName":"title",
             "tagName":"text",
-            "defaultValue":"A currency textbox"
+            "defaultValue":"myCurrTextBoxTitle"
         },
         {
             "propName":"tooltip",
@@ -130,10 +196,16 @@
             "defaultValue":"A currency textbox"
         },
         {
+            "propName":"type",
+            "displayName":"type",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
             "propName":"value",
             "displayName":"value",
             "tagName":"text",
-            "defaultValue":"$1,000.00"
+            "defaultValue":"1000"
         }
     ]
 }

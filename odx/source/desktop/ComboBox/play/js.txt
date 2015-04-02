@@ -1,4 +1,3 @@
-<script type="text/javascript">
 require([
     "dojo/store/Memory", "dijit/form/ComboBox", "dojo/domReady!"
 ], function(Memory, ComboBox){
@@ -18,14 +17,6 @@ require([
             {name:"Delaware", id:"DE"}
         ]
     });
-    //var comboBox = new ComboBox(${props}, "stateSelect").startup();
-    var comboBox = new ComboBox({
-            id: "stateSelect",
-           name: "state",
-           value: "California",
-           store: stateStore,
-           searchAttr: "name"
-        }, "stateSelect");
+    var comboBox = new ComboBox(${props}, {store: stateStore},"${id}").startup();
 });
-</script>
-<input id="${id}">
+

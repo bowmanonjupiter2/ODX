@@ -1,26 +1,58 @@
 {
-  "props": [
-    {
-      "propName": "id",
-      "displayName": "ID",
-      "tagName": "text",
-      "defaultValue": "StackContainerID",
-      "global": true
-    },    {
-      "propName": "title",
-      "displayName": "title",
-      "tagName": "text",
-      "defaultValue": "Title for stackContainer"
-    },{
-      "propName": "tooltip",
-      "displayName": "tooltip",
-      "tagName": "text",
-      "defaultValue": "tooltip"
-    },{
-      "propName": "style",
-      "displayName": "Style",
-      "tagName": "text",
-      "defaultValue": "height: 150px"
-    } 
-  ]
+    "props":[
+        {
+            "propName":"doLayout",
+            "displayName":"doLayout",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"focused",
+            "displayName":"focused",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"isLayoutContainer",
+            "displayName":"isLayoutContainer",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"persist",
+            "displayName":"persist",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"dir",
+            "displayName":"dir",
+            "tagName":"text",
+            "defaultValue":"ltr"
+        },
+        {
+            "propName":"id",
+            "displayName":"id",
+            "tagName":"text",
+            "defaultValue":"myStackContainerId"
+        },
+        {
+            "propName":"style",
+            "displayName":"style",
+            "tagName":"text",
+            "defaultValue":"height: 150px"
+        },
+        {
+            "propName":"title",
+            "displayName":"title",
+            "tagName":"text",
+            "defaultValue":"myStackContainerTitle"
+        },
+        {
+            "propName":"tooltip",
+            "displayName":"tooltip",
+            "tagName":"text",
+            "defaultValue":"stack container"
+        }
+    ]
 }

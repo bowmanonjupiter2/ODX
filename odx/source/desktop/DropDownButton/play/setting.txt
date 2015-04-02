@@ -1,82 +1,148 @@
 {
-    "props": [
-    	{
-            "propName": "disabled",
-            "displayName": "Disabled",
-            "tagName": "checkbox",
-			"defaultValue": ""
+    "props":[
+        {
+            "propName":"active",
+            "displayName":"active",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "propName": "id",
-            "displayName": "ID",
-            "tagName": "text",
-            "defaultValue": "combobuttonID"
+            "propName":"autoWidth",
+            "displayName":"autoWidth",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "propName": "required",
-            "displayName": "Required",
-            "tagName": "checkbox",
-			"defaultValue": "true"
+            "propName":"disabled",
+            "displayName":"disabled",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "propName": "autoWidth",
-            "displayName": "AutoWidth",
-            "tagName": "checkbox",
-			"defaultValue": ""
+            "propName":"focused",
+            "displayName":"forceWifocuseddth",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "propName": "forceWidth",
-            "displayName": "ForceWidth",
-            "tagName": "checkbox",
-			"defaultValue": ""
+            "propName":"forceWidth",
+            "displayName":"forceWidth",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "propName": "label",
-            "displayName": "Label",
-            "tagName": "text",
-            "defaultValue": "myComboButton"
+            "propName":"hovering",
+            "displayName":"hovering",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-      		"propName": "maxHeigth",
-      		"displayName": "MaxHeigth",
-      		"tagName": "text",
-      		"defaultValue": "256"
-    	},
-    	{
-            "propName": "name",
-            "displayName": "Name",
-            "tagName": "text",
-            "defaultValue": "myComboButton"
+            "propName":"intermediateChanges",
+            "displayName":"intermediateChanges",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "propName": "showlabel",
-            "displayName": "Showlabel",
-            "tagName": "checkbox",
-			"defaultValue": "true"
+            "propName":"required",
+            "displayName":"required",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-    	  	"propName": "tabIndex",
-      		"displayName": "TabIndex",
-      		"tagName": "text",
-      		"defaultValue": "1"
-    	},
-    	{
-    	  	"propName": "title",
-      		"displayName": "Title",
-      		"tagName": "text",
-      		"defaultValue": "myComboBox"
-    	},
-    	{
-     		"propName": "tooltip",
-      		"displayName": "Tooltip",
-      		"tagName": "text",
-      		"defaultValue": "NULL"
-    	},
-    	{
-      		"propName": "value",
-      		"displayName": "Value",
-      		"tagName": "text",
-      		"defaultValue": ""
-    	}
+            "propName":"scrollOnFocus",
+            "displayName":"scrollOnFocus",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"searchContainerNode",
+            "displayName":"searchContainerNode",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"showLabel",
+            "displayName":"showLabel",
+            "tagName":"checkbox",
+            "defaultValue":"true"
+        },
+        {
+            "propName":"alt",
+            "displayName":"alt",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"dir",
+            "displayName":"dir",
+            "tagName":"text",
+            "defaultValue":"ltr"
+        },
+        {
+            "propName":"id",
+            "displayName":"id",
+            "tagName":"text",
+            "defaultValue":"myDropDownBtnId"
+        },
+        {
+            "propName":"label",
+            "displayName":"label",
+            "tagName":"text",
+            "defaultValue":"myDropDownBtnLabel"
+        },
+        {
+            "propName":"maxHeigth",
+            "displayName":"maxHeigth",
+            "tagName":"text",
+            "defaultValue":"16"
+        },
+        {
+            "propName":"name",
+            "displayName":"name",
+            "tagName":"text",
+            "defaultValue":"myDropDownBtnName"
+        },
+        {
+            "propName":"style",
+            "displayName":"style",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"tabIndex",
+            "displayName":"tabIndex",
+            "tagName":"text",
+            "defaultValue":"1"
+        },
+        {
+            "propName":"templatePath",
+            "displayName":"templatePath",
+            "tagName":"text",
+            "defaultValue":"1"
+        },
+        {
+            "propName":"title",
+            "displayName":"title",
+            "tagName":"text",
+            "defaultValue":"myDropDownBtnTitle"
+        },
+        {
+            "propName":"tooltip",
+            "displayName":"tooltip",
+            "tagName":"text",
+            "defaultValue":"a drop-down button"
+        },
+        {
+            "propName":"type",
+            "displayName":"type",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"value",
+            "displayName":"value",
+            "tagName":"text",
+            "defaultValue":""
+        }
     ]
 }

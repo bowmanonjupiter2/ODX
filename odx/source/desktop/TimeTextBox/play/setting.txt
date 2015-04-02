@@ -1,157 +1,232 @@
 {
-  "props": [
-    {
-      "propName": "autoWidth",
-      "displayName": "autoWidth",
-      "tagName": "checkbox",
-      "defaultValue": "true"
-    },
-    {
-      "propName": "forceWidth",
-      "displayName": "forceWidth",
-      "tagName": "checkbox",
-      "defaultValue": "true"
-    },
-    {
-      "propName": "hasDownArrow",
-      "displayName": "hasDownArrow",
-      "tagName": "checkbox",
-      "defaultValue": "true"
-    },
-    {
-      "propName": "disabled",
-      "displayName": "disabled",
-      "tagName": "checkbox",
-      "defaultValue": "true"
-    },
-    {
-      "propName": "lowercase",
-      "displayName": "lowercase",
-      "tagName": "checkbox",
-      "defaultValue":"true"
-    },
-    {
-      "propName": "propercase",
-      "displayName": "propercase",
-      "tagName": "checkbox",
-      "defaultValue":"true"
-    },
-    {
-      "propName": "readOnly",
-      "displayName": "readOnly",
-      "tagName": "checkbox",
-      "defaultValue":"true"
-    },
-    {
-      "propName": "required",
-      "displayName": "required",
-      "tagName": "checkbox",
-      "defaultValue":"true"
-    },
-    {
-      "propName": "selectOnClick",
-      "displayName": "selectOnClick",
-      "tagName": "checkbox",
-      "defaultValue": "true"
-    },
-    {
-        "propName": "uppercase",
-        "displayName": "uppercase",
-        "tagName": "checkbox",
-        "defaultValue":"true"
-    },
-    {
-      "propName": "dropDownDefaultValue",
-      "displayName": "dropDownDefaultValue",
-      "tagName": "text",
-      "defaultValue": "T15:00:00"
-    },
-    {
-      "propName": "id",
-      "displayName": "id",
-      "tagName": "text",
-      "defaultValue": "myTimeTextBoxId",
-      "global": true
-    },
-    {
-      "propName": "name",
-      "displayName": "name",
-      "tagName": "text",
-      "defaultValue": "myTimeTextBoxName",
-      "global": true
-    },
-    {
-      "propName": "label",
-      "displayName": "label",
-      "tagName": "text",
-      "defaultValue": "myTimeTextBoxLabel",
-      "global": true
-    },
-    {
-      "propName": "invalidMessage",
-      "displayName": "invalidMessage",
-      "tagName": "text",
-      "defaultValue": "invalid input"
-    },
-    {
-      "propName": "maxLength",
-      "displayName": "maxLength",
-      "tagName": "text",
-      "defaultValue": "256"
-    },
-    {
-      "propName": "maxHeight",
-      "displayName": "maxHeight",
-      "tagName": "text",
-      "defaultValue": "256"
-    },
-    {
-      "propName": "missingMessage",
-      "displayName": "missingMessage",
-      "tagName": "text",
-      "defaultValue": "please enter"
-    },
-    {
-      "propName": "placeHolder",
-      "displayName": "placeHolder",
-      "tagName": "text",
-      "defaultValue": "please enter"
-    },
-    {
-      "propName": "promptMessage",
-      "displayName": "promptMessage",
-      "tagName": "text",
-      "defaultValue": "please enter"
-    },
-    {
-      "propName": "rangeMessage",
-      "displayName": "rangeMessage",
-      "tagName": "text",
-      "defaultValue": "input out of range"
-    },
-    {
-      "propName": "tabIndex",
-      "displayName": "tabIndex",
-      "tagName": "text",
-      "defaultValue": "1"
-    },
-    {
-      "propName": "title",
-      "displayName": "title",
-      "tagName": "text",
-      "defaultValue": "myTimeTextBoxTitle"
-    },
-    {
-      "propName": "tooltip",
-      "displayName": "tooltip",
-      "tagName": "text",
-      "defaultValue": "a Time Text Box"
-    },
-    {
-      "propName": "value",
-      "displayName": "value",
-      "tagName": "text",
-      "defaultValue": "T15:00:00"
-    }
-  ]
+    "props":[
+        {
+            "propName":"active",
+            "displayName":"active",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"autoWidth",
+            "displayName":"autoWidth",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"disabled",
+            "displayName":"disabled",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"focused",
+            "displayName":"focused",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"forceWidth",
+            "displayName":"forceWidth",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"hasDownArrow",
+            "displayName":"hasDownArrow",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"hovering",
+            "displayName":"hovering",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"intermediateChanges",
+            "displayName":"intermediateChanges",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"lowercase",
+            "displayName":"lowercase",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"propercase",
+            "displayName":"propercase",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"readOnly",
+            "displayName":"readOnly",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"required",
+            "displayName":"required",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"scrollOnFocus",
+            "displayName":"scrollOnFocus",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"searchContainerNode",
+            "displayName":"searchContainerNode",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"selectOnClick",
+            "displayName":"selectOnClick",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"trim",
+            "displayName":"trim",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"uppercase",
+            "displayName":"uppercase",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"alt",
+            "displayName":"alt",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"datePackage",
+            "displayName":"datePackage",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"dir",
+            "displayName":"dir",
+            "tagName":"text",
+            "defaultValue":"ltr"
+        },
+        {
+            "propName":"dropDownDefaultValue",
+            "displayName":"dropDownDefaultValue",
+            "tagName":"text",
+            "defaultValue":"00:00:00"
+        },
+        {
+            "propName":"id",
+            "displayName":"id",
+            "tagName":"text",
+            "defaultValue":"myTimeTextBoxId"
+        },
+        {
+            "propName":"name",
+            "displayName":"name",
+            "tagName":"text",
+            "defaultValue":"myTimeTextBoxName"
+        },
+        {
+            "propName":"label",
+            "displayName":"label",
+            "tagName":"text",
+            "defaultValue":"myTimeTextBoxLabel"
+        },
+        {
+            "propName":"invalidMessage",
+            "displayName":"invalidMessage",
+            "tagName":"text",
+            "defaultValue":"invalid input"
+        },
+        {
+            "propName":"maxLength",
+            "displayName":"maxLength",
+            "tagName":"text",
+            "defaultValue":"256"
+        },
+        {
+            "propName":"maxHeight",
+            "displayName":"maxHeight",
+            "tagName":"text",
+            "defaultValue":"16"
+        },
+        {
+            "propName":"missingMessage",
+            "displayName":"missingMessage",
+            "tagName":"text",
+            "defaultValue":"please enter"
+        },
+        {
+            "propName":"placeHolder",
+            "displayName":"placeHolder",
+            "tagName":"text",
+            "defaultValue":"please enter"
+        },
+        {
+            "propName":"promptMessage",
+            "displayName":"promptMessage",
+            "tagName":"text",
+            "defaultValue":"please enter"
+        },
+        {
+            "propName":"rangeMessage",
+            "displayName":"rangeMessage",
+            "tagName":"text",
+            "defaultValue":"input out of range"
+        },
+        {
+            "propName":"regExp",
+            "displayName":"regExp",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"style",
+            "displayName":"style",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"tabIndex",
+            "displayName":"tabIndex",
+            "tagName":"text",
+            "defaultValue":"1"
+        },
+        {
+            "propName":"title",
+            "displayName":"title",
+            "tagName":"text",
+            "defaultValue":"myTimeTextBoxTitle"
+        },
+        {
+            "propName":"tooltip",
+            "displayName":"tooltip",
+            "tagName":"text",
+            "defaultValue":"a Time Text Box"
+        },
+        {
+            "propName":"type",
+            "displayName":"type",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"value",
+            "displayName":"value",
+            "tagName":"text",
+            "defaultValue":"T15:00:00"
+        }
+    ]
 }

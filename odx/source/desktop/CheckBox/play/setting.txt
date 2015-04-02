@@ -1,31 +1,136 @@
 {
-  "props": [
-    {
-      "propName": "id",
-      "displayName": "ID",
-      "tagName": "text",
-      "defaultValue": "myCheck",
-      "global": true
-    },
-    {
-      "propName": "name",
-      "displayName": "Name",
-      "tagName": "text",
-      "defaultValue": "myCheck",
-      "global": true
-    },
-    {
-      "propName": "readOnly",
-      "displayName": "Read only",
-      "tagName": "checkbox",
-      "defaultValue": "true"
-    },
-    {
-      "propName": "label",
-      "displayName": "Label",
-      "tagName": "text",
-      "defaultValue": "myCheck",
-      "global": true
-    }
-  ]
+    "props":[
+        {
+            "propName":"active",
+            "displayName":"active",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"checked",
+            "displayName":"checked",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"disabled",
+            "displayName":"disabled",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"focused",
+            "displayName":"focused",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"hovering",
+            "displayName":"hovering",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"intermediateChanges",
+            "displayName":"intermediateChanges",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"readOnly",
+            "displayName":"readOnly",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"scrollOnFocus",
+            "displayName":"scrollOnFocus",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"searchContainerNode",
+            "displayName":"searchContainerNode",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"showLabel",
+            "displayName":"showLabel",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"alt",
+            "displayName":"alt",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"dir",
+            "displayName":"dir",
+            "tagName":"text",
+            "defaultValue":"ltr"
+        },
+        {
+            "propName":"id",
+            "displayName":"id",
+            "tagName":"text",
+            "defaultValue":"myCheckBoxId"
+        },
+        {
+            "propName":"name",
+            "displayName":"name",
+            "tagName":"text",
+            "defaultValue":"myCheckBoxName"
+        },
+        {
+            "propName":"label",
+            "displayName":"label",
+            "tagName":"text",
+            "defaultValue":"myCheckBoxLabel"
+        },
+        {
+            "propName":"style",
+            "displayName":"style",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"tabIndex",
+            "displayName":"tabIndex",
+            "tagName":"text",
+            "defaultValue":"1"
+        },
+        {
+            "propName":"templatePath",
+            "displayName":"templatePath",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"title",
+            "displayName":"title",
+            "tagName":"text",
+            "defaultValue":"myCheckBoxTitle"
+        },
+        {
+            "propName":"toolTip",
+            "displayName":"toolTip",
+            "tagName":"text",
+            "defaultValue":"This is a checkbox"
+        },
+        {
+            "propName":"type",
+            "displayName":"type",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"value",
+            "displayName":"value",
+            "tagName":"text",
+            "defaultValue":"Y"
+        }
+    ]
 }

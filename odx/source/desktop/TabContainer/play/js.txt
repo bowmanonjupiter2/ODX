@@ -17,6 +17,3 @@ require(["dijit/layout/TabContainer", "dijit/layout/ContentPane", "dojo/domReady
 
     tc.startup();
 });
-<div style="width: 350px; height: 290px">
-    <div id="${id}"></div>
-</div>

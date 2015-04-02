@@ -1,112 +1,178 @@
 {
-    "props": [
-    	{
-            "propName": "disabled",
-            "displayName": "Disabled",
-            "tagName": "checkbox",
-			"defaultValue": ""
+    "props":[
+        {
+            "propName":"active",
+            "displayName":"active",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "propName": "id",
-            "displayName": "ID",
-            "tagName": "text",
-            "defaultValue": "comboboxID"
+            "propName":"autoWidth",
+            "displayName":"autoWidth",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "propName": "name",
-            "displayName": "Name",
-            "tagName": "text",
-            "defaultValue": "myComboBox"
+            "propName":"disabled",
+            "displayName":"disabled",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "propName": "readOnly",
-            "displayName": "Read only",
-            "tagName": "checkbox",
-			"defaultValue": ""
+            "propName":"focused",
+            "displayName":"focused",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "propName": "emptyLabel",
-            "displayName": "EmptyLabel",
-            "tagName": "text",
-			"defaultValue": "mySelect"
+            "propName":"forceWidth",
+            "displayName":"forceWidth",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "propName": "autoWidth",
-            "displayName": "AutoWidth",
-            "tagName": "checkbox",
-			"defaultValue": ""
+            "propName":"hovering",
+            "displayName":"hovering",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "propName": "forceWidth",
-            "displayName": "ForceWidth",
-            "tagName": "checkbox",
-			"defaultValue": ""
+            "propName":"intermediateChanges",
+            "displayName":"intermediateChanges",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "propName": "loadChildrenOnOpen",
-            "displayName": "Load children on Open",
-            "tagName": "checkbox",
-			"defaultValue": "true"
+            "propName":"loadChildrenOnOpen",
+            "displayName":"loadChildrenOnOpen",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "propName": "sortByLabel",
-            "displayName": "SortByLabel",
-            "tagName": "checkbox",
-			"defaultValue": ""
+            "propName":"multiple",
+            "displayName":"multiple",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "propName": "optionsValues",
-            "displayName": "Options",
-            "tagName": "option",
-            "defaultValue": "Tennessee\rVirginia\rWashington\rFlorida\rCalifornia"
+            "propName":"readOnly",
+            "displayName":"readOnly",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "propName": "required",
-            "displayName": "Required",
-            "tagName": "checkbox",
-			"defaultValue": ""
+            "propName":"required",
+            "displayName":"required",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-      		"propName": "multiCharSearchDuration",
-      		"displayName": "MultiCharSearchDuration",
-      		"tagName": "text",
-      		"defaultValue": "4"
-    	},
-    	{
-      		"propName": "maxHeigth",
-      		"displayName": "MaxHeigth",
-      		"tagName": "text",
-      		"defaultValue": "256"
-    	},
-    	{
-      		"propName": "multiple",
-      		"displayName": "Multiple",
-      		"tagName": "checkbox",
-      		"defaultValue": ""
-    	},
-    	{
-    	  	"propName": "tabIndex",
-      		"displayName": "TabIndex",
-      		"tagName": "text",
-      		"defaultValue": "1"
-    	},
-    	{
-    	  	"propName": "title",
-      		"displayName": "Title",
-      		"tagName": "text",
-      		"defaultValue": "myComboBox"
-    	},
-    	{
-     		"propName": "tooltip",
-      		"displayName": "Tooltip",
-      		"tagName": "text",
-      		"defaultValue": "NULL"
-    	},
-    	{
-      		"propName": "value",
-      		"displayName": "Value",
-      		"tagName": "text",
-      		"defaultValue": "Tennessee"
-    	}
+            "propName":"scrollOnFocus",
+            "displayName":"scrollOnFocus",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"searchContainerNode",
+            "displayName":"searchContainerNode",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"sortByLabel",
+            "displayName":"sortByLabel",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"alt",
+            "displayName":"alt",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"dir",
+            "displayName":"dir",
+            "tagName":"text",
+            "defaultValue":"ltr"
+        },
+        {
+            "propName":"id",
+            "displayName":"id",
+            "tagName":"text",
+            "defaultValue":"mySelectId"
+        },
+        {
+            "propName":"labelType",
+            "displayName":"labelType",
+            "tagName":"text",
+            "defaultValue":"text"
+        },
+        {
+            "propName":"maxHeigth",
+            "displayName":"maxHeigth",
+            "tagName":"text",
+            "defaultValue":"16"
+        },
+        {
+            "propName":"multiCharSearchDuration",
+            "displayName":"multiCharSearchDuration",
+            "tagName":"text",
+            "defaultValue":"4"
+        },
+        {
+            "propName":"name",
+            "displayName":"name",
+            "tagName":"text",
+            "defaultValue":"mySelectName"
+        },
+        {
+            "propName":"emptyLabel",
+            "displayName":"emptyLabel",
+            "tagName":"text",
+            "defaultValue":"mySelect"
+        },
+        {
+            "propName":"options",
+            "displayName":"options",
+            "tagName":"option",
+            "defaultValue":"Dojo\rJQuery\rHtml\rCSS\rJavascript"
+        },
+        {
+            "propName":"style",
+            "displayName":"style",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"tabIndex",
+            "displayName":"tabIndex",
+            "tagName":"text",
+            "defaultValue":"1"
+        },
+        {
+            "propName":"title",
+            "displayName":"title",
+            "tagName":"text",
+            "defaultValue":"mySelectTitle"
+        },
+        {
+            "propName":"tooltip",
+            "displayName":"tooltip",
+            "tagName":"text",
+            "defaultValue":"this is a select"
+        },
+        {
+            "propName":"type",
+            "displayName":"type",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"value",
+            "displayName":"value",
+            "tagName":"text",
+            "defaultValue":"Dojo"
+        }
     ]
 }

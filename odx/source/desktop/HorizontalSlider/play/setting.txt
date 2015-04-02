@@ -1,100 +1,154 @@
 {
-  "props": [
-    {
-      "propName": "id",
-      "displayName": "ID",
-      "tagName": "text",
-      "defaultValue": "HorizontalRuleID"
-    },
-    {
-      "propName": "name",
-      "displayName": "Name",
-      "tagName": "text",
-      "defaultValue": "HorizontalRuleName"
-    },
-    {
-      "propName": "style",
-      "displayName": "Style",
-      "tagName": "text",
-      "defaultValue": "width:400px;"
-    },
-    {
-      "propName": "slideDuration",
-      "displayName": "SlideDuration (ms)",
-      "tagName": "text",
-      "defaultValue": 300
-    },
-    {
-      "propName": "maximum",
-      "displayName": "Maximum",
-      "tagName": "text",
-      "defaultValue": 100
-    },
-    {
-      "propName": "minimum",
-      "displayName": "Minimum",
-      "tagName": "text",
-      "defaultValue": 0
-    },
-     {
-      "propName": "value",
-      "displayName": "Value",
-      "tagName": "text",
-      "defaultValue": 6
-    },
-     {
-      "propName": "title",
-      "displayName": "Title",
-      "tagName": "text",
-      "defaultValue":"Please enter title !"
-    },
-     {
-      "propName": "tooltip",
-      "displayName": "Tooltip",
-      "tagName": "text",
-      "defaultValue":"Tooltip to appear when the mouse is hovered over."
-    },
-    {
-      "propName": "tabIndex",
-      "displayName": "tabIndex",
-      "tagName": "text",
-	  "defaultValue": "demoAccordionContainer"
-    },
-    {
-      "propName": "disabled",
-      "displayName": "Disabled",
-      "tagName": "checkbox",
-	  "defaultValue": ""
-    },
-    {
-      "propName": "readOnly",
-      "displayName": "ReadOnly",
-      "tagName": "checkbox",
-	  "defaultValue": ""
-    },
-    {
-      "propName": "clickSelect",
-      "displayName": "ClickSelect",
-      "tagName": "checkbox",
-	  "defaultValue": "true"
-    },
-    {
-      "propName": "showButtons",
-      "displayName": "ShowButtons",
-      "tagName": "checkbox",
-	  "defaultValue": "true"
-    },
-    {
-      "propName": "discreteValues",
-      "displayName": "DiscreteValues",
-      "tagName": "text",
-      "defaultValue": 100
-    },
-    {
-      "propName": "intermediateChanges",
-      "displayName": "IntermediateChanges",
-      "tagName": "checkbox",
-	  "defaultValue": "true"
-    }
-  ]
+    "props":[
+        {
+            "propName":"active",
+            "displayName":"active",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"clickSelect",
+            "displayName":"clickSelect",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"disabled",
+            "displayName":"disabled",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"focused",
+            "displayName":"focused",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"hovering",
+            "displayName":"hovering",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"intermediateChanges",
+            "displayName":"intermediateChanges",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"readOnly",
+            "displayName":"readOnly",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"searchContainerNode",
+            "displayName":"searchContainerNode",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"showButtons",
+            "displayName":"showButtons",
+            "tagName":"checkbox",
+            "defaultValue":"true"
+        },
+        {
+            "propName":"alt",
+            "displayName":"alt",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"dir",
+            "displayName":"dir",
+            "tagName":"text",
+            "defaultValue":"ltr"
+        },
+        {
+            "propName":"discreteValues",
+            "displayName":"discreteValues",
+            "tagName":"text",
+            "defaultValue":"100"
+        },
+        {
+            "propName":"id",
+            "displayName":"id",
+            "tagName":"text",
+            "defaultValue":"myHorizontalSliderId"
+        },
+        {
+            "propName":"maximum",
+            "displayName":"maximum",
+            "tagName":"text",
+            "defaultValue":100
+        },
+        {
+            "propName":"minimum",
+            "displayName":"minimum",
+            "tagName":"text",
+            "defaultValue":0
+        },
+        {
+            "propName":"name",
+            "displayName":"name",
+            "tagName":"text",
+            "defaultValue":"myHorizontalSliderName"
+        },
+        {
+            "propName":"pageIncrement",
+            "displayName":"pageIncrement",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"slideDuration",
+            "displayName":"slideDuration",
+            "tagName":"text",
+            "defaultValue":1000
+        },
+        {
+            "propName":"style",
+            "displayName":"style",
+            "tagName":"text",
+            "defaultValue":"width:400px;"
+        },
+        {
+            "propName":"tabIndex",
+            "displayName":"tabIndex",
+            "tagName":"text",
+            "defaultValue":"1"
+        },
+        {
+            "propName":"templatePath",
+            "displayName":"templatePath",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"title",
+            "displayName":"title",
+            "tagName":"text",
+            "defaultValue":"myHorizontalSliderTitle"
+        },
+        {
+            "propName":"tooltip",
+            "displayName":"tooltip",
+            "tagName":"text",
+            "defaultValue":"horizontal slider"
+        },
+        {
+            "propName":"type",
+            "displayName":"type",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"value",
+            "displayName":"value",
+            "tagName":"text",
+            "defaultValue":"0"
+        }
+    ]
 }

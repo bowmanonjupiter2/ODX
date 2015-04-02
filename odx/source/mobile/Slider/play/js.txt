@@ -1,6 +1,4 @@
-<input id="${id}">
 <script type="text/javascript">
 require(["dojox/mobile/Slider", "dojo/dom", "dojo/domReady!"], function(Slider, dom){
-    var mySlider = new Slider({${props}}, "${id}");
+   new Slider({${props}}, "${id}").startup();
 });
-</script>

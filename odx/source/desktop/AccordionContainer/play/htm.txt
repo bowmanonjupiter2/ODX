@@ -1,13 +1,10 @@
 <div style="width: 150px; height: 150px">
     <div data-dojo-type="dijit/layout/AccordionContainer" data-dojo-props="${props}" id="${id}">
-        <div data-dojo-type="dijit/layout/ContentPane" title="Heeh, this is a content pane">
-            Hi!
+        <div data-dojo-type="dijit/layout/ContentPane" title="content pane title A">
+            Hello Dojo!
         </div>
-        <div data-dojo-type="dijit/layout/ContentPane" title="This is as well" selected="true">
-            Hi how are you?
-        </div>
-        <div data-dojo-type="dijit/layout/ContentPane" title="This too">
-            Hi how are you? .....Great, thx
+        <div data-dojo-type="dijit/layout/ContentPane" title="content pane title Bl" selected="true">
+            Hello World!
         </div>
     </div>
 </div>

@@ -16,12 +16,10 @@ require(["dijit/form/DropDownButton", "dijit/DropDownMenu", "dijit/MenuItem", "d
     menu.addChild(menuItem2);
     menu.startup();
 
-    var button = new DropDownButton({
-        label: "hello!",
-        name: "programmatic2",
+    var button = new DropDownButton(${props},{
+        label: "${label}",
+        name: "${name}",
         dropDown: menu,
-        id: "progButton"
+        id: "${id}"
     }).startup();
-    dom.byId("dropDownButtonContainer").appendChild(button.domNode);
 });
-<div id="dropDownButtonContainer"></div>

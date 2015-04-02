@@ -1,72 +1,148 @@
 {
-    "dijitType": "dojox/mobile/Slider",
-    "props": [
-      {
-            "defaultValue": "id",
-            "displayName": "Id",
-            "propName": "id",
-            "tagName": "text"
+    "props":[
+        {
+            "propName":"disabled",
+            "displayName":"disabled",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "defaultValue": "10",
-            "displayName": "Value",
-            "propName": "value",
-            "tagName": "text"
-        },
-         {
-            "defaultValue": "20",
-            "displayName": "Max",
-            "propName": "max",
-            "tagName": "text"
-        },
-         {
-            "defaultValue": "0",
-            "displayName": "Min",
-            "propName": "min",
-            "tagName": "text"
-        },
-           {
-            "defaultValue": "1",
-            "displayName": "step",
-            "propName": "step",
-            "tagName": "text"
-        },
-         {
-            "defaultValue": "8pt",
-            "displayName": "halo",
-            "propName": "halo",
-            "tagName": "text"
-        },
-          {
-            "defaultValue": "",
-            "displayName": "Flip",
-            "propName": "flip",
-            "tagName": "checkbox"
+            "propName":"flip",
+            "displayName":"flip",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
         {
-            "defaultValue": "",
-            "displayName": "intermediateChanges",
-            "propName": "intermediateChanges",
-            "tagName": "checkbox"
+            "propName":"focused",
+            "displayName":"focused",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
-         {
-            "defaultValue": "auto",
-            "displayName": "orientation",
-            "propName": "orientation",
-            "tagName": "text"
+        {
+            "propName":"intermediateChanges",
+            "displayName":"intermediateChanges",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
-          {
-            "propName": "onChange",
-            "displayName": "onChange",
-            "tagName": "function",
-	        "defaultValue": "function(e){ alert('value changed to '+e);return true;}"
+        {
+            "propName":"readOnly",
+            "displayName":"readOnly",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
-         {
-      "propName": "theme",
-      "displayName": "theme",
-      "tagName": "theme",
-	  "defaultValue": ""
-    }
-    
+        {
+            "propName":"scrollOnFocus",
+            "displayName":"scrollOnFocus",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"alt",
+            "displayName":"alt",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"class",
+            "displayName":"class",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"dir",
+            "displayName":"dir",
+            "tagName":"text",
+            "defaultValue":"ltr"
+        },
+        {
+            "propName":"halo",
+            "displayName":"halo",
+            "tagName":"text",
+            "defaultValue":"8pt"
+        },
+        {
+            "propName":"id",
+            "displayName":"id",
+            "tagName":"text",
+            "defaultValue":"mySliderId"
+        },
+        {
+            "propName":"max",
+            "displayName":"max",
+            "tagName":"text",
+            "defaultValue":"100"
+        },
+        {
+            "displayName":"min",
+            "propName":"min",
+            "tagName":"text",
+            "defaultValue":"0"
+        },
+        {
+            "displayName":"name",
+            "propName":"name",
+            "tagName":"text",
+            "defaultValue":"mySliderName"
+        },
+        {
+            "propName":"onChange",
+            "displayName":"onChange",
+            "tagName":"function",
+            "defaultValue":"function(e){ alert('value changed to '+e);return true;}"
+        },
+        {
+            "propName":"orientation",
+            "displayName":"orientation",
+            "tagName":"text",
+            "defaultValue":"auto"
+        },
+        {
+            "propName":"step",
+            "displayName":"step",
+            "tagName":"text",
+            "defaultValue":"1"
+        },
+        {
+            "propName":"style",
+            "displayName":"style",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"tabIndex",
+            "displayName":"tabIndex",
+            "tagName":"text",
+            "defaultValue":"1"
+        },
+        {
+            "propName":"title",
+            "displayName":"title",
+            "tagName":"text",
+            "defaultValue":"mySliderTitle"
+        },
+        {
+            "propName":"tooltip",
+            "displayName":"tooltip",
+            "tagName":"text",
+            "defaultValue":"slider"
+        },
+        {
+            "propName":"type",
+            "displayName":"type",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"value",
+            "displayName":"value",
+            "tagName":"text",
+            "defaultValue":"10"
+        },
+        {
+            "propName":"theme",
+            "displayName":"theme",
+            "tagName":"theme",
+            "defaultValue":""
+        }
     ]
 }

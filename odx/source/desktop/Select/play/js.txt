@@ -1,12 +1,13 @@
 require(["dijit/form/Select", "dojo/_base/window", "dojo/domReady!"], function(Select, win){
     new Select({
         ${props},
+        name : ${name},
         options: [
-            { label: "TN", value: "Tennessee" },
-            { label: "VA", value: "Virginia", selected: true },
-            { label: "WA", value: "Washington" },
-            { label: "FL", value: "Florida" },
-            { label: "CA", value: "California" }
+            { label: "Dojo", value: "Dojo" },
+            { label: "JQuery", value: "JQuery"},
+            { label: "Html", value: "Html" },
+            { label: "CSS", value: "CSS" },
+            { label: "Javascript", value: "Javascript" }
         ]
     }).placeAt(win.body()).startup();
 });

@@ -1,58 +1,142 @@
 {
-  "props": [
-    {
-      "propName": "id",
-      "displayName": "ID",
-      "tagName": "text",
-      "defaultValue": "ToggleButtonID"
-    },
-    {
-      "propName": "label",
-      "displayName": "Label",
-      "tagName": "text",
-      "defaultValue": "Toggle me"
-    },
-    {
-      "propName": "disabled",
-      "displayName": "Disabled",
-      "tagName": "checkbox",
-	  "defaultValue": ""
-    },
-    {
-      "propName": "checked",
-      "displayName": "Checked",
-      "tagName": "checkbox",
-	  "defaultValue": ""
-    },
-    {
-      "propName": "name",
-      "displayName": "Name",
-      "tagName": "text",
-	  "defaultValue": "ToggleButton"
-    },
-    {
-      "propName": "showlabel",
-      "displayName": "Showlabel",
-      "tagName": "checkbox",
-	  "defaultValue": "true"
-    },
-    {
-      "propName": "tabIndex",
-      "displayName": "TabIndex",
-      "tagName": "text",
-	  "defaultValue": "1"
-    },
-    {
-      "propName": "title",
-      "displayName": "Title",
-      "tagName": "text",
-	  "defaultValue": "This is a button"
-    },
-    {
-      "propName": "tooltip",
-      "displayName": "Tooltip",
-      "tagName": "text",
-	  "defaultValue": "Click me please"
-    }          
-  ]
+    "props":[
+        {
+            "propName":"active",
+            "displayName":"active",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"checked",
+            "displayName":"checked",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"disabled",
+            "displayName":"disabled",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"focused",
+            "displayName":"focused",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"hovering",
+            "displayName":"hovering",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"intermediateChanges",
+            "displayName":"intermediateChanges",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"scrollOnFocus",
+            "displayName":"scrollOnFocus",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"searchContainerNode",
+            "displayName":"searchContainerNode",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"showLabel",
+            "displayName":"showLabel",
+            "tagName":"checkbox",
+            "defaultValue":"true"
+        },
+        {
+            "propName":"alt",
+            "displayName":"alt",
+            "tagName":"text",
+            "defaultValue":"myToggleBtnId"
+        },
+        {
+            "propName":"dir",
+            "displayName":"dir",
+            "tagName":"text",
+            "defaultValue":"ltr"
+        },
+        {
+            "propName":"iconClass",
+            "displayName":"iconClass",
+            "tagName":"text",
+            "defaultValue":"dijitCheckBoxIcon"
+        },
+        {
+            "propName":"id",
+            "displayName":"id",
+            "tagName":"text",
+            "defaultValue":"myToggleBtnId"
+        },
+        {
+            "propName":"label",
+            "displayName":"label",
+            "tagName":"text",
+            "defaultValue":"Agree"
+        },
+        {
+            "propName":"name",
+            "displayName":"name",
+            "tagName":"text",
+            "defaultValue":"myToggleBtnName"
+        },
+        {
+            "propName":"showLabel",
+            "displayName":"showLabel",
+            "tagName":"checkbox",
+            "defaultValue":"true"
+        },
+        {
+            "propName":"style",
+            "displayName":"style",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"tabIndex",
+            "displayName":"tabIndex",
+            "tagName":"text",
+            "defaultValue":"1"
+        },
+        {
+            "propName":"templatePath",
+            "displayName":"templatePath",
+            "tagName":"text",
+            "defaultValue":"1"
+        },
+        {
+            "propName":"title",
+            "displayName":"title",
+            "tagName":"text",
+            "defaultValue":"myToggleBtnTitle"
+        },
+        {
+            "propName":"type",
+            "displayName":"type",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"tooltip",
+            "displayName":"tooltip",
+            "tagName":"text",
+            "defaultValue":"a toggle button"
+        },
+        {
+            "propName":"value",
+            "displayName":"value",
+            "tagName":"text",
+            "defaultValue":""
+        }
+    ]
 }

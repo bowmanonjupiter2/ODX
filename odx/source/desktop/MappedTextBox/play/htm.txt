@@ -1,1 +1,1 @@
-<div data-dojo-type="dijit/form/MappedTextBox" data-dojo-props="${props}">
+<div data-dojo-type="dijit/form/MappedTextBox" data-dojo-props="${props}"></div>

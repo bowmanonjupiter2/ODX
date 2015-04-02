@@ -1,3 +1,3 @@
-<select  id="${id}" data-dojo-type="dijit/form/ComboBox" data-dojo-props="${props}" >
+<select data-dojo-type="dijit/form/ComboBox" id="${id}" data-dojo-props="${props}">
  ${options}
 </select>

@@ -1,56 +1,136 @@
 {
-  "props": [
-    {
-      "propName": "id",
-      "displayName": "ID",
-      "tagName": "text",
-      "defaultValue": "LinkPaneID",
-      "global": true
-    },{
-      "propName": "doLayout",
-      "displayName": "doLayout",
-      "tagName": "checkbox",
-      "defaultValue": "true"
-    },{
-      "propName": "errorMessage",
-      "displayName": "errorMessage",
-      "tagName": "text",
-      "defaultValue": "errorMessage"
-    },{
-      "propName": "isLayoutContainer",
-      "displayName": "isLayoutContainer",
-      "tagName": "checkbox",
-      "defaultValue": "true"
-    },{
-      "propName": "loadingMessage",
-      "displayName": "loadingMessage",
-      "tagName": "text",
-      "defaultValue": "loadingMessage"
-    },{
-      "propName": "refreshOnShow",
-      "displayName": "refreshOnShow",
-      "tagName": "checkbox",
-      "defaultValue": "true"
-    },{
-      "propName": "title",
-      "displayName": "Title",
-      "tagName": "text",
-      "defaultValue": "Title"
-    },{
-      "propName": "tooltip",
-      "displayName": "tooltip",
-      "tagName": "text",
-      "defaultValue": "tooltip"
-    },{
-      "propName": "refreshOnShow",
-      "displayName": "refreshOnShow",
-      "tagName": "checkbox",
-      "defaultValue": "true"
-    },{
-      "propName": "style",
-      "displayName": "Style",
-      "tagName": "text",
-      "defaultValue": "height: 150px"
-    }
-  ]
+    "props":[
+        {
+            "propName":"doLayout",
+            "displayName":"doLayout",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"extractContent",
+            "displayName":"extractContent",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"focused",
+            "displayName":"focused",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"isLayoutContainer",
+            "displayName":"isLayoutContainer",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"isLoaded",
+            "displayName":"isLoaded",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"parseOnLoad",
+            "displayName":"parseOnLoad",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"preload",
+            "displayName":"preload",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"preventCache",
+            "displayName":"preventCache",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"refreshOnShow",
+            "displayName":"refreshOnShow",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"searchContainerNode",
+            "displayName":"searchContainerNode",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"stopParser",
+            "displayName":"stopParser",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"content",
+            "displayName":"content",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"dir",
+            "displayName":"dir",
+            "tagName":"text",
+            "defaultValue":"ltr"
+        },
+        {
+            "propName":"href",
+            "displayName":"href",
+            "tagName":"text",
+            "defaultValue":"source/desktop/LinkPane/play/page1.html"
+        },
+        {
+            "propName":"id",
+            "displayName":"id",
+            "tagName":"text",
+            "defaultValue":"myLinkPaneId"
+        },
+        {
+            "propName":"errorMessage",
+            "displayName":"errorMessage",
+            "tagName":"text",
+            "defaultValue":"error"
+        },
+        {
+            "propName":"loadingMessage",
+            "displayName":"loadingMessage",
+            "tagName":"text",
+            "defaultValue":"loading please wait..."
+        },
+        {
+            "propName":"parserScope",
+            "displayName":"parserScope",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"style",
+            "displayName":"style",
+            "tagName":"text",
+            "defaultValue":"height: 50px"
+        },
+        {
+            "propName":"templatePath",
+            "displayName":"templatePath",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"title",
+            "displayName":"title",
+            "tagName":"text",
+            "defaultValue":"myLinkPaneTitle"
+        },
+        {
+            "propName":"tooltip",
+            "displayName":"tooltip",
+            "tagName":"text",
+            "defaultValue":"a link pane"
+        }
+    ]
 }

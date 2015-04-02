@@ -1,53 +1,94 @@
 {
-    "dijitType": "dojox/mobile/TabBar",
-    "props": [
+    "props":[
         {
-            "defaultValue": "id",
-            "displayName": "id",
-            "propName": "id",
-            "tagName": "text"
+            "propName":"center",
+            "displayName":"center",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
-           {
-            "defaultValue": "tabBar",
-            "displayName": "BarType",
-            "propName": "barType",
-            "tagName": "text"
+        {
+            "propName":"closable",
+            "displayName":"closable",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
-          {
-            "defaultValue": "auto",
-            "displayName": "Fill",
-            "propName": "fill",
-            "tagName": "text"
+        {
+            "propName":"focused",
+            "displayName":"focused",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
-          {
-            "defaultValue": "",
-            "displayName": "Closable",
-            "propName": "closable",
-            "tagName": "checkbox"
+        {
+            "propName":"syncWithViews",
+            "displayName":"syncWithViews",
+            "tagName":"checkbox",
+            "defaultValue":"false"
         },
-         {
-            "defaultValue": "true",
-            "displayName": "Center",
-            "propName": "center",
-            "tagName": "checkbox"
+        {
+            "propName":"barType",
+            "displayName":"barType",
+            "tagName":"text",
+            "defaultValue":"standardTab"
         },
-         {
-            "defaultValue": "",
-            "displayName": "SyncWithViews",
-            "propName": "syncWithViews",
-            "tagName": "checkbox"
+        {
+            "propName":"dir",
+            "displayName":"dir",
+            "tagName":"text",
+            "defaultValue":"ltr"
         },
-         {
-            "defaultValue": "ul",
-            "displayName": "Tag",
-            "propName": "tag",
-            "tagName": "text"
+        {
+            "propName":"fill",
+            "displayName":"fill",
+            "tagName":"text",
+            "defaultValue":"auto"
         },
-         {
-      "propName": "theme",
-      "displayName": "theme",
-      "tagName": "theme",
-	  "defaultValue": ""
-    }
+        {
+            "propName":"iconBase",
+            "displayName":"iconBase",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"iconPos",
+            "displayName":"iconPos",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"id",
+            "displayName":"id",
+            "tagName":"text",
+            "defaultValue":"myTabBarId"
+        },
+        {
+            "propName":"style",
+            "displayName":"style",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"tag",
+            "displayName":"tag",
+            "tagName":"text",
+            "defaultValue":"ul"
+        },
+        {
+            "propName":"tooltip",
+            "displayName":"tooltip",
+            "tagName":"text",
+            "defaultValue":"tab bar"
+        },
+        {
+            "propName":"title",
+            "displayName":"title",
+            "tagName":"text",
+            "defaultValue":"myTabBarTile"
+        },
+        {
+            "propName":"theme",
+            "displayName":"theme",
+            "tagName":"theme",
+            "defaultValue":""
+        }
     ]
 }

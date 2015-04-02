@@ -1,4 +1,3 @@
 require(["dijit/form/ToggleButton", "dojo/domReady!"], function(ToggleButton){
     new ToggleButton(${props}, "${id}").startup();
 });
-<button id="${id}"></button>

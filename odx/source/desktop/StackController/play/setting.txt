@@ -1,29 +1,58 @@
 {
-  "props": [
-    {
-      "propName": "id",
-      "displayName": "ID",
-      "tagName": "text",
-      "defaultValue": "controllerID",
-      "global": true
-    },
-    {
-      "propName": "title",
-      "displayName": "Title",
-      "tagName": "text",
-      "defaultValue":"Please enter title !"
-    },
-     {
-      "propName": "tooltip",
-      "displayName": "Tooltip",
-      "tagName": "text",
-      "defaultValue":"Tooltip to appear when the mouse is hovered over."
-    },
-    {
-      "propName": "style",
-      "displayName": "Style",
-      "tagName": "text",
-      "defaultValue": "height: 30px"
-    }
-  ]
+    "props":[
+        {
+            "propName":"focused",
+            "displayName":"focused",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"searchContainerNode",
+            "displayName":"searchContainerNode",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"containerId",
+            "displayName":"containerId",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"dir",
+            "displayName":"dir",
+            "tagName":"text",
+            "defaultValue":"ltr"
+        },
+        {
+            "propName":"id",
+            "displayName":"id",
+            "tagName":"text",
+            "defaultValue":"myStackControllerId"
+        },
+        {
+            "propName":"style",
+            "displayName":"style",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"templatePath",
+            "displayName":"templatePath",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"title",
+            "displayName":"title",
+            "tagName":"text",
+            "defaultValue":"myStackControllerTitle"
+        },
+        {
+            "propName":"tooltip",
+            "displayName":"tooltip",
+            "tagName":"text",
+            "defaultValue":"a stack controller"
+        }
+    ]
 }

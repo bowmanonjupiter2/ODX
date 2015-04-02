@@ -1,59 +1,130 @@
 {
-  "dijitType": "dijit/layout/ContentPane",
-  "props": [
-    {
-      "propName": "id",
-      "displayName": "ID",
-      "tagName": "text",
-      "defaultValue": "ContentPaneID"
-    },
-    {
-      "propName": "style",
-      "displayName": "Style",
-      "tagName": "text",
-      "defaultValue": "height: 30px"
-    },
-    {
-      "propName": "errorMessage",
-      "displayName": "ErrorMessage",
-      "tagName": "text",
-      "defaultValue":"Show errorMessage !"
-    },
-    {
-      "propName": "loadingMessage",
-      "displayName": "LoadingMessage",
-      "tagName": "text",
-      "defaultValue":"Show message when loading."
-    },
-    {
-      "propName": "title",
-      "displayName": "Title",
-      "tagName": "text",
-      "defaultValue":"Please enter title !"
-    },
-     {
-      "propName": "tooltip",
-      "displayName": "Tooltip",
-      "tagName": "text",
-      "defaultValue":"Tooltip to appear when the mouse is hovered over."
-    },
-    {
-      "propName": "preload",
-      "displayName": "Preload",
-      "tagName": "checkbox",
-	  "defaultValue": "true"
-    },
-    {
-      "propName": "refreshOnShow",
-      "displayName": "RefreshOnShow",
-      "tagName": "checkbox",
-	  "defaultValue": "true"
-    },
-    {
-      "propName": "tabIndex",
-      "displayName": "tabIndex",
-      "tagName": "text",
-	  "defaultValue": "demoContentPane"
-    }
-  ]
+    "props":[
+        {
+            "propName":"doLayout",
+            "displayName":"doLayout",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"extractContent",
+            "displayName":"extractContent",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"focused",
+            "displayName":"focused",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"isLayoutContainer",
+            "displayName":"isLayoutContainer",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"isLoaded",
+            "displayName":"isLoaded",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"parseOnLoad",
+            "displayName":"parseOnLoad",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"preload",
+            "displayName":"preload",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"preventCache",
+            "displayName":"preventCache",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"refreshOnShow",
+            "displayName":"refreshOnShow",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"stopParser",
+            "displayName":"stopParser",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"content",
+            "displayName":"content",
+            "tagName":"text",
+            "defaultValue":"this is a content pane."
+        },
+        {
+            "propName":"dir",
+            "displayName":"dir",
+            "tagName":"text",
+            "defaultValue":"ltr"
+        },
+        {
+            "propName":"errorMessage",
+            "displayName":"errorMessage",
+            "tagName":"text",
+            "defaultValue":"error!"
+        },
+        {
+            "propName":"href",
+            "displayName":"href",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"id",
+            "displayName":"id",
+            "tagName":"text",
+            "defaultValue":"myContentPaneId"
+        },
+        {
+            "propName":"loadingMessage",
+            "displayName":"loadingMessage",
+            "tagName":"text",
+            "defaultValue":"loading"
+        },
+        {
+            "propName":"parseScope",
+            "displayName":"parseScope",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"style",
+            "displayName":"style",
+            "tagName":"text",
+            "defaultValue":"height:30px"
+        },
+        {
+            "propName":"tabIndex",
+            "displayName":"tabIndex",
+            "tagName":"text",
+            "defaultValue":"1"
+        },
+        {
+            "propName":"title",
+            "displayName":"title",
+            "tagName":"text",
+            "defaultValue":"myContentPaneTitle"
+        },
+        {
+            "propName":"tooltip",
+            "displayName":"tooltip",
+            "tagName":"text",
+            "defaultValue":"content pane"
+        }
+    ]
 }

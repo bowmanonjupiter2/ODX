@@ -1,12 +1,4 @@
 require(["dijit/form/TimeTextBox", "dojo/domReady!"], function(TimeTextBox){
-    new TimeTextBox({${props},
-        constraints: {
-            timePattern: 'HH:mm:ss',
-            clickableIncrement: 'T00:15:00',
-            visibleIncrement: 'T00:15:00',
-            visibleRange: 'T01:00:00'
-        }
-    }, "progval").startup();
+    new TimeTextBox({${props}
+    }, "${id}").startup();
 });
-<label for="progval">Drop down Time box:</label>
-<input id="progval" />

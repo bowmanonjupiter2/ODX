@@ -1,4 +1,3 @@
 require(["dijit/form/SimpleTextarea", "dojo/domReady!"], function(SimpleTextarea){
     var textarea = new SimpleTextarea(${props}, "${id}").startup();
     });
-<textarea id="${id}" />

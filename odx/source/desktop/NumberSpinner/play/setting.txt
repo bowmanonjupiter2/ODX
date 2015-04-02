@@ -1,145 +1,227 @@
 {
-  "props": [
-    {
-      "propName": "disabled",
-      "displayName": "disabled",
-      "tagName": "checkbox",
-      "defaultValue": "false"
-    },
-    {
-      "propName": "propercase",
-      "displayName": "propercase",
-      "tagName": "checkbox",
-      "defaultValue":"true"
-    },
-    {
-      "propName": "required",
-      "displayName": "required",
-      "tagName": "checkbox",
-      "defaultValue":true
-    },
-    {
-      "propName": "lowercase",
-      "displayName": "lowercase",
-      "tagName": "checkbox",
-      "defaultValue":"true"
-    },
-    {
-      "propName": "readOnly",
-      "displayName": "readOnly",
-      "tagName": "checkbox",
-      "defaultValue":"true"
-    },
-    {
-      "propName": "selectOnClick",
-      "displayName": "selectOnClick",
-      "tagName": "checkbox",
-      "defaultValue": "true"
-    },
-    {
-        "propName": "uppercase",
-        "displayName": "uppercase",
-        "tagName": "checkbox",
-        "defaultValue":"true"
-    },
-    {
-      "propName": "id",
-      "displayName": "id",
-      "tagName": "text",
-      "defaultValue": "myNumberTextBox",
-      "global": true
-    },
-    {
-      "propName": "name",
-      "displayName": "name",
-      "tagName": "text",
-      "defaultValue": "myNumberTextBox",
-      "global": true
-    },
-    {
-      "propName": "label",
-      "displayName": "label",
-      "tagName": "text",
-      "defaultValue": "number spinner",
-      "global": true
-    },
-    {
-      "propName": "invalidMessage",
-      "displayName": "invalidMessage",
-      "tagName": "text",
-      "defaultValue": "invalid input"
-    },
-    {
-      "propName": "largeDelta",
-      "displayName": "largeDelta",
-      "tagName": "text",
-      "defaultValue": "10"
-    },
-    {
-      "propName": "smallDelta",
-      "displayName": "smallDelta",
-      "tagName": "text",
-      "defaultValue": "10"
-    },
-    {
-      "propName": "maxLength",
-      "displayName": "maxLength",
-      "tagName": "text",
-      "defaultValue": "256"
-    },
-    {
-      "propName": "minimumTimeout",
-      "displayName": "minimumTimeout",
-      "tagName": "text",
-      "defaultValue": "10"
-    },
-    {
-      "propName": "timeoutChangeRate",
-      "displayName": "timeoutChangeRate",
-      "tagName": "text",
-      "defaultValue": "10"
-    },
-    {
-      "propName": "missingMessage",
-      "displayName": "missingMessage",
-      "tagName": "text",
-      "defaultValue": "please enter"
-    },
-    {
-      "propName": "placeHolder",
-      "displayName": "placeHolder",
-      "tagName": "text",
-      "defaultValue": "please enter"
-    },
-    {
-      "propName": "promptMessage",
-      "displayName": "promptMessage",
-      "tagName": "text",
-      "defaultValue": "please enter"
-    },
-    {
-      "propName": "tabIndex",
-      "displayName": "tabIndex",
-      "tagName": "text",
-      "defaultValue": "1"
-    },
-    {
-      "propName": "title",
-      "displayName": "title",
-      "tagName": "text",
-      "defaultValue": "numberSpinnerTitle"
-    },
-    {
-      "propName": "tooltip",
-      "displayName": "tooltip",
-      "tagName": "text",
-      "defaultValue": "Enter Number"
-    },
-    {
-      "propName": "value",
-      "displayName": "value",
-      "tagName": "text",
-      "defaultValue": "1000"
-    }
-  ]
+    "props":[
+        {
+            "propName":"active",
+            "displayName":"active",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"disabled",
+            "displayName":"disabled",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"focused",
+            "displayName":"focused",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"hovering",
+            "displayName":"hovering",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"intermediateChanges",
+            "displayName":"intermediateChanges",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"propercase",
+            "displayName":"propercase",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"required",
+            "displayName":"required",
+            "tagName":"checkbox",
+            "defaultValue":false
+        },
+        {
+            "propName":"lowercase",
+            "displayName":"lowercase",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"readOnly",
+            "displayName":"readOnly",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"selectOnClick",
+            "displayName":"selectOnClick",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"searchContainerNode",
+            "displayName":"searchContainerNode",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"trim",
+            "displayName":"trim",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"uppercase",
+            "displayName":"uppercase",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"alt",
+            "displayName":"alt",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"dir",
+            "displayName":"dir",
+            "tagName":"text",
+            "defaultValue":"ltr"
+        },
+        {
+            "propName":"displayedValue",
+            "displayName":"displayedValue",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"id",
+            "displayName":"id",
+            "tagName":"text",
+            "defaultValue":"myNumSpinnerId"
+        },
+        {
+            "propName":"name",
+            "displayName":"name",
+            "tagName":"text",
+            "defaultValue":"myNumSpinnerName",
+            "global":true
+        },
+        {
+            "propName":"label",
+            "displayName":"label",
+            "tagName":"text",
+            "defaultValue":"myNumSpinnerLabel"
+        },
+        {
+            "propName":"invalidMessage",
+            "displayName":"invalidMessage",
+            "tagName":"text",
+            "defaultValue":"invalid input"
+        },
+        {
+            "propName":"largeDelta",
+            "displayName":"largeDelta",
+            "tagName":"text",
+            "defaultValue":"10"
+        },
+        {
+            "propName":"maxLength",
+            "displayName":"maxLength",
+            "tagName":"text",
+            "defaultValue":"256"
+        },
+        {
+            "propName":"minimumTimeout",
+            "displayName":"minimumTimeout",
+            "tagName":"text",
+            "defaultValue":"10"
+        },
+        {
+            "propName":"missingMessage",
+            "displayName":"missingMessage",
+            "tagName":"text",
+            "defaultValue":"please enter"
+        },
+        {
+            "propName":"pattern",
+            "displayName":"pattern",
+            "tagName":"text",
+            "defaultValue":".*"
+        },
+        {
+            "propName":"placeHolder",
+            "displayName":"placeHolder",
+            "tagName":"text",
+            "defaultValue":"please enter"
+        },
+        {
+            "propName":"promptMessage",
+            "displayName":"promptMessage",
+            "tagName":"text",
+            "defaultValue":"please enter"
+        },
+        {
+            "propName":"rangeMessage",
+            "displayName":"rangeMessage",
+            "tagName":"text",
+            "defaultValue":"out of range"
+        },
+        {
+            "propName":"regExp",
+            "displayName":"regExp",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"smallDelta",
+            "displayName":"smallDelta",
+            "tagName":"text",
+            "defaultValue":"10"
+        },
+        {
+            "propName":"style",
+            "displayName":"style",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"tabIndex",
+            "displayName":"tabIndex",
+            "tagName":"text",
+            "defaultValue":"1"
+        },
+        {
+            "propName":"timeoutChangeRate",
+            "displayName":"timeoutChangeRate",
+            "tagName":"text",
+            "defaultValue":"10"
+        },
+        {
+            "propName":"title",
+            "displayName":"title",
+            "tagName":"text",
+            "defaultValue":"numberSpinnerTitle"
+        },
+        {
+            "propName":"tooltip",
+            "displayName":"tooltip",
+            "tagName":"text",
+            "defaultValue":"Enter Number"
+        },
+        {
+            "propName":"type",
+            "displayName":"type",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"value",
+            "displayName":"value",
+            "tagName":"text",
+            "defaultValue":"1000"
+        }
+    ]
 }

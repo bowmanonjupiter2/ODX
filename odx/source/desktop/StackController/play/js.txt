@@ -1,7 +1,3 @@
-<div id="${id}"></div>
-<div id="scontainer-prog"></div>
-
-<script type="text/javascript">
 require([
     "dijit/layout/StackContainer",
     "dijit/layout/ContentPane",
@@ -30,4 +26,3 @@ require([
     sc.startup();
     controller.startup();
 });
-</script>

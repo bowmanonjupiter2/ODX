@@ -1,3 +1,2 @@
- <link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Slider.css"
-	rel="stylesheet"></link>
-<button data-dojo-type="dojox/mobile/Slider"  data-dojo-props="${props}"   id="${id}" class=""></button>
+ <link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Slider.css" rel="stylesheet"></link>
+<input type="range" data-dojo-type="dojox/mobile/Slider" data-dojo-props="${props}" id="${id}"/>
