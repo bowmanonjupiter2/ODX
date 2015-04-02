@@ -30,22 +30,22 @@ body {
 
 #desktop-play-left {
 	float: left;
-	width: 83%;
+	width: 82%;
 }
 
 #desktop-play-right {
 	float: right;
-	width: 17%;
+	width: 18%;
 }
 
 #mobile-play-left {
 	float: left;
-	width: 83%;
+	width: 82%;
 }
 
 #mobile-play-right {
 	float: right;
-	width: 17%;
+	width: 18%;
 }
 
 .play-box {
@@ -91,8 +91,8 @@ body {
 	background-image: url(../images/ODX_UI_demo2_r2_c9.png);
 }
 
-.views-main-footer {
-	float: right;
+.views-main-footer{
+	float:right;
 }
 
 .views-main-title-text {
@@ -209,7 +209,19 @@ body {
 .main-panel {
 	margin: 0px 12px;
 }
-
+.my-main-panel{
+	overflow-y:auto !important;
+	margin-top:18px !important;
+}
+.my-contenPanel{
+	overflow: hidden !important;
+}
+.my-play-box{
+	margin-top:0px !important;
+}
+.my-setting-box{
+	 margin-top: 0px !important;
+}
 .widget-id-text {
 	line-height: 25px;
 	padding: 60px;
@@ -280,6 +292,5 @@ body {
 ::-webkit-scrollbar-thumb:window-inactive {
 	background: rgba(69, 69, 69, 0.4);
 }
-
 
 /* ----------------------------------------- */
