@@ -1,11 +1,6 @@
 {
     "props":[
-        {
-            "propName":"active",
-            "displayName":"active",
-            "tagName":"checkbox",
-            "defaultValue":"false"
-        },
+
         {
             "propName":"autoWidth",
             "displayName":"autoWidth",
@@ -18,12 +13,7 @@
             "tagName":"checkbox",
             "defaultValue":"false"
         },
-        {
-            "propName":"focused",
-            "displayName":"focused",
-            "tagName":"checkbox",
-            "defaultValue":"false"
-        },
+
         {
             "propName":"forceWidth",
             "displayName":"forceWidth",
@@ -36,12 +26,7 @@
             "tagName":"checkbox",
             "defaultValue":"false"
         },
-        {
-            "propName":"hovering",
-            "displayName":"hovering",
-            "tagName":"checkbox",
-            "defaultValue":"false"
-        },
+
         {
             "propName":"intermediateChanges",
             "displayName":"intermediateChanges",

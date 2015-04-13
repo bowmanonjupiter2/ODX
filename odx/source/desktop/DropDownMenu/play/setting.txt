@@ -2,32 +2,8 @@
     "dijitType":"dijit/DropDownMenu",
     "props":[
         {
-            "propName":"active",
-            "displayName":"active",
-            "tagName":"checkbox",
-            "defaultValue":"false"
-        },
-        {
-            "propName":"activated",
-            "displayName":"activated",
-            "tagName":"checkbox",
-            "defaultValue":"false"
-        },
-        {
             "propName":"autoFocus",
             "displayName":"autoFocus",
-            "tagName":"checkbox",
-            "defaultValue":"false"
-        },
-        {
-            "propName":"focused",
-            "displayName":"focused",
-            "tagName":"checkbox",
-            "defaultValue":"false"
-        },
-        {
-            "propName":"hovering",
-            "displayName":"hovering",
             "tagName":"checkbox",
             "defaultValue":"false"
         },

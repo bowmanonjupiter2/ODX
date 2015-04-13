@@ -1,11 +1,6 @@
 {
     "props":[
-        {
-            "propName":"active",
-            "displayName":"active",
-            "tagName":"checkbox",
-            "defaultValue":"false"
-        },
+
         {
             "propName":"checked",
             "displayName":"checked",
@@ -18,18 +13,7 @@
             "tagName":"checkbox",
             "defaultValue":"false"
         },
-        {
-            "propName":"focused",
-            "displayName":"focused",
-            "tagName":"checkbox",
-            "defaultValue":"false"
-        },
-        {
-            "propName":"hovering",
-            "displayName":"hovering",
-            "tagName":"checkbox",
-            "defaultValue":"false"
-        },
+
         {
             "propName":"intermediateChanges",
             "displayName":"intermediateChanges",

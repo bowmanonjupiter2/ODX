@@ -1,12 +1,6 @@
 {
     "props":[
         {
-            "propName":"active",
-            "displayName":"active",
-            "tagName":"checkbox",
-            "defaultValue":"false"
-        },
-        {
             "propName":"autoWidth",
             "displayName":"autoWidth",
             "tagName":"checkbox",
@@ -21,12 +15,6 @@
         {
             "propName":"hasDownArrow",
             "displayName":"hasDownArrow",
-            "tagName":"checkbox",
-            "defaultValue":"false"
-        },
-        {
-            "propName":"hovering",
-            "displayName":"hovering",
             "tagName":"checkbox",
             "defaultValue":"false"
         },

@@ -5,6 +5,10 @@
                 {
                     "id":"dijit/DropDownMenu",
                     "name":"DropDownMenu"
+                },
+                {
+                    "id":"dijit/Menu",
+                    "name":"Menu"
                 }
             ],
             "id":"menu",
@@ -194,18 +198,49 @@
         },
         {
             "children":[
-                
+                {
+                    "id":"dijit/Calendar",
+                    "name":"Calendar"
+                },
+                {
+                    "id":"dijit/CalendarLite",
+                    "name":"CalendarLite"
+                },
+                {
+                    "id":"dijit/ColorPalette",
+                    "name":"ColorPalette"
+                },
+                {
+                    "id":"dijit/ConfirmDialog",
+                    "name":"ConfirmDialog"
+                },
+                {
+                    "id":"dijit/Declaration",
+                    "name":"Declaration"
+                },
+                {
+                    "id":"dijit/Dialog",
+                    "name":"Dialog"
+                },
+                {
+                    "id":"dijit/Editor",
+                    "name":"Editor"
+                },
+                {
+                    "id":"dijit/Fieldset",
+                    "name":"Fieldset"
+                }
             ],
-            "id":"tree",
-            "name":"Tree",
+            "id":"misc",
+            "name":"Miscellaneous",
             "type":"group"
         },
         {
             "children":[
                 
             ],
-            "id":"misc",
-            "name":"Miscellaneous",
+            "id":"tree",
+            "name":"Tree",
             "type":"group"
         }
     ],

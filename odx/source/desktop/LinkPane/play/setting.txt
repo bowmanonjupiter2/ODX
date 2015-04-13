@@ -25,12 +25,6 @@
             "defaultValue":"false"
         },
         {
-            "propName":"isLoaded",
-            "displayName":"isLoaded",
-            "tagName":"checkbox",
-            "defaultValue":"false"
-        },
-        {
             "propName":"parseOnLoad",
             "displayName":"parseOnLoad",
             "tagName":"checkbox",

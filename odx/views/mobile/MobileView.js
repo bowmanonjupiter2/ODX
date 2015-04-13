@@ -77,11 +77,12 @@ define([
 					persist: false,
 					showRoot: false,
 					getIconClass: function(item, opened) { /*Customize icon class here*/
-						return (!item || this.model.mayHaveChildren(item)) ? (opened ? "dijitFolderOpened" : "dijitFolderClosed") : "dijitLeaf"
+						//return (!item || this.model.mayHaveChildren(item)) ? (opened ? "dijitFolderOpened" : "dijitFolderClosed") : "dijitLeaf"
+						return (!item || this.model.mayHaveChildren(item)) ? (opened ? "treeFolderOpened" : "treeFolderClosed") : "treeLeaf"
 					},
 				}, "mobile-widgets-list");
 				_widgetTree.startup();
-				_widgetTree.expandAll();
+				//_widgetTree.expandAll();
 			},
 			treeItemClick: function(item, node, e) {
 				if (item.type != "group") {
