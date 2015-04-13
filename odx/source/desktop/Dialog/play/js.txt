@@ -1,0 +1,5 @@
+require(["dijit/Dialog", "dojo/domReady!"], function(Dialog){
+    myDialog = new Dialog(${props}, "${id}");
+});
+
+<button onclick="myDialog.show();">show</button>

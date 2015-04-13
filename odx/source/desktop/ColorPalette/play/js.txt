@@ -1,0 +1,3 @@
+require(["dijit/ColorPalette"], function(ColorPalette){
+    var myPalette = new ColorPalette(${props},"${id}").startup();
+});

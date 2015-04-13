@@ -1,0 +1,40 @@
+<script type="text/javascript" src="dojox/mobile/deviceTheme.js"
+        data-dojo-config="mblThemeFiles: ['base','Carousel','PageIndicator']"></script>
+
+<script type="text/javascript">
+require([
+    "dojo/ready",
+    "dojox/mobile/Carousel",
+    "dojox/mobile/CarouselItem",
+    "dojox/mobile/SwapView",
+    "dojox/mobile",
+    "dojox/mobile/parser"
+], function(ready, Carousel, CarouselItem, SwapView){
+    ready(function(){
+        var view, item;
+        var carousel1 = new Carousel(${props}, "${id}");
+
+        // View #1
+        view = new SwapView();
+        carousel1.addChild(view);
+
+        item = new CarouselItem({src:"images/carousel-demo1.jpg", value:"gift1", headerText:"ballons"});
+        item.placeAt(view.containerNode);
+
+        item = new CarouselItem({src:"images/carousel-demo2.jpg", value:"gift2", headerText:"flowers"});
+        item.placeAt(view.containerNode);
+
+        // View #2
+        view = new SwapView();
+        carousel1.addChild(view);
+
+        item = new CarouselItem({src:"images/carousel-demo3.jpg", value:"plane1", headerText:"plane1"});
+        item.placeAt(view.containerNode);
+
+        item = new CarouselItem({src:"images/carousel-demo4.jpg", value:"plane2", headerText:"plane2"});
+        item.placeAt(view.containerNode);
+
+        carousel1.startup();
+    });
+});
+</script>

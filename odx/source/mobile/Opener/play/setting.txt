@@ -1,0 +1,17 @@
+{
+    "props": [
+	        {
+	            "propName": "id",
+	            "displayName": "ID",
+	            "tagName": "text",
+	            "defaultValue": "Opener"
+	        },
+	        
+	        {
+		      "propName": "theme",
+		      "displayName": "theme",
+		      "tagName": "theme",
+			  "defaultValue": ""
+	        }
+    ]
+}

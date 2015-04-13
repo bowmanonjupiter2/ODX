@@ -1,0 +1,7 @@
+<div data-dojo-type="dijit/Declaration" data-dojo-props="widgetClass:'hideButton',${props}" id="${id}">
+    <button data-dojo-attach-event="onclick: myClickHandler" data-dojo-attach-point="containerNode"></button>
+   <script type="dojo/method" data-dojo-event="myClickHandler">
+       this.domNode.style.display="none";
+   </script>
+</div>
+<button data-dojo-type="hideButton">click to hide this button</button>

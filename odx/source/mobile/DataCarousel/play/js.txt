@@ -1,0 +1,23 @@
+<input id="${id}">
+<script type="text/javascript">
+require(
+		[
+	     	"dojo/_base/window",
+			"dojox/mobile",
+			"dojo/ready",
+			"dojox/mobile/parser",
+			"dojox/mobile/DataCarousel",
+			"dojox/mobile/ItemReadStore",
+			"dojo/dom",
+			"dojo/domReady!"
+		],function(win,mobile,ready,parser,DataCarousel,ItemReadStore,dom){
+			ready(function(){
+				var sampleStore=new ItemReadStore({url:"../odx/source/mobile/DataCarousel/play/sample.json"});
+				var dateC=new DataCarousel({${props},store:sampleStore},"${id}");
+			});
+			win.body().appendChild(carousel.domNode);
+			dateC.startup();
+		});
+</script>
+<div id="dateCarousel">
+</div>

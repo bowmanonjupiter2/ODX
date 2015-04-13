@@ -1,0 +1,7 @@
+require([
+    "dijit/Calendar",
+    "dojo/date",
+    "dojo/domReady!"
+], function(Calendar, date){
+    new Calendar(${props}, "${id}").startup();
+});

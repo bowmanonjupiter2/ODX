@@ -1,0 +1,1 @@
+<div data-dojo-type="dijit/ColorPalette" data-dojo-props="${props}"></div>

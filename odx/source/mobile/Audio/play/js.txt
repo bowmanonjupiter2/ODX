@@ -1,0 +1,15 @@
+require([
+    "dojo/_base/window",
+    "dojo/ready",
+    "dojox/mobile/Audio",
+    "dojox/mobile/parser",
+    "dojox/mobile"
+], function(win, ready, Audio){
+    ready(function(){
+      var widget = new Audio(${props}}, "${id}",{
+                     source: [{src:"source/mobile/Audio/play/SmilingEyes.mp3", type:"audio/mpeg"}]
+                   });
+      win.body().appendChild(widget.domNode);
+      widget.startup();
+    });
+});

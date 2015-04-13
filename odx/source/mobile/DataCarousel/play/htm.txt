@@ -1,0 +1,5 @@
+ <link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Carousel.css" rel="stylesheet"></link>
+<div id="carousel1" data-dojo-type="dojo/data/ItemFileReadStore" data-dojo-id="sampleStore" data-dojo-props="url:'../odx/source/mobile/DataCarousel/play/sample.json'"> 
+</div>
+<div data-dojo-type="dojox/mobile/DataCarousel" data-dojo-props="${props},store:sampleStore" id="${id}">
+</div>

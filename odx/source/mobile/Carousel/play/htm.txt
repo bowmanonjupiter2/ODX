@@ -1,0 +1,18 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Carousel.css" rel="stylesheet"></link>
+
+<div data-dojo-type="dojox/mobile/Carousel" data-dojo-props="${props}" id="${id}">
+    <!-- View #1 -->
+    <div data-dojo-type="dojox/mobile/SwapView">
+        <div data-dojo-type="dojox/mobile/CarouselItem"
+            data-dojo-props='src:"images/carousel-demo1.jpg", value:"gift1", headerText:"ballons"'></div>
+        <div data-dojo-type="dojox/mobile/CarouselItem"
+            data-dojo-props='src:"images/carousel-demo2.jpg", value:"gift2", headerText:"flowers"'></div>
+    </div>
+    <!-- View #2 -->
+    <div data-dojo-type="dojox/mobile/SwapView">
+        <div data-dojo-type="dojox/mobile/CarouselItem"
+            data-dojo-props='src:"images/carousel-demo3.jpg", value:"plane1", headerText:"plane1"'></div>
+        <div data-dojo-type="dojox/mobile/CarouselItem"
+            data-dojo-props='src:"images/carousel-demo4.jpg", value:"plane2", headerText:"plane2"'></div>
+    </div>
+</div>

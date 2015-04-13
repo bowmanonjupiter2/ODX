@@ -1,0 +1,34 @@
+{
+    "props":[
+        {
+            "propName":"filterBoxVisible",
+            "displayName":"filterBoxVisible",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"id",
+            "displayName":"id",
+            "tagName":"text",
+            "defaultValue":"myFilteredListMixinId"
+        },
+        {
+            "propName":"filterBoxRef",
+            "displayName":"filterBoxRef",
+            "tagName":"text",
+            "defaultValue":"filterBox"
+        },
+        {
+            "propName":"placeHolder",
+            "displayName":"placeHolder",
+            "tagName":"text",
+            "defaultValue":"Search..."
+        },
+        {
+            "propName":"theme",
+            "displayName":"theme",
+            "tagName":"theme",
+            "defaultValue":""
+        }
+    ]
+}

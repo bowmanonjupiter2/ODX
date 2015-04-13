@@ -1,0 +1,32 @@
+ <link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/View.css" rel="stylesheet"></link>
+ <link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/GridLayout.css" rel="stylesheet"></link>
+ <link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Button.css" rel="stylesheet"></link>
+<style>
+  .mblButton {
+      width: 150px;
+      height: 100px;
+  }
+</style>
+ 	
+<div id="view1" data-dojo-type="dojox/mobile/View" style="width:455px;">
+  <div data-dojo-type="dojox/mobile/GridLayout" data-dojo-props="${props}">
+    <div data-dojo-type="dojox/mobile/Pane">
+      <button class="mblBlueButton" data-dojo-type="dojox/mobile/Button">Button 1</button>
+    </div>
+    <div data-dojo-type="dojox/mobile/Pane">
+      <button class="mblBlueButton" data-dojo-type="dojox/mobile/Button">Button 2</button>
+    </div>
+    <div data-dojo-type="dojox/mobile/Pane">
+      <button class="mblBlueButton" data-dojo-type="dojox/mobile/Button">Button 3</button>
+    </div>
+    <div data-dojo-type="dojox/mobile/Pane">
+      <button class="mblBlueButton" data-dojo-type="dojox/mobile/Button">Button 4</button>
+    </div>
+    <div data-dojo-type="dojox/mobile/Pane">
+      <button class="mblBlueButton" data-dojo-type="dojox/mobile/Button">Button 5</button>
+    </div>
+    <div data-dojo-type="dojox/mobile/Pane">
+      <button class="mblBlueButton" data-dojo-type="dojox/mobile/Button">Button 6</button>
+    </div>
+</div>
+

@@ -1,0 +1,61 @@
+{
+    "dijitType": "dojox/mobile/DataCarousel",
+    "props": [
+     {
+      "propName": "id",
+      "displayName": "ID",
+      "tagName": "text",
+      "defaultValue": "dataCarouselId"
+    },
+    
+      {
+      "propName": "height",
+      "displayName": "Teight",
+      "tagName": "text",
+      "defaultValue": "100px"
+      },
+       {
+      "propName": "navButton",
+      "displayName": "NavButton",
+      "tagName": "checkbox",
+      "defaultValue": "false"
+      },
+        {
+      "propName": "pageIndicator",
+      "displayName": "PageIndicator",
+      "tagName": "checkbox",
+      "defaultValue": "true"
+      },
+       {
+      "propName": "selectable",
+      "displayName": "Selectable",
+      "tagName": "checkbox",
+      "defaultValue": "true"
+      },
+        {
+      "propName": "numVisible",
+      "displayName": "NumVisible",
+      "tagName": "text",
+      "defaultValue": "2"
+      },
+       {
+      "propName": "itemWidth",
+      "displayName": "ItemWidth",
+      "tagName": "text",
+      "defaultValue": "0"
+      },
+       {
+      "propName": "title",
+      "displayName": "Title",
+      "tagName": "text",
+      "defaultValue": "dataCaousel"
+      },
+      
+       {
+      "propName": "theme",
+      "displayName": "theme",
+      "tagName": "theme",
+	  "defaultValue": ""
+    }
+    ]
+}

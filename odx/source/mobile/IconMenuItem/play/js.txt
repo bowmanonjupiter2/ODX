@@ -1,0 +1,52 @@
+<script type="text/javascript" src="dojox/mobile/deviceTheme.js" data-dojo-config="mblThemeFiles: ['base','IconMenu']"></script>
+require([
+    "dojo/ready",
+    "dojox/mobile/IconMenu",
+    "dojox/mobile/IconMenuItem",
+    "dojox/mobile",
+    "dojox/mobile/parser"
+], function(ready, IconMenu, IconMenuItem){
+    ready(function(){
+        var menu = new IconMenu(${props}, "${id}");
+        menu.startup();
+
+        var item = new IconMenuItem({
+            label: "Mute",
+            icon: "source/mobile/IconMenuItem/play/01.png",
+            selected: true
+        });
+        menu.addChild(item);
+
+        item = new IconMenuItem({
+            label: "Keypad",
+            icon: "source/mobile/IconMenuItem/play/02.png"
+        });
+        menu.addChild(item);
+
+        item = new IconMenuItem({
+            label: "Settings",
+            icon: "source/mobile/IconMenuItem/play/03.png"
+        });
+        menu.addChild(item);
+
+        item = new IconMenuItem({
+            label: "Info",
+            icon: "source/mobile/IconMenuItem/play/04.png"
+        });
+        menu.addChild(item);
+
+        item = new IconMenuItem({
+            label: "Tour",
+            icon: "source/mobile/IconMenuItem/play/05.png"
+        });
+        menu.addChild(item);
+
+        item = new IconMenuItem({
+            label: "Contacts",
+            icon: "source/mobile/IconMenuItem/play/06.png"
+        });
+        menu.addChild(item);
+    });
+});
+</script>
+<div id="${id}"></div>

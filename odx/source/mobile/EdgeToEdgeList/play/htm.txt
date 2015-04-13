@@ -1,0 +1,13 @@
+ <link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/EdgeToEdgeList.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/RoundRect.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/ListItem.css" rel="stylesheet"></link>	
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Heading.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/EdgeToEdgeCategory.css" rel="stylesheet"></link>
+<div data-dojo-type="dojox/mobile/RoundRect">
+<h1 data-dojo-type="dojox/mobile/EdgeToEdgeCategory">Mobile Network</h1>
+<${tag} data-dojo-type="dojox/mobile/EdgeToEdgeList" data-dojo-props="${props}" id="${id}">
+  <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='checked:true'>Airplane Mode</li>
+  <li data-dojo-type="dojox/mobile/ListItem">Wi-Fi</li>
+  <li data-dojo-type="dojox/mobile/ListItem">Carrier</li>
+</${tag}>
+</div>

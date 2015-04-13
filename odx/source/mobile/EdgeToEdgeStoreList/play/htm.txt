@@ -1,0 +1,9 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/EdgeToEdgeList.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/EdgeToEdgeCategory.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/View.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/RoundRect.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/ListItem.css" rel="stylesheet"></link>
+<div data-dojo-type="dojox/mobile/View" style="width:400px;" data-dojo-props='selected:true'>
+<div data-dojo-type="dojo/store/Memory" data-dojo-id="sampleStore" data-dojo-props='data:[{ label: "Wi-Fi", icon: "images/search_button.png", rightText: "On"},{ label: "VPN", icon: "images/search_button.png", rightText: "On"}], idProperty:"label"'></div>
+<${tag} data-dojo-type="dojox/mobile/EdgeToEdgeStoreList" data-dojo-props="store:sampleStore, ${props}" id="${id}"></${tag}>
+</div>

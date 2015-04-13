@@ -1,0 +1,8 @@
+ <link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/ComboBox.css" rel="stylesheet"></link>
+
+<select data-dojo-type="dijit/form/DataList" data-dojo-props="id:'fruitDataList'">
+<option>Apple</option>
+<option selected=true>Banana</option>
+<option>Orange</option>
+</select>
+<input data-dojo-type="dojox/mobile/ComboBox" data-dojo-props="${props}" id="${id}"></input>

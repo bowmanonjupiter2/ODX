@@ -1,0 +1,6 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/TextArea.css" rel="stylesheet"></link>	
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Heading.css" rel="stylesheet"></link>
+<textarea data-dojo-type="dojox/mobile/ExpandingTextArea" data-dojo-props="${props}" id="${id}"></textarea>
+
+
+

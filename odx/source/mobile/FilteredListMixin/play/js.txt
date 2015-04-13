@@ -1,0 +1,47 @@
+require([
+        "dojo/_base/declare",
+        "dojo/ready",
+        "dijit/registry",
+        "dojo/store/Memory",
+        "dojox/mobile/EdgeToEdgeStoreList",
+        "dojox/mobile/FilteredListMixin",
+        "dojox/mobile/SearchBox",
+        "dojox/mobile/ScrollableView",
+        "dojox/mobile",
+        "dojox/mobile/compat", // For non-webkit browsers (FF, IE)
+        "dojox/mobile/parser"
+], function(declare, ready, registry, Memory, EdgeToEdgeStoreList, FilteredListMixin){
+        var static_data = {
+                items: [
+                        {label: "Apple"},
+                        {label: "Banana"},
+                        {label: "Blackberry"},
+                        {label: "Cherry"},
+                        {label: "Grapefruit"},
+                        {label: "Kiwi"},
+                        {label: "Lemon"},
+                        {label: "Lime"},
+                        {label: "Melon"},
+                        {label: "Orange"},
+                        {label: "Peach"},
+                        {label: "Pineapple"}
+                ]
+        };
+        // store for the dojox/mobile/EdgeToEdgeStoreList
+        var store = new Memory({idProperty:"label", data: static_data});
+        ready(function(){
+                var view = registry.byId("scrollableView");
+                var listWidget =
+                        new declare([EdgeToEdgeStoreList, FilteredListMixin])(
+                                ${props});
+                listWidget.placeAt(view.containerNode);
+                listWidget.startup();
+        });
+});
+
+<div data-dojo-type="dojox/mobile/View">
+        <h1 data-dojo-type="dojox/mobile/Heading" data-dojo-props="fixed: 'top'">Fruits</h1>
+        <input data-dojo-type="dojox/mobile/SearchBox" type="search" id="filterBox"
+                class="mblFilteredEdgeToEdgeListSearchBox">
+        <div id="scrollableView" data-dojo-type="dojox/mobile/ScrollableView"></div>
+</div>

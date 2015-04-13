@@ -1,0 +1,28 @@
+{
+    "props":[
+        {
+            "propName":"dir",
+            "displayName":"dir",
+            "tagName":"text",
+            "defaultValue":"ltr"
+        },
+        {
+            "propName":"height",
+            "displayName":"height",
+            "tagName":"text",
+            "defaultValue":"15px"
+        },
+        {
+            "propName":"id",
+            "displayName":"id",
+            "tagName":"text",
+            "defaultValue":"myAudioId"
+        },
+        {
+            "propName":"width",
+            "displayName":"width",
+            "tagName":"text",
+            "defaultValue":"300px"
+        }
+    ]
+}

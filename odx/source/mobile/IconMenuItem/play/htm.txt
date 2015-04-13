@@ -1,0 +1,17 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/IconMenu.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/IconMenuItem.css" rel="stylesheet"></link>
+<script type="text/javascript" src="dojox/mobile/deviceTheme.js" data-dojo-config="mblThemeFiles: ['base','IconMenu']"></script>
+<ul data-dojo-type="dojox/mobile/IconMenu" style="width:458px;height:380px;margin:18px;" data-dojo-props='cols:3'>
+    <${tag} data-dojo-type="dojox/mobile/IconMenuItem"
+        data-dojo-props="${props}"></${tag}>
+    <li data-dojo-type="dojox/mobile/IconMenuItem"
+        data-dojo-props='label:"Keypad", icon:"source/mobile/IconMenuItem/play/02.png"'></li>
+    <li data-dojo-type="dojox/mobile/IconMenuItem"
+        data-dojo-props='label:"Settings", icon:"source/mobile/IconMenuItem/play/03.png"'></li>
+    <li data-dojo-type="dojox/mobile/IconMenuItem"
+        data-dojo-props='label:"Info", icon:"source/mobile/IconMenuItem/play/04.png"'></li>
+    <li data-dojo-type="dojox/mobile/IconMenuItem"
+        data-dojo-props='label:"Tour", icon:"source/mobile/IconMenuItem/play/05.png", moveTo:"view2", transition:"slide"'></li>
+    <li data-dojo-type="dojox/mobile/IconMenuItem"
+        data-dojo-props='label:"Contacts", icon:"source/mobile/IconMenuItem/play/06.png"'></li>
+</ul>

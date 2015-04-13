@@ -1,0 +1,48 @@
+require([
+    "dojox/mobile/Accordion",
+    "dojox/mobile/ContentPane",
+    "dojox/mobile/RoundRectList",
+    "dojox/mobile/ListItem",
+    "dojox/mobile/parser",
+    "dojox/mobile"
+], function(Accordion, ContentPane, RoundRectList, ListItem){
+    var accordion = new Accordion({${props}}, "${id}").startup();
+  
+    pane = new ContentPane({
+        label: WLAN
+        iconPos1: "16,48,16,16"
+    });
+    accordion.addChild(pane);
+
+    var list = new RoundRectList({iconBase: "images/tab-icon-11h.png"});
+    list.placeAt(pane.containerNode);
+    list.startup();
+
+    var item = new ListItem({label: "working wifi", rightText: "On"});
+    list.addChild(item);
+
+    item = new ListItem({label: "home wifi", rightText: "Off"});
+    list.addChild(item);
+
+    item = new ListItem({label: "travel wifi", rightText: "Off"});
+    list.addChild(item);
+
+    pane2 = new ContentPane({
+        label: Mobile Network
+        iconPos1: "16,48,16,16"
+    });
+    accordion.addChild(pane);
+
+    var list = new RoundRectList({iconBase: "images/tab-icon-11h.png"});
+    list.placeAt(pane.containerNode);
+    list.startup();
+
+    var item = new ListItem({label: "WCDMA", rightText: "Off"});
+    list.addChild(item);
+
+    item = new ListItem({label: "GPRS", rightText: "Off"});
+    list.addChild(item);
+
+    item = new ListItem({label: "Airplane Mode", rightText: "Off"});
+    list.addChild(item);
+});

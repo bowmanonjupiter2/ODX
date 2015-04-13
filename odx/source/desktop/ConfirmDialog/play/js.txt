@@ -1,0 +1,3 @@
+require(["dijit/ConfirmDialog", "dojo/domReady!"], function(ConfirmDialog){
+    new ConfirmDialog(${props}, "${id}").startup();
+});

@@ -1,0 +1,13 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/ToolBarButton.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/SpinWheel.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Tooltip.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Heading.css" rel="stylesheet"></link>	
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Button.css" rel="stylesheet"></link>
+
+<button onclick="dijit.registry.byId('customPicker').show()">slide up</button>
+<div id="customPicker" data-dojo-type="dojox/mobile/Opener">
+      <h1 data-dojo-type="dojox/mobile/Heading" label="Custom Picker">
+              <div data-dojo-type="dojox/mobile/ToolBarButton" label="Done" class="mblColorBlue" style="width:45px;float:right;" onClick="dijit.registry.byId('customPicker').hide()"></div>
+      </h1>
+      <div id="spin1" data-dojo-type="dojox/mobile/SpinWheelDatePicker" data-dojo-props="value:'2013-03-14'"></div>
+</div>

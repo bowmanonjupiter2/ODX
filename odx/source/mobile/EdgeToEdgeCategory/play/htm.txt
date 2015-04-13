@@ -1,0 +1,15 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/EdgeToEdgeList.css" rel="stylesheet"></link>	
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/RoundRect.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/ListItem.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/View.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/ScrollablePane.css" rel="stylesheet"></link>
+<div data-dojo-type="dojox/mobile/ScrollableView" style="height:300px;">	
+<div data-dojo-type="dojox/mobile/RoundRect">
+<${tag} data-dojo-type="dojox/mobile/EdgeToEdgeCategory" data-dojo-props="${props}" id="${id}"></${tag}>
+<ul data-dojo-type="dojox/mobile/EdgeToEdgeList" data-dojo-props='select:"multiple"'>
+  <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='checked:true'>Alice</li>
+  <li data-dojo-type="dojox/mobile/ListItem">Alina</li>
+  <li data-dojo-type="dojox/mobile/ListItem">Apple</li>
+</ul>
+</div>
+</div>

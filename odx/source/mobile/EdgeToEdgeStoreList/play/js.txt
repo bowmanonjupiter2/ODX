@@ -1,0 +1,17 @@
+require([
+    "dojo/ready",
+    "dojo/store/Memory",
+    "dojox/mobile/EdgeToEdgeStoreList",
+    "dojox/mobile",
+    "dojox/mobile/parser"
+], function(ready, Memory, EdgeToEdgeStoreList){
+    ready(function(){
+        var storeData = [
+            { "label": "Wi-Fi", "icon": "images/i-icon-3.png", "rightText": "On"},
+            { "label": "VPN", "icon": "images/i-icon-4.png", "rightText": "On"}
+        ];
+        var sampleStore = new Memory({data:storeData, idProperty:"label"});
+        var storeList = new EdgeToEdgeStoreList({store:sampleStore},${props} "${id}");
+        storeList.startup();
+    });
+});

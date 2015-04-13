@@ -1,0 +1,14 @@
+require(
+	["dojo/_base/window",
+		"dojox/mobile/RoundRectCategory",
+		"dojox/mobile/ContentPane",
+		"dojo/dom",
+		"dojo/domReady!"
+	], function(win,RoundRectCategory,ContentPane,dom){
+		var roundRectCategory=new RoundRectCategory({label:'Pane A'},"myroundRectCate");
+		var contentpane=new ContentPane({${props}},"${id}");
+		win.body().appendChild(roundRectCategory.domNode);
+		win.body().appendChild(contentpane.domNode);
+		roundRectCategory.startup();
+		contentpane.startup();
+});

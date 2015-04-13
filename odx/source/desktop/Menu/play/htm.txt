@@ -1,0 +1,22 @@
+<div data-dojo-type="dijit/Menu" data-dojo-props="${props}" id="${id}">
+    <div data-dojo-type="dijit/MenuItem" data-dojo-props="iconClass:'dijitEditorIcon dijitEditorIconCut',
+        onClick:function(){alert('not actually cutting anything, just a test!')}">Cut</div>
+    <div data-dojo-type="dijit/MenuItem" data-dojo-props="iconClass:'dijitEditorIcon dijitEditorIconCopy',
+        onClick:function(){alert('not actually copying anything, just a test!')}">Copy</div>
+    <div data-dojo-type="dijit/MenuItem" data-dojo-props="iconClass:'dijitEditorIcon dijitEditorIconPaste',
+        onClick:function(){alert('not actually pasting anything, just a test!')}">Paste</div>
+    <div data-dojo-type="dijit/MenuSeparator"></div>
+    <div data-dojo-type="dijit/PopupMenuItem">
+        <span>Enabled Submenu</span>
+        <div data-dojo-type="dijit/Menu" id="submenu1">
+            <div data-dojo-type="dijit/MenuItem" data-dojo-props="onClick:function(){alert('Submenu 1!')}">Submenu Item One</div>
+            <div data-dojo-type="dijit/MenuItem" data-dojo-props="onClick:function(){alert('Submenu 2!')}">Submenu Item Two</div>
+        </div>
+    </div>
+    <div data-dojo-type="dijit/PopupMenuItem">
+        <span>Popup of something other than a menu</span>
+        <div data-dojo-type="dijit/ColorPalette"></div>
+    </div>
+</div>
+
+<span>Right click anywhere on this page to see a menu</span>

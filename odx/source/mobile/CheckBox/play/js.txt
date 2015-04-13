@@ -1,0 +1,4 @@
+require(["dojox/mobile/CheckBox", "dojo/dom", "dojo/domReady!"], function(CheckBox, dom){
+    new CheckBox({${props}}, "${id}").startup();
+    
+});

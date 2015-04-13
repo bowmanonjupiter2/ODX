@@ -1,0 +1,3 @@
+<div data-dojo-type="dijit/Editor" data-dojo-props="${props}" id="${id}" name="${name}">
+    <p>This instance is created from a div directly with default toolbar and plugins</p>
+</div>

@@ -1,0 +1,10 @@
+
+<div id="customPicker" data-dojo-type="dojox/mobile/Tooltip"  > 
+    
+</div>   
+<button type="button" style="height:35px;"  onclick="dijit.registry.byId('customPicker').show(this,['above-centered','after','before'])">Slide up</button>
+<script>
+require(["dojox/mobile","dojox/mobile/parser","dojox/mobile/Tooltip","dojox/mobile/SpinWheelDatePicker"]);
+document.getElementById("customPicker").innerHTML="<div data-dojo-type='dojox/mobile/Heading' label=\"Custom Picker\"><div data-dojo-type='dojox/mobile/ToolBarButton' label=\"Done\" class=\"mblColorBlue\" style=\"width:35px;float:right\" onclick=\"dijit.registry.byId('customPicker').hide(this)\"></div></div><div id='spin1' data-dojo-type='dojox/mobile/SpinWheelDatePicker'></div>";
+</script>
+  

@@ -1,0 +1,15 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/View.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Heading.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Overlay.css" rel="stylesheet"></link>	
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/ToolBarButton.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Button.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/SpinWheel.css" rel="stylesheet"></link>
+ 
+<button onclick="dijit.registry.byId('${id}').show()" style="width:99px;height:40px;">slide up</button>
+<div data-dojo-type="dojox/mobile/Overlay" id="${id}" data-dojo-props="${props}">
+      <div data-dojo-type="dojox/mobile/Heading" label="Custom Picker">
+              <div data-dojo-type="dojox/mobile/ToolBarButton" label="Done" class="mblColorBlue" style="width:45px;float:right;" onClick="dijit.registry.byId('${id}').hide()"></div>
+      </div>
+      <div id="spin1" data-dojo-type="dojox/mobile/SpinWheelDatePicker"></div>
+</div>
+

@@ -1,0 +1,12 @@
+require([
+  "dojo/store/Memory",
+  "dojox/mobile/ComboBox"
+], function(Memory, ComboBox){
+  colorMemoryStore = new Memory({ idProperty: "name", data: [
+    { name: "Red" },
+    { name: "Blue" },
+    { name: "Yellow" }
+  ]});
+});
+
+<input type="text" data-dojo-type="dojox/mobile/ComboBox" data-dojo-props='${props}, store:colorMemoryStore, value:"Blue"' id="${id}">

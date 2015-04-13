@@ -1,0 +1,54 @@
+require([
+    "dijit/registry",
+    "dojo/ready",
+    "dojox/mobile/GridLayout",
+    "dojox/mobile/Pane",
+    "dojox/mobile/Button",
+    "dojox/mobile/View",
+    "dojox/mobile",
+    "dojox/mobile/parser"
+], function(registry, ready, GridLayout, Pane, Button){
+    ready(function(){
+        var view = registry.byId("view1");
+        var widget = new GridLayout(${props}, "${id}");
+        widget.placeAt(view.containerNode);
+        widget.startup();
+
+        var pane1 = new Pane();
+        widget.addChild(pane1);
+        var button1 = new Button({label:"Button 1", class:"mblBlueButton"});
+        button1.placeAt(pane1.containerNode);
+        button1.startup();
+
+        var pane2 = new Pane();
+        widget.addChild(pane2);
+        var button2 = new Button({label:"Button 2", class:"mblBlueButton"});
+        button2.placeAt(pane2.containerNode);
+        button2.startup();
+
+        var pane3 = new Pane();
+        widget.addChild(pane3);
+        var button3 = new Button({label:"Button 3", class:"mblBlueButton"});
+        button3.placeAt(pane3.containerNode);
+        button3.startup();
+
+        var pane4 = new Pane();
+        widget.addChild(pane4);
+        var button4 = new Button({label:"Button 4", class:"mblBlueButton"});
+        button4.placeAt(pane4.containerNode);
+        button4.startup();
+
+        var pane5 = new Pane();
+        widget.addChild(pane5);
+        var button5 = new Button({label:"Button 5", class:"mblBlueButton"});
+        button5.placeAt(pane5.containerNode);
+        button5.startup();
+
+        var pane6 = new Pane();
+        widget.addChild(pane6);
+        var button6 = new Button({label:"Button 6", class:"mblBlueButton"});
+        button6.placeAt(pane6.containerNode);
+        button6.startup();
+    });
+});
+

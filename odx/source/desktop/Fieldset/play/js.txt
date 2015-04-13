@@ -1,0 +1,7 @@
+require(["dijit/Fieldset", "dojo/dom", "dojo/domReady!"], function(Fieldset, dom){
+    var tp = new Fieldset(${props});
+    dom.byId("holder").appendChild(tp.domNode);
+    tp.startup();
+});
+
+<div id="holder"></div>

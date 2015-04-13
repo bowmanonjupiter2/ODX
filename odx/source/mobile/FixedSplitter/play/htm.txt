@@ -1,0 +1,10 @@
+ <link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/FixedSplitter.css" rel="stylesheet"></link>
+
+<div data-dojo-type="dojox/mobile/FixedSplitter" data-dojo-props="${props}">
+  <div data-dojo-type="dojox/mobile/Pane" style="background-color:yellow;width:200px;">
+    pane #1 (width=200px)
+  </div>
+  <div data-dojo-type="dojox/mobile/Pane" style="background-color:pink;">
+    pane #2
+  </div>
+</div>

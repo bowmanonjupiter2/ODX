@@ -1,0 +1,2 @@
+<fieldset data-dojo-type="dijit/Fieldset" data-dojo-props="${props}" id="${id}" >
+</fieldset>

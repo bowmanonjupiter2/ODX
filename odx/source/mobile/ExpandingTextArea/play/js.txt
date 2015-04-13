@@ -1,0 +1,5 @@
+<textarea data-dojo-type="dojox/mobile/ExpandingTextArea" data-dojo-props='${props}" id="${id}"></textarea>
+<script type="text/javascript">
+    require(["dojox/mobile","dojox/mobile/parser","dojox/mobile/Heading","dojox/mobile/ExpandingTextArea"]);
+	document.getElementById("${id}").value="As you see,this is line1\nAs you see,this is line2\nAs you see,this is line3\nAs you see,this is line4";
+</script>

@@ -1,0 +1,20 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Heading.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/IconContainer.css" rel="stylesheet"></link>	
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/RoundRect.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/View.css" rel="stylesheet"></link>
+
+<div data-dojo-type="dojox/mobile/View" data-dojo-props="selected:true" style="width:400px;">	
+<div data-dojo-type="dojox/mobile/Heading" >Icon Container (Single/Below)</div>
+<ul data-dojo-type="dojox/mobile/IconContainer" data-dojo-props='transition:"below", single:true, iconBase:"source/mobile/IconItem/play/023.png"'>
+  <${tag} data-dojo-type="dojox/mobile/IconItem" data-dojo-props="${props}">
+    <div data-dojo-type="dojox/mobile/RoundRect" data-dojo-props='shadow:true' style="width:320px;">
+       App #1
+    </div>
+  </${tag}>
+  <li data-dojo-type="dojox/mobile/IconItem" data-dojo-props='label:"Icon 2"' style="width:100px;height:100px;">
+    <div data-dojo-type="dojox/mobile/RoundRect" data-dojo-props='shadow:true' style="width:320px;">
+       App #2
+    </div>
+  </li>
+</ul>
+</div>

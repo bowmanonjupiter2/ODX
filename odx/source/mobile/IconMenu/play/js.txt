@@ -1,0 +1,52 @@
+
+require([
+    "dojo/ready",
+    "dojox/mobile/IconMenu",
+    "dojox/mobile/IconMenuItem",
+    "dojox/mobile",
+    "dojox/mobile/parser"
+], function(ready, IconMenu, IconMenuItem){
+    ready(function(){
+        var menu = new IconMenu(${props}, "${id}");
+        menu.startup();
+
+        var item = new IconMenuItem({
+            label: "Mute",
+            icon: "images/menu.png",
+            selected: true
+        });
+        menu.addChild(item);
+
+        item = new IconMenuItem({
+            label: "Keypad",
+            icon: "images/keypad.png"
+        });
+        menu.addChild(item);
+
+        item = new IconMenuItem({
+            label: "Settings",
+            icon: "images/settings.png"
+        });
+        menu.addChild(item);
+
+        item = new IconMenuItem({
+            label: "Info",
+            icon: "images/info.png"
+        });
+        menu.addChild(item);
+
+        item = new IconMenuItem({
+            label: "Tour",
+            icon: "images/tour.png"
+        });
+        menu.addChild(item);
+
+        item = new IconMenuItem({
+            label: "Contacts",
+            icon: "images/contacts.png"
+        });
+        menu.addChild(item);
+    });
+});
+
+<div id="${id}"></div>

@@ -1,0 +1,48 @@
+ <link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/PageIndicator.css" rel="stylesheet"></link>	
+ <link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/View.css" rel="stylesheet"></link>
+ <link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Heading.css" rel="stylesheet"></link>
+<style>
+  img{
+  -webkit-box-shadow:5px 5px 5px rgba(0,0,0,5);
+  width:25%;
+  }
+  h1{
+  background-color:gray;
+  color:white;
+  font:bold 16px arial,helvetica,clean,sana-serif;
+  margin:0 0 15px 0;
+  heigth:30px;
+  line-height:30px;
+  -webkit-box-shadow:0 4px 4px rgba(0,0,0,.5);
+  }
+  .mblSwapView{
+  text-align:center;
+  }
+ .cc{
+  height:150px;
+  background-color:lightblue;
+  text-align:center;
+  }
+</style>
+<body style="visibility:hidden;background-color:#6d6d6d;height:150px" >
+
+  <div data-dojo-type="dojox/mobile/SwapView" class="cc">
+  <h1 data-dojo-type="dojox/mobile/Heading">My picture 1</h1>
+  <img src="images/PageIndicatorDemoPic1.jpg" />
+  </div>
+  
+  <div data-dojo-type="dojox/mobile/SwapView" class="cc">
+  <h1 data-dojo-type="dojox/mobile/Heading">My picture 2</h1>
+  <img src="images/PageIndicatorDemoPic2.jpg" />
+  </div>
+  
+  <div data-dojo-type="dojox/mobile/SwapView" class="cc">
+  <h1 data-dojo-type="dojox/mobile/Heading">My picture 3</h1>
+  <img src="images/PageIndicatorDemoPic3.jpg" />
+  </div>
+  
+  <div data-dojo-type="dojox/mobile/PageIndicator" data-dojo-props="${props}" ></div>
+  
+  
+</body>
+

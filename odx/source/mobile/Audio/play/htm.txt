@@ -1,0 +1,4 @@
+<audio data-dojo-type="dojox/mobile/Audio" controls data-dojo-props="${props}">
+  <source src="source/mobile/Audio/play/SmilingEyes.mp3" type="audio/mpeg">
+</audio>
+

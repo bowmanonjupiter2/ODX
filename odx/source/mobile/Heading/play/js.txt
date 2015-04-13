@@ -1,0 +1,11 @@
+require([
+  "dojo/dom",
+  "dojo/ready",
+  "dojox/mobile/Heading"
+], function(dom, ready, Heading){
+  ready(function(){
+    var heading = new Heading(${props}, "${id}");
+    heading.placeAt(document.body);
+    heading.startup();
+  });
+});

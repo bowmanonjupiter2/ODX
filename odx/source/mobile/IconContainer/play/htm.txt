@@ -1,0 +1,10 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/IconContainer.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Heading.css" rel="stylesheet"></link>
+<${tag} data-dojo-type="dojox/mobile/IconContainer" data-dojo-props="${props}">
+  <li data-dojo-type="dojox/mobile/IconItem" data-dojo-props='label:"Color Palette", lazy:true' style="width:100px;height:100px">
+    <div data-dojo-type='dijit/ColorPalette'></div>
+  </li>
+  <li data-dojo-type="dojox/mobile/IconItem" data-dojo-props='label:"Progress Bar", lazy:true' style="width:100px;height:100px">
+    <div data-dojo-type='dijit/ProgressBar'></div>
+  </li>
+</${tag}>

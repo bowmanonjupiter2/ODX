@@ -1,0 +1,25 @@
+ <link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/View.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Heading.css"rel="stylesheet"></link>	
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/RoundRectList.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/RoundRect.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/ListItem.css" rel="stylesheet"></link>
+<div data-dojo-type="dojox/mobile/View">
+        <h1 data-dojo-type="dojox/mobile/Heading" data-dojo-props="fixed: 'top'">Fruits</h1>
+        <input data-dojo-type="dojox/mobile/SearchBox" type="search" id="filterBox" class="mblFilteredEdgeToEdgeListSearchBox">
+        <ul id="list" data-dojo-type="dojox/mobile/RoundRectList"
+                data-dojo-mixins="dojox/mobile/FilteredListMixin"
+                data-dojo-props="${props}">
+                <li data-dojo-type="dojox/mobile/ListItem">Apple</li>
+                <li data-dojo-type="dojox/mobile/ListItem">Banana</li>
+                <li data-dojo-type="dojox/mobile/ListItem">Blackberry</li>
+                <li data-dojo-type="dojox/mobile/ListItem">Cherry</li>
+                <li data-dojo-type="dojox/mobile/ListItem">Grapefruit</li>
+                <li data-dojo-type="dojox/mobile/ListItem">Kiwi</li>
+                <li data-dojo-type="dojox/mobile/ListItem">Lemon</li>
+                <li data-dojo-type="dojox/mobile/ListItem">Lime</li>
+                <li data-dojo-type="dojox/mobile/ListItem">Melon</li>
+                <li data-dojo-type="dojox/mobile/ListItem">Orange</li>
+                <li data-dojo-type="dojox/mobile/ListItem">Peach</li>
+                <li data-dojo-type="dojox/mobile/ListItem">Pineapple</li>
+        </ul>
+</div>
