@@ -1,0 +1,6 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/ProgressIndicator.css" rel="stylesheet"></link>	
+<div style="height:100px;background-color:AliceBlue;">
+<div data-dojo-type="dojox/mobile/ProgressIndicator" data-dojo-props="${props}" id="${id}"></div>
+</div>
+              	
+

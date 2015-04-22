@@ -1,0 +1,5 @@
+<div id="d1" data-dojo-type="dojox/mobile/View" style="width:300px;" data-dojo-props="${props}">
+ <script type="text/javascript">
+    var qq=document.getElementById('d1');
+	qq.innerHTML="<h1 data-dojo-type='dojox/mobile/Heading'>View 1</h1><ul data-dojo-type='dojox/mobile/RoundRectList'><li data-dojo-type='dojox/mobile/ListItem'>Orange</li> <li data-dojo-type='dojox/mobile/ListItem'>Apple</li><li data-dojo-type='dojox/mobile/ListItem'>Cherry</li> <li data-dojo-type='dojox/mobile/ListItem'>Peach</li><li data-dojo-type='dojox/mobile/ListItem'>Banana</li><li data-dojo-type='dojox/mobile/ListItem'>Apricot</li></ul> ";
+ </script> </div>

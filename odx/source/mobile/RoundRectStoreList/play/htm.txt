@@ -1,0 +1,5 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/RoundRectList.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/ListItem.css" rel="stylesheet"></link>
+
+<div data-dojo-type="dojo/store/JsonRest" data-dojo-id="sampleStore" data-dojo-props="target:'../odx/source/mobile/RoundRectStoreList/play/example.json'"></div>
+<${tag} data-dojo-type="dojox/mobile/RoundRectStoreList" data-dojo-props="${props},store:sampleStore" id="${id}"></${tag}>

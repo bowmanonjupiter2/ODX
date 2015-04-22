@@ -1,0 +1,14 @@
+{
+    "items":[
+        {
+            "label":"WI-FI",
+            "rightText":"OFF",
+            "moveTo":"bar"
+        },
+        {
+            "label":"VPN",
+            "rightText":"On",
+            "moveTo":"bar"
+        }
+    ]
+}

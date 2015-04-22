@@ -1,0 +1,7 @@
+
+<ul data-dojo-type="dojox/mobile/TabBar"
+    data-dojo-props='barType:"slimTab", closable:true, center:false, fill:"always"' id="TabBarButton">
+  <script>
+   document.getElementById("TabBarButton").innerHTML="<li data-dojo-type='dojox/mobile/TabBarButton' data-dojo-props='selected:true'>Dashboard</li><li data-dojo-type='dojox/mobile/TabBarButton'>Plan</li><li data-dojo-type='dojox/mobile/TabBarButton'>Main Event</li>";
+  </script>
+</ul>

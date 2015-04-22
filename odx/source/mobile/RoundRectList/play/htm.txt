@@ -1,0 +1,14 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/ListItem.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/RoundRectList.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Switch.css"rel="stylesheet"></link>
+
+<${tag} data-dojo-type="dojox/mobile/RoundRectList" data-dojo-props="${props}">
+  <li data-dojo-type="dojox/mobile/ListItem"
+      data-dojo-props='icon:"images/RoundRectList-icon1.png",
+                       rightText:"Off",
+                       moveTo:"view1"'>Wi-Fi</li>
+  <li data-dojo-type="dojox/mobile/ListItem"
+      data-dojo-props='icon:"images/RoundRectList-icon2.png",
+                       rightText:"VPN",
+                       moveTo:"view2"'>VPN</li>
+</${tag}>

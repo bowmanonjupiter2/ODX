@@ -1,0 +1,16 @@
+require([
+    "dojo/ready",
+    "dijit/registry",
+    "dojox/mobile/ScrollableView",
+    "dojox/mobile/Heading"
+], function(ready, registry, ScrollableView, Heading){
+    var sv = new ScrollableView(${props},${id});
+    var h = new Heading({fixed:"top", label:"View Header Bar"});
+    sv.addChild(h);
+    // Add contents here...
+    // ...
+    var f = new Heading({fixed:"bottom", label:"View Footer Bar"});
+    sv.addChild(f);
+    sv.placeAt(document.body);
+    sv.startup();
+});

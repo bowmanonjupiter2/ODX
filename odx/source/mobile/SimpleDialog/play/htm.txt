@@ -1,0 +1,39 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/SimpleDialog.css" rel="stylesheet"></link>	
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Button.css" rel="stylesheet"></link>
+<style>
+	.mblSimpleDialogButton{
+	margin:7px 0 0;
+	width:262px;
+	font-size:17px;
+	font-weight:bold;
+	opacity:0.95;
+	}
+	.mblSimpleDialogButton2l{
+	float:left;
+	margin:7px 0 0;
+	width:127px;
+	font-size:17px;
+	font-weight:bold;
+	opacity:0.95;
+	}
+	.mblSimpleDialogButton2r{
+	float:right;
+	margin:7px 0 0;
+	width:127px;
+	font-size:17px;
+	font-weight:bold;
+	opacity:0.95;
+	}
+	.mblSimpleDialog .mblProgressIndicator{
+	position:relative;
+	margin:14px 0 7px;
+	top:0;
+	}
+</style>
+<button data-dojo-type="dojox/mobile/Button" class="mblSimpleDialogButton" onclick="{require(['dijit/registry','dojox/mobile','dojox/mobile/parser','dojox/mobile/SimpleDialog','dojox/mobile/Button'],function(registry){registry.byId('${id}').show();});}">Show Dialog</button>
+<div id="${id}" data-dojo-type="dojox/mobile/SimpleDialog"  data-dojo-props="${props}">
+  <div class="mblSimpleDialogTitle" >Information</div>
+  <div class="mblSimpleDialogText" >This is a sample dialog.</div>
+  <button data-dojo-type="dojox/mobile/Button" class="mblSimpleDialogButton" style="width:100px;" onclick="{require(['dijit/registry','dojox/mobile','dojox/mobile/parser','dojox/mobile/SimpleDialog','dojox/mobile/Button'],function(registry){registry.byId('${id}').hide();});}">OK</button>
+</div>
+

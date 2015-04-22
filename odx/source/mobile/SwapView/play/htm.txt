@@ -1,0 +1,16 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/RoundRectCategory.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/RoundRect.css" rel="stylesheet"></link>	
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Heading.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/View.css" rel="stylesheet"></link>
+<div data-dojo-type="dojox/mobile/SwapView" data-dojo-props="${props}" id="${id}">
+  <h2 data-dojo-type="dojox/mobile/RoundRectCategory">Page flipping demo</h2>
+  <div data-dojo-type="dojox/mobile/RoundRect">
+    Swipe the screen left or right to flip between the views.
+  </div>
+</div>
+<div data-dojo-type="dojox/mobile/SwapView">
+  <h1 data-dojo-type="dojox/mobile/Heading">View 2</h1>
+  <div data-dojo-type="dojox/mobile/RoundRect">
+    View 2
+  </div>
+</div>

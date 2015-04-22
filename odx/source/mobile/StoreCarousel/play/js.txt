@@ -1,0 +1,17 @@
+<script type="text/javascript" src="dojox/mobile/deviceTheme.js" data-dojo-config="mblThemeFiles: ['base','Carousel','PageIndicator']"></script>
+
+require([
+    "dojo/ready",
+    "dojo/store/JsonRest",
+    "dojox/mobile/StoreCarousel",
+    "dojox/mobile",
+    "dojox/mobile/parser"
+], function(ready, JsonRest, StoreCarousel){
+    ready(function(){
+        var sampleStore = new JsonRest({target: "sample.json"});
+        var carousel = new StoreCarousel(${props},store:sampleStore}, ${id}
+        carousel.startup();
+    });
+});
+
+<div id="carousel1"></div>

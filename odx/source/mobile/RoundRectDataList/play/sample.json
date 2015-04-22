@@ -1,0 +1,16 @@
+{
+    "items":[
+        {
+            "label":"Wi-Fi",
+            "icon":"images/search_button.png",
+            "rightText":"Off",
+            "moveTo":"bar"
+        },
+        {
+            "label":"VPN",
+            "icon":"images/search_button.png",
+            "rightText":"VPN",
+            "moveTo":"bar"
+        }
+    ]
+}

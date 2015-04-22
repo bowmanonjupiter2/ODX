@@ -1,0 +1,4 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Carousel.css" rel="stylesheet"></link>
+<script type="text/javascript" src="dojox/mobile/deviceTheme.js" data-dojo-config="mblThemeFiles: ['base','Carousel','PageIndicator']"></script>
+<div id="carousel1" data-dojo-type="dojo/store/JsonRest" data-dojo-id="sampleStore" data-dojo-props="target:'../odx/source/mobile/StoreCarousel/play/sample.json'"></div>
+<div data-dojo-type="dojox/mobile/StoreCarousel" data-dojo-props="${props},store:sampleStore" id="${id}"></div>

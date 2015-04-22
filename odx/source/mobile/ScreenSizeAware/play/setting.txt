@@ -1,0 +1,28 @@
+{
+    "props":[
+        {
+            "propName":"selected",
+            "displayName":"Selected",
+            "tagName":"checkbox",
+            "defaultValue":"false"
+        },
+        {
+            "propName":"keepScrollPos",
+            "displayName":"KeepScrollPos",
+            "tagName":"checkbox",
+            "defaultValue":"true"
+        },
+        {
+            "propName":"id",
+            "displayName":"ID",
+            "tagName":"text",
+            "defaultValue":"View"
+        },
+        {
+            "propName":"theme",
+            "displayName":"theme",
+            "tagName":"theme",
+            "defaultValue":""
+        }
+    ]
+}

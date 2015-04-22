@@ -1,0 +1,2 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Switch.css" rel="stylesheet"></link>
+<div id="${id}" data-dojo-type="dojox/mobile/Switch" data-dojo-props="${props}"> </div>

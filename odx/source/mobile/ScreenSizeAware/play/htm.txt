@@ -1,0 +1,42 @@
+<script type="text/javascript" src="dojox/mobile/deviceTheme.js"
+        data-dojo-config="mblThemeFiles: ['base','FixedSplitter']"></script>
+
+<!-- FixedSplitter typically needs the following styles -->
+<style>
+html, body{
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+</style>
+
+<span data-dojo-type="dojox/mobile/ScreenSizeAware"></span>
+<div data-dojo-type="dojox/mobile/FixedSplitter" data-dojo-props='orientation:"H"'>
+    <div data-dojo-type="dojox/mobile/Container" style="width:300px;border-right:1px solid black;">
+        <div id="settings" data-dojo-type="dojox/mobile/ScrollableView" data-dojo-props='selected:true'>
+            <h1 data-dojo-type="dojox/mobile/Heading" data-dojo-props='fixed:"top"'>Settings</h1>
+            <ul data-dojo-type="dojox/mobile/EdgeToEdgeList" data-dojo-props='transition:"flip", stateful:true'>
+                <li data-dojo-type="dojox/mobile/ListItem"
+                    data-dojo-props='icon:"images/i-icon-1.png", moveTo:"general"'>
+                    General
+                </li>
+                <li data-dojo-type="dojox/mobile/ListItem"
+                    data-dojo-props='icon:"images/i-icon-2.png", moveTo:"wifi"'>
+                    Wi-Fi
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div data-dojo-type="dojox/mobile/Container">
+        <div id="general" data-dojo-type="dojox/mobile/ScrollableView" data-dojo-props='selected:true'>
+            <h1 data-dojo-type="dojox/mobile/Heading"
+                data-dojo-props='fixed:"top", back:"Settings", moveTo:"settings"'>General</h1>
+            <div data-dojo-type="dojox/mobile/RoundRect">General</div>
+        </div>
+        <div id="wifi" data-dojo-type="dojox/mobile/ScrollableView">
+            <h1 data-dojo-type="dojox/mobile/Heading"
+                data-dojo-props='fixed:"top", back:"Settings", moveTo:"settings"'>Wi-Fi</h1>
+            <div data-dojo-type="dojox/mobile/RoundRect">Wi-Fi</div>
+        </div>
+    </div>
+</div>

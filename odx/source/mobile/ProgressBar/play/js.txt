@@ -1,0 +1,11 @@
+require([
+  "dojo/dom",
+  "dojo/ready",
+  "dojox/mobile/ProgressBar"
+], function(dom, ready, ProgressBar){
+  ready(function(){
+    var pb = new ProgressBar(${props});
+    pb.placeAt(dom.byId("foo"));
+    pb.startup();
+  });
+});

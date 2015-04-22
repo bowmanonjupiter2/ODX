@@ -1,0 +1,11 @@
+require([
+  "dojo/dom",
+  "dojo/ready",
+  "dojox/mobile/Switch"
+], function(dom, ready, Switch){
+  ready(function(){
+    var sw = new Switch(${props});
+    sw.placeAt(document.body);
+    sw.startup();
+  });
+});

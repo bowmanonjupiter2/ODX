@@ -1,0 +1,42 @@
+require([
+  "dojo/_base/window",
+  "dojo/dom-construct",
+  "dojox/mobile/SimpleDialog",
+  "dojox/mobile/ProgressIndicator",
+  "dojox/mobile/Button"
+], function(win, domConstruct, SimpleDialog, ProgressIndicator, Button){
+  showProgIndDlg = function(){
+    var piIns = ProgressIndicator.getInstance();
+    var hideProgIndDlg = function(simpleDlg){
+      piIns.stop();
+      simpleDlg.hide();
+    }
+
+    var dlg = new SimpleDialog(${props}, ${id});
+    win.body().appendChild(dlg.domNode);
+    var msgBox = domConstruct.create("div",
+                                     {class: "mblSimpleDialogText",
+                                      innerHTML: "Processing..."},
+                                      dlg.domNode);
+    var piBox = domConstruct.create("div",
+                                    {class: "mblSimpleDialogText"},
+                                     dlg.domNode);
+    piBox.appendChild(piIns.domNode);
+    var cancelBtn = new Button({class: "mblSimpleDialogButton mblRedButton",
+                                innerHTML: "Cancel"});
+    cancelBtn.connect(cancelBtn.domNode, "click",
+                      function(e){hideProgIndDlg(dlg)});
+    cancelBtn.placeAt(dlg.domNode);
+    dlg.show();
+    piIns.start();
+
+    setTimeout(function(){
+      /*
+       * Write your lengthy task here. Once finished, hide the dialog:
+       */
+      hideProgIndDlg(dlg);
+    }, 3000);
+  }
+});
+
+<button onclick="showProgIndDlg();">Show Dialog</button>

@@ -1,0 +1,8 @@
+require([
+  "dojo/_base/window",
+  "dojox/mobile/ProgressIndicator"
+], function(win, ProgressIndicator){
+  var prog = new ProgressIndicator(${props});
+  win.body().appendChild(prog.domNode);
+  prog.start();
+});

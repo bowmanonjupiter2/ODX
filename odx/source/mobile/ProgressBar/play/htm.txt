@@ -1,0 +1,2 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/ProgressBar.css" rel="stylesheet"></link>
+<div data-dojo-type="dojox/mobile/ProgressBar" data-dojo-props="${props}"></div>

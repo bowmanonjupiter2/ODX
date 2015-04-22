@@ -1,0 +1,17 @@
+require([
+    "dojo/ready",
+    "dojo/store/Memory",
+    "dojox/mobile/RoundRectStoreList",
+    "dojox/mobile",
+    "dojox/mobile/parser"
+], function(ready, Memory, RoundRectStoreList){
+    ready(function(){
+        var storeData = [
+            { "label": "Wi-Fi", "icon": "images/i-icon-3.png", "rightText": "Off", "moveTo": "bar" },
+            { "label": "VPN", "icon": "images/i-icon-4.png", "rightText": "VPN", "moveTo": "bar" }
+        ];
+        var sampleStore = new Memory({data:storeData, idProperty:"label"});
+        var storeList = new RoundRectStoreList({${props},store:sampleStore}, "${id}");
+        storeList.startup();
+    });
+});

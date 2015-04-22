@@ -1,0 +1,26 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/View.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Heading.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/RoundRectList.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/ListItem.css" rel="stylesheet"></link>
+
+<div  data-dojo-type="dojox/mobile/ScrollableView" data-dojo-props="${props}">
+<h1 data-dojo-type="dojox/mobile/Heading" data-dojo-props='fixed:"top"'>Header Bar</h1>
+<div  data-dojo-type="dojox/mobile/View" >
+<ul data-dojo-type="dojox/mobile/RoundRectList">
+<li data-dojo-type="dojox/mobile/ListItem">A</li>
+<li data-dojo-type="dojox/mobile/ListItem">B</li>
+<li data-dojo-type="dojox/mobile/ListItem">C</li>
+<li data-dojo-type="dojox/mobile/ListItem">D</li>
+<li data-dojo-type="dojox/mobile/ListItem">E</li>
+<li data-dojo-type="dojox/mobile/ListItem">F</li>
+<li data-dojo-type="dojox/mobile/ListItem">G</li>
+<li data-dojo-type="dojox/mobile/ListItem">H</li>
+<li data-dojo-type="dojox/mobile/ListItem">I</li>
+<li data-dojo-type="dojox/mobile/ListItem">J</li>
+</ul>
+</div>
+<h1 data-dojo-type="dojox/mobile/Heading" data-dojo-props='fixed:"bottom"'>Footer Bar</h1>
+</div>
+
+
+

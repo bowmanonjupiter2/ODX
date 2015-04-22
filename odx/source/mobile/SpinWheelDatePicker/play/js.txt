@@ -1,0 +1,12 @@
+require([
+    "dojo/_base/window",
+    "dojo/ready",
+    "dojox/mobile/SpinWheelDatePicker",
+    "dojox/mobile/parser"
+], function(win, ready, SpinWheelDatePicker){
+    ready(function(){
+      var widget = new SpinWheelDatePicker(${props});
+      win.body().appendChild(widget.domNode);
+      widget.startup();
+    });
+});

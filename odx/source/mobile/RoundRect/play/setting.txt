@@ -1,0 +1,46 @@
+{
+    "props":[
+        {
+            "propName":"shadow",
+            "displayName":"shadow",
+            "tagName":"checkbox",
+            "defaultValue":"true"
+        },
+        {
+            "propName":"dir",
+            "displayName":"dir",
+            "tagName":"text",
+            "defaultValue":"ltr"
+        },
+        {
+            "propName":"id",
+            "displayName":"id",
+            "tagName":"text",
+            "defaultValue":"myRoundRectId"
+        },
+        {
+            "propName":"style",
+            "displayName":"style",
+            "tagName":"text",
+            "defaultValue":""
+        },
+        {
+            "propName":"title",
+            "displayName":"title",
+            "tagName":"text",
+            "defaultValue":"myRoundRectTitle"
+        },
+        {
+            "propName":"tooltip",
+            "displayName":"tooltip",
+            "tagName":"text",
+            "defaultValue":"round rect"
+        },
+        {
+            "propName":"theme",
+            "displayName":"theme",
+            "tagName":"theme",
+            "defaultValue":""
+        }
+    ]
+}

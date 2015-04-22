@@ -1,0 +1,8 @@
+ <link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/SpinWheel.css" rel="stylesheet"></link>
+<div id="view1" data-dojo-type="dojox/mobile/View" select="true">
+	<div data-dojo-type="dojox/mobile/SpinWheel" data-dojo-props="${props}" id="${id}">
+		<div data-dojo-type="dojox/mobile/SpinWheelSlot" labels="a,b,c,d,e,f"  style="width:25px;"></div>
+		<div data-dojo-type="dojox/mobile/SpinWheelSlot" labelFrom="300" labelTo="400"></div>
+		<div data-dojo-type="dojox/mobile/SpinWheelSlot" labels="pt,px,cm" style="width:50px;"></div>
+	</div>
+</div>

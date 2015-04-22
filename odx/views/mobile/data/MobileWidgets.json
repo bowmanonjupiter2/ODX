@@ -5,6 +5,10 @@
                 {
                     "id":"dojox/mobile/Carousel",
                     "name":"Carousel"
+                },
+                {
+                    "id":"dojox/mobile/StoreCarousel",
+                    "name":"StoreCarousel"
                 }
             ],
             "id":"carousel",
@@ -32,6 +36,22 @@
                 {
                     "id":"dojox/mobile/Slider",
                     "name":"Slider"
+                },
+                {
+                    "id":"dojox/mobile/RadioButton",
+                    "name":"RadioButton"
+                },
+                {
+                    "id":"dojox/mobile/SearchBox",
+                    "name":"SearchBox"
+                },
+                {
+                    "id":"dojox/mobile/Slider",
+                    "name":"Slider"
+                },
+                {
+                    "id":"dojox/mobile/Switch",
+                    "name":"Switch"
                 }
             ],
             "id":"form",
@@ -69,6 +89,14 @@
                 {
                     "id":"dojox/mobile/PageIndicator",
                     "name":"PageIndicator"
+                },
+                {
+                    "id":"dojox/mobile/ProgressBar",
+                    "name":"ProgressBar"
+                },
+                {
+                    "id":"dojox/mobile/ProgressIndicator",
+                    "name":"ProgressIndicator"
                 }
             ],
             "id":"indicators",
@@ -96,6 +124,10 @@
                 {
                     "id":"dojox/mobile/IconMenuItem",
                     "name":"IconMenuItem"
+                },
+                {
+                    "id":"dojox/mobile/SimpleDialog",
+                    "name":"SimpleDialog"
                 }
             ],
             "id":"layout",
@@ -123,6 +155,22 @@
                 {
                     "id":"dojox/mobile/ListItem",
                     "name":"ListItem"
+                },
+                {
+                    "id":"dojox/mobile/RoundRectCategory",
+                    "name":"RoundRectCategory"
+                },
+                {
+                    "id":"dojox/mobile/RoundRectDataList",
+                    "name":"RoundRectDataList"
+                },
+                {
+                    "id":"dojox/mobile/RoundRectList",
+                    "name":"RoundRectList"
+                },
+                {
+                    "id":"dojox/mobile/RoundRectStoreList",
+                    "name":"RoundRectStoreList"
                 }
             ],
             "id":"list",
@@ -160,6 +208,14 @@
                 {
                     "id":"dojox/mobile/ContentPane",
                     "name":"ContentPane"
+                },
+                {
+                    "id":"dojox/mobile/RoundRect",
+                    "name":"RoundRect"
+                },
+                {
+                    "id":"dojox/mobile/ScrollablePane",
+                    "name":"ScrollablePane"
                 }
             ],
             "id":"panes",
@@ -180,12 +236,50 @@
         {
             "children":[
                 {
+                    "id":"dojox/mobile/SpinWheel",
+                    "name":"SpinWheel"
+                },
+                {
+                    "id":"dojox/mobile/SpinWheelDatePicker",
+                    "name":"SpinWheelDatePicker"
+                },
+                {
+                    "id":"dojox/mobile/SpinWheelTimePicker",
+                    "name":"SpinWheelTimePicker"
+                }
+            ],
+            "id":"Spinwheel",
+            "name":"SpinWheel",
+            "type":"group"
+        },
+        {
+            "children":[
+                {
                     "id":"dojox/mobile/TabBar",
                     "name":"TabBar"
+                },
+                {
+                    "id":"dojox/mobile/TabBarButton",
+                    "name":"TabBarButton"
                 }
             ],
             "id":"tab",
             "name":"TabBar",
+            "type":"group"
+        },
+        {
+            "children":[
+                {
+                    "id":"dojox/mobile/ScrollableView",
+                    "name":"ScrollableView"
+                },
+                {
+                    "id":"dojox/mobile/SwapView",
+                    "name":"SwapView"
+                }
+            ],
+            "id":"views",
+            "name":"Views",
             "type":"group"
         }
     ],

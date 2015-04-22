@@ -1,0 +1,51 @@
+require([
+    "dojo/dom-construct",
+    "dojo/ready",
+    "dijit/registry",
+    "dojox/mobile/SpinWheel",
+    "dojox/mobile/SpinWheelSlot",
+    "dojox/mobile/parser"
+], function(domConst, ready, registry, SpinWheel, SpinWheelSlot){
+  ready(function(){
+    var view = registry.byId("view1");
+    var widget = new SpinWheel(${props});
+    widget.placeAt(view.containerNode);
+    widget.startup();
+    var slot1 = new SpinWheelSlot({
+      labels:['A','B','C','D','E','F','G','H','I','J','K','L','M',
+              'N','O','P','Q','R','S','T','U','V','W','X','Y','Z'],
+      style:{textAlign:"center", width:"40px"}});
+    widget.addChild(slot1);
+
+    var slot2 = new SpinWheelSlot({labelFrom:3000, labelTo:3100, style:{width:"70px"}});
+    widget.addChild(slot2);
+
+    domConst.create("div", {className: "mblSpinWheelSlot", id:"pt"}, widget.containerNode);
+    domConst.create("div", {className: "mblSpinWheelSlot", id:"txt", innerHTML:"."},
+                    widget.containerNode);
+
+    var slot3 = new SpinWheelSlot({labelFrom:0, labelTo:9, style:{width:"30px"}});
+    widget.addChild(slot3);
+
+    var slot4 = new SpinWheelSlot({labels:['pt','px','cm'], style:{width:"50px"}});
+    widget.addChild(slot4);
+
+    var slot5 = new SpinWheelSlot({
+      labels:[
+        '<img src=images/i-icon-1.png>',
+        '<img src=images/i-icon-2.png>',
+        '<img src=images/i-icon-3.png>',
+        '<img src=images/i-icon-4.png>',
+        '<img src=images/i-icon-5.png>',
+        '<img src=images/i-icon-6.png>',
+        '<img src=images/i-icon-7.png>',
+        '<img src=images/i-icon-8.png>',
+        '<img src=images/i-icon-9.png>',
+        '<img src=images/i-icon-10.png>'
+      ],
+      style:{width:"70px", textAlign:"center"}
+    });
+    widget.addChild(slot5);
+
+  });
+});

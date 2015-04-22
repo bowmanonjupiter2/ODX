@@ -1,0 +1,4 @@
+ <link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/SearchBox.css" rel="stylesheet"></link>
+
+<input data-dojo-type="dojox/mobile/SearchBox" type="search" placeHolder="Search" data-dojo-props="${props}"></input>
+  

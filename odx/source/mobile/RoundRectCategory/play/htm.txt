@@ -1,0 +1,6 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/RoundRectCategory.css rel="stylesheet"></link>	
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/RoundRect.css" rel="stylesheet"></link>
+
+<div data-dojo-type="dojox/mobile/RoundRect" style="width:300px;">
+<${tag} data-dojo-type="dojox/mobile/RoundRectCategory" data-dojo-props="${props}">Transition Effects</${tag}>
+</div>

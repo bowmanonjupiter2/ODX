@@ -1,0 +1,12 @@
+require([
+    "dojo/_base/window",
+    "dojo/ready",
+    "dojox/mobile/SpinWheelTimePicker",
+    "dojox/mobile/parser"
+], function(win, ready, registry, SpinWheelTimePicker){
+    ready(function(){
+      var widget = new SpinWheelTimePicker(${props});
+      win.body().appendChild(widget.domNode);
+      widget.startup();
+    });
+});

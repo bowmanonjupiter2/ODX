@@ -1,0 +1,7 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/RoundRect.css" rel="stylesheet"></link>
+	
+<div data-dojo-type="dojox/mobile/RoundRect" data-dojo-props="${props}">
+  This module provides some widgets that can be used to build web-based
+  applications for mobile devices such as iPhone or Android.
+</div>
+

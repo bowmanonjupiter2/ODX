@@ -1,0 +1,25 @@
+{
+    "items":[
+        {
+            "src":"../odx/images/storecarousel-demo1.jpg",
+            "value":"sample1",
+            "headerText":"glass"
+        },
+        {
+            "src":"../odx/images/storecarousel-demo2.jpg",
+            "value":"sample2",
+            "headerText":"sample2"
+        },
+        {
+            "src":"../odx/images/storecarousel-demo3.jpg",
+            "value":"sample3",
+            "headerText":"sample3"
+        },
+        {
+            "src":"../odx/images/storecarousel-demo4.jpg",
+            "value":"sample2",
+            "headerText":"sample4"
+        }
+        
+    ]
+}
