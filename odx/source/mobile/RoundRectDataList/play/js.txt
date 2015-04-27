@@ -13,7 +13,7 @@ require([
             ]
         };
         var sampleStore = new ItemFileReadStore({data:storeData});
-        var dataList = new RoundRectDataList({store:sampleStore, ${props}}, "${id}");
+        var dataList = new RoundRectDataList({${props},store:sampleStore}, "${id}");
         dataList.startup();
     });
 });

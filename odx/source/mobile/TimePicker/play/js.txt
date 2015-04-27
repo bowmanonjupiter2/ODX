@@ -1,0 +1,12 @@
+require([
+    "dojo/_base/window",
+    "dojo/ready",
+    "dojox/mobile/TimePicker",
+    "dojox/mobile/parser"
+], function(win, ready, registry, TimePicker){
+    ready(function(){
+      var widget = new TimePicker("${id}");
+      win.body().appendChild(widget.domNode);
+      widget.startup();
+    });
+});

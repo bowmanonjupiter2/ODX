@@ -4,7 +4,7 @@ require([
   "dojox/mobile/ProgressBar"
 ], function(dom, ready, ProgressBar){
   ready(function(){
-    var pb = new ProgressBar(${props});
+    var pb = new ProgressBar({${props}}, "${id}");
     pb.placeAt(dom.byId("foo"));
     pb.startup();
   });

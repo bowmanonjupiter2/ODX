@@ -5,7 +5,7 @@ require([
     "dojox/mobile/parser"
 ], function(win, ready, registry, DatePicker){
     ready(function(){
-      var widget = new DatePicker(${props}, "${id}");
+      var widget = new DatePicker({${props}}, "${id}");
       win.body().appendChild(widget.domNode);
       widget.startup();
     });

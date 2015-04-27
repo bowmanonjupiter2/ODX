@@ -1,0 +1,7 @@
+require(["dijit/TitlePane", "dojo/dom", "dojo/domReady!"], function(TitlePane, dom){
+    var tp = new TitlePane({${props}}, "${id}");
+    dom.byId("holder").appendChild(tp.domNode);
+    tp.startup();
+});
+
+<div id="holder"></div>

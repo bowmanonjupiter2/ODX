@@ -14,7 +14,7 @@ require(["dijit/Menu", "dijit/MenuItem", "dijit/form/ComboButton", "dojo/domRead
     menu.addChild(menuItem2);
     menu.startup();
 
-    var button = new ComboButton(${props},label:${label}, dropDown:menu);
+    var button = new ComboButton({${props},label:${label}, dropDown:menu}, "${id}");
     button.placeAt(dojo.body());
     button.startup();
 });

@@ -1,0 +1,6 @@
+<div data-dojo-type="dijit/Toolbar" data-dojo-props="${props}" id="${id}">
+<div data-dojo-type="dijit/form/Button" id="${id}.cut" data-dojo-props="iconClass:'dijitEditorIcon dijitEditorIconCut', showLabel:false">Cut</div>
+<div data-dojo-type="dijit/form/Button" id="${id}.copy" data-dojo-props="iconClass:'dijitEditorIcon dijitEditorIconCopy', showLabel:false">Copy</div>
+<div data-dojo-type="dijit/form/Button" id="${id}.paste" data-dojo-props="iconClass:'dijitEditorIcon dijitEditorIconPaste', showLabel:false">Paste</div>
+<span data-dojo-type="dijit/ToolbarSeparator"></span>
+<div data-dojo-type="dijit/form/ToggleButton" id="${id}.bold" data-dojo-props="iconClass:'dijitEditorIcon dijitEditorIconBold', showLabel:false">Bold</div></div>

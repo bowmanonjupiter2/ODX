@@ -10,7 +10,7 @@ require([
 ], function(registry, ready, GridLayout, Pane, Button){
     ready(function(){
         var view = registry.byId("view1");
-        var widget = new GridLayout(${props}, "${id}");
+        var widget = new GridLayout({${props}}, "${id}");
         widget.placeAt(view.containerNode);
         widget.startup();
 

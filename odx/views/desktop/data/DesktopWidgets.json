@@ -229,6 +229,14 @@
                 {
                     "id":"dijit/Fieldset",
                     "name":"Fieldset"
+                },
+                {
+                    "id":"dijit/TitlePane",
+                    "name":"TitlePane"
+                },
+                {
+                    "id":"dijit/Toolbar",
+                    "name":"Toolbar"
                 }
             ],
             "id":"misc",

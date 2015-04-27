@@ -5,7 +5,7 @@ require([
     "dojox/mobile/parser"
 ], function(win, ready, SpinWheelDatePicker){
     ready(function(){
-      var widget = new SpinWheelDatePicker(${props});
+      var widget = new SpinWheelDatePicker({${props}}, "${id}");
       win.body().appendChild(widget.domNode);
       widget.startup();
     });

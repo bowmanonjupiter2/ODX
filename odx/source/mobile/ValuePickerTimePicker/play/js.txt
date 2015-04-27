@@ -1,0 +1,12 @@
+require([
+    "dojo/_base/window",
+    "dojo/ready",
+    "dojox/mobile/ValuePickerTimePicker",
+    "dojox/mobile/parser"
+], function(win, ready, registry, ValuePickerTimePicker){
+    ready(function(){
+      var widget = new ValuePickerTimePicker({${props}}, "${id}");
+      win.body().appendChild(widget.domNode);
+      widget.startup();
+    });
+});

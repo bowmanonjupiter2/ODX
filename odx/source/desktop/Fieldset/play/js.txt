@@ -1,5 +1,5 @@
 require(["dijit/Fieldset", "dojo/dom", "dojo/domReady!"], function(Fieldset, dom){
-    var tp = new Fieldset(${props});
+    var tp = new Fieldset({${props}}, "${id}");
     dom.byId("holder").appendChild(tp.domNode);
     tp.startup();
 });

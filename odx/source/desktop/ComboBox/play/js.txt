@@ -17,6 +17,6 @@ require([
             {name:"Delaware", id:"DE"}
         ]
     });
-    var comboBox = new ComboBox(${props}, {store: stateStore},"${id}").startup();
+    var comboBox = new ComboBox({${props}, {store: stateStore}},"${id}").startup();
 });
 

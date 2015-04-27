@@ -1,0 +1,17 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/View.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Heading.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/RoundRectList.css" rel="stylesheet"></link>	
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/RoundRect.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/ListItem.css" rel="stylesheet"></link>
+
+<div id="view1" data-dojo-type="dojox/mobile/View">
+  <h1 data-dojo-type="dojox/mobile/Heading">View 1</h1>
+  <ul data-dojo-type="dojox/mobile/RoundRectList">
+    <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='moveTo:"view2", transition:"slide"'>Go To View 2</li>
+  </ul>
+</div>
+
+<div id="view2" data-dojo-type="dojox/mobile/View">
+  <h1 data-dojo-type="dojox/mobile/Heading" data-dojo-props='back:"View 1", moveTo:"view1"'>View 2</h1>
+</div>
+

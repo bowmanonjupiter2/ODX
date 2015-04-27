@@ -7,7 +7,7 @@ require([
     "dojo/domReady!"
 ], function(Menu, MenuItem, CheckedMenuItem, MenuSeparator, PopupMenuItem){
     var pMenu;
-    pMenu = new Menu(${props},{
+    pMenu = new Menu({${props},{
         targetNodeIds: ["${id}"]
     });
     pMenu.addChild(new MenuItem({
@@ -37,7 +37,7 @@ require([
     pMenu.addChild(new PopupMenuItem({
         label: "Submenu",
         popup: pSubMenu
-    }));
+    })}, "${id}");
 
     pMenu.startup();
 });

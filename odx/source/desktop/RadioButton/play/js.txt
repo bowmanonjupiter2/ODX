@@ -6,6 +6,6 @@ require([
     "dojo/domReady!"
 ], function(parser, RadioButton){
     parser.parse();
-    var radioOne = new RadioButton(${props},"${id}").startup();
+    var radioOne = new RadioButton({${props}}, "${id}").startup();
 });
 </script>

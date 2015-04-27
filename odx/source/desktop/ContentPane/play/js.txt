@@ -1,5 +1,5 @@
 require(["dijit/layout/ContentPane", "dojo/domReady!"], function(ContentPane){
-    new ContentPane(${props}, "${id}" ).startup();
+    new ContentPane({${props}}, "${id}").startup();
 });
 <div id= "${id}">
     I get replaced.

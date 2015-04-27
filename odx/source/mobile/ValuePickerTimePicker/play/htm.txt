@@ -1,0 +1,3 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/TimePicker.css" rel="stylesheet"></link>	
+<div id="${id}" data-dojo-type="dojox/mobile/ValuePickerTimePicker" data-dojo-props="${props}"></div>
+

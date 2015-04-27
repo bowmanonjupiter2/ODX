@@ -1,0 +1,23 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Heading.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/RoundRect.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/ToolBarButton.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/RoundRectList.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/ListItem.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/View.css" rel="stylesheet"></link>
+
+<div id="view2" data-dojo-type="dojox/mobile/View">
+  <div data-dojo-type="dojox/mobile/RoundRect" data-dojo-props='shadow:true'>
+    Dojo saves you time, delivers powerful performance,
+    and scales with your development process.
+    It's the toolkit experienced developers turn to
+    for building superior desktop and mobile web experiences.
+  </div>
+  <span data-dojo-type="dojox/mobile/ToolBarButton"
+        data-dojo-props='arrow:"left",
+                         moveTo:"view3",
+                         transition:"slide"'>Back</span>
+  <span data-dojo-type="dojox/mobile/ToolBarButton"
+        data-dojo-props="${props}">Next</span>
+</div>
+
+

@@ -5,7 +5,7 @@ require([
     "dojox/mobile/parser"
 ], function(win, ready, registry, SpinWheelTimePicker){
     ready(function(){
-      var widget = new SpinWheelTimePicker(${props});
+      var widget = new SpinWheelTimePicker({${props}}, "${id}");
       win.body().appendChild(widget.domNode);
       widget.startup();
     });

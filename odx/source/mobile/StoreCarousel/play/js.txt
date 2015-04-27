@@ -9,7 +9,7 @@ require([
 ], function(ready, JsonRest, StoreCarousel){
     ready(function(){
         var sampleStore = new JsonRest({target: "sample.json"});
-        var carousel = new StoreCarousel(${props},store:sampleStore}, ${id}
+        var carousel = new StoreCarousel({${props},store:sampleStore}, ${id}
         carousel.startup();
     });
 });

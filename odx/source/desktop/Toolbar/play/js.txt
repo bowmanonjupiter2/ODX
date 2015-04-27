@@ -1,0 +1,19 @@
+require([
+    "dijit/Toolbar",
+    "dijit/form/Button",
+    "dojo/_base/array",
+    "dojo/domReady!"
+], function(Toolbar, Button, array){
+    var toolbar = new Toolbar({${props}}, "${id}");
+    array.forEach(["Cut", "Copy", "Paste"], function(label){
+        var button = new Button({
+            label: label,
+            showLabel: false,
+            iconClass: "dijitEditorIcon dijitEditorIcon"+label
+        }).startup();
+        toolbar.addChild(button);
+    });
+    toolbar.startup();
+});
+
+<span id="${id}"></span>

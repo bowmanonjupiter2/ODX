@@ -12,6 +12,6 @@ require([
         ]
     });
     }
-    var myMultiSelect = new MultiSelect(${props}, {store:fruitStore}, "${id}").startup();
+    var myMultiSelect = new MultiSelect({${props}, {store:fruitStore}}, "${id}").startup();
 
 });

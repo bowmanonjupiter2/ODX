@@ -11,7 +11,7 @@ require([
             { "label": "VPN", "icon": "images/i-icon-4.png", "rightText": "On"}
         ];
         var sampleStore = new Memory({data:storeData, idProperty:"label"});
-        var storeList = new EdgeToEdgeStoreList({store:sampleStore},${props} "${id}");
+        var storeList = new EdgeToEdgeStoreList({${props},{store:sampleStore}},"${id}");
         storeList.startup();
     });
 });

@@ -7,7 +7,7 @@ require([
     "dojox/mobile/parser"
 ], function(ready, IconMenu, IconMenuItem){
     ready(function(){
-        var menu = new IconMenu(${props}, "${id}");
+        var menu = new IconMenu({${props}}, "${id}");
         menu.startup();
 
         var item = new IconMenuItem({

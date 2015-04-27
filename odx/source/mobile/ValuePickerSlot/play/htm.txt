@@ -1,0 +1,13 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/ValuePicker.css" rel="stylesheet"></link>	
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/View.css" rel="stylesheet"></link>	
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Heading.css" rel="stylesheet"></link>	
+<div  data-dojo-type="dojox/mobile/View" data-dojo-props='selected:true'>
+  <div data-dojo-type="dojox/mobile/Heading"style="width:226px;">Custom Value Picker</div>
+  <div data-dojo-type="dojox/mobile/ValuePicker">
+    <div data-dojo-type="dojox/mobile/ValuePickerSlot" labels='A,B,C,D,E,F,G,H,J,K' Style="text-align:center;width:45px;"></div>
+    <div data-dojo-type="dojox/mobile/ValuePickerSlot" labelFrom="0" labelTo="9" data-dojo-props="${props}"></div>
+    <div data-dojo-type="dojox/mobile/ValuePickerSlot" labelFrom="0" labelTo="9" Style="text-align:center;width:45px;"></div>
+    <div data-dojo-type="dojox/mobile/ValuePickerSlot" labels='pt,px,cm' Style="text-align:center;width:45px;"></div>
+</div>
+
+

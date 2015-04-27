@@ -5,7 +5,7 @@ require([
   "dojox/mobile/Pane"
 ], function(dom, ready, FixedSplitter, Pane){
   ready(function(){
-    var w = new FixedSplitter(${props}, dom.byId("container"));
+    var w = new FixedSplitter({${props}}, "${id}");
     w.startup();
 
     var p0 = new Pane({

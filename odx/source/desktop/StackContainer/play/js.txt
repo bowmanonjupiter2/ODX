@@ -4,9 +4,7 @@ require([
     "dijit/layout/StackController",
     "dojo/domReady!"
 ], function(StackContainer, ContentPane, StackController){
-    var sc = new StackContainer({
-         ${props}
-   , "${id}";
+    var sc = new StackContainer({${props}}, "${id}");
 
     var cp1 = new ContentPane({
         title: "page 1",

@@ -1,6 +1,6 @@
 <div id="${id}">This div will become an auto-expanding editor.</div>
 require(["dijit/Editor","dojo/dom", "dojo/query", "dojo/domReady!"],
 
-        new Editor(${props}, "${id}").startup();
+        new Editor({${props}}, "${id}").startup();
 
 });

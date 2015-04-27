@@ -4,7 +4,7 @@ require([
     "dojox/mobile/ScrollableView",
     "dojox/mobile/Heading"
 ], function(ready, registry, ScrollableView, Heading){
-    var sv = new ScrollableView(${props},${id});
+    var sv = new ScrollableView({${props}}, "${id}");
     var h = new Heading({fixed:"top", label:"View Header Bar"});
     sv.addChild(h);
     // Add contents here...

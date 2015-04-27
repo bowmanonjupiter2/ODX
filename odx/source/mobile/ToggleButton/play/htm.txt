@@ -1,0 +1,2 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/ToggleButton.css" rel="stylesheet"></link>
+<button data-dojo-type="dojox/mobile/ToggleButton" checked="true" data-dojo-props="${props}"></button>

@@ -32,8 +32,7 @@ require([
         ready(function(){
                 var view = registry.byId("scrollableView");
                 var listWidget =
-                        new declare([EdgeToEdgeStoreList, FilteredListMixin])(
-                                ${props});
+                        new declare([EdgeToEdgeStoreList, FilteredListMixin])(${props});
                 listWidget.placeAt(view.containerNode);
                 listWidget.startup();
         });

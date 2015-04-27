@@ -4,7 +4,7 @@ require([
   "dojox/mobile/Switch"
 ], function(dom, ready, Switch){
   ready(function(){
-    var sw = new Switch(${props});
+    var sw = new Switch({${props}}, "${id}");
     sw.placeAt(document.body);
     sw.startup();
   });

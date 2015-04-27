@@ -1,7 +1,5 @@
 require(["dijit/layout/TabContainer", "dijit/layout/ContentPane", "dojo/domReady!"], function(TabContainer, ContentPane){
-    var tc = new TabContainer({
-        ${props}
-    }, "${id}");
+    var tc = new TabContainer({${props}}, "${id}");
 
     var cp1 = new ContentPane({
          title: "Food",

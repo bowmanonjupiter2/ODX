@@ -16,10 +16,5 @@ require(["dijit/form/DropDownButton", "dijit/DropDownMenu", "dijit/MenuItem", "d
     menu.addChild(menuItem2);
     menu.startup();
 
-    var button = new DropDownButton(${props},{
-        label: "${label}",
-        name: "${name}",
-        dropDown: menu,
-        id: "${id}"
-    }).startup();
+    var button = new DropDownButton({${props}}, "${id}").startup();
 });

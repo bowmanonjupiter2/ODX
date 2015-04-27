@@ -11,5 +11,5 @@ require([
         ]
     });
 
-    var filteringSelect = new FilteringSelect(${props},{store:fruitStore}, "${id}").startup();
+    var filteringSelect = new FilteringSelect({${props},{store:fruitStore}}, "${id}").startup();
 });

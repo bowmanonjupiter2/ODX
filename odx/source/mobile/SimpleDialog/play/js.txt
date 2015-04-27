@@ -12,7 +12,7 @@ require([
       simpleDlg.hide();
     }
 
-    var dlg = new SimpleDialog(${props}, ${id});
+    var dlg = new SimpleDialog({${props}}, "${id}");
     win.body().appendChild(dlg.domNode);
     var msgBox = domConstruct.create("div",
                                      {class: "mblSimpleDialogText",

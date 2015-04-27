@@ -1,3 +1,3 @@
 require(["dojo/parser", "dijit/form/VerticalRule", "dijit/form/VerticalRuleLabels"],function(VerticalRule, dom)){
-       var sliderRules = new VerticalRule(${props}, "${id}").startup();
+       var sliderRules = new VerticalRule({${props}}, "${id}").startup();
 });

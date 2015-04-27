@@ -1,0 +1,12 @@
+<div data-dojo-type="dijit/TitlePane" data-dojo-id="${id}">
+<div style="border: solid black 1px;">
+    <div data-dojo-type="dijit/TitlePane" data-dojo-props="${props}">
+    </div>
+    <div data-dojo-type="dijit/TitlePane" data-dojo-props="title: 'Pane #2'">
+        This is pane 2
+    </div>
+    <div data-dojo-type="dijit/TitlePane" data-dojo-props="title: 'Pane #3'">
+        This is pane 3
+    </div>
+</div>
+</div>

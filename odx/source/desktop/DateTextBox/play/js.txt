@@ -1,5 +1,5 @@
 require([dijit/form/DateTextBox", "dojo/domReady!"],
         function(dateTextBox,dom){
     var props = ${props};
-    new CurrencyTextBox(props, "${id}").startup();
+    new CurrencyTextBox({${props}}, "${id}").startup();
 });

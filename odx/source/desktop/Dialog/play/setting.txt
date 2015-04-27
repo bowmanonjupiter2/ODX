@@ -46,7 +46,7 @@
             "propName":"parseOnLoad",
             "displayName":"parseOnLoad",
             "tagName":"checkbox",
-            "defaultValue":"false"
+            "defaultValue":"true"
         },
         {
             "propName":"preload",

@@ -14,5 +14,5 @@ require([
         style: "width:5px;"
     }, rulesNode).startup();
 
-    var slider = new VerticalSlider(${props}, "${id}").startup();
+    var slider = new VerticalSlider({${props}}, "${id}").startup();
 });

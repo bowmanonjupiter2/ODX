@@ -8,7 +8,7 @@ require([
 ], function(domConst, ready, registry, SpinWheel, SpinWheelSlot){
   ready(function(){
     var view = registry.byId("view1");
-    var widget = new SpinWheel(${props});
+    var widget = new SpinWheel({${props}}, "${id}");
     widget.placeAt(view.containerNode);
     widget.startup();
     var slot1 = new SpinWheelSlot({

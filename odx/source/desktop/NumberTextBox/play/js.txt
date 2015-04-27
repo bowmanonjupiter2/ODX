@@ -1,4 +1,3 @@
 require(["dijit/form/NumberTextBox", "dojo/domReady!"], function(NumberTextBox){
-    new NumberTextBox({${props}
-    }, "${id}").startup();
+    new NumberTextBox({{${props}}, "${id}").startup();
 });

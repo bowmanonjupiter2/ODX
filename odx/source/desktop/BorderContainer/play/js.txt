@@ -2,9 +2,7 @@ require([
     "dijit/layout/BorderContainer", "dijit/layout/ContentPane",
     "dojo/domReady!"
 ], function(BorderContainer, ContentPane){
-    var bc = new BorderContainer({
-        ${props}, "${id}"
-    });
+    var bc = new BorderContainer({${props}}, "${id}");
 
     var cp1 = new ContentPane({
         region: "left",

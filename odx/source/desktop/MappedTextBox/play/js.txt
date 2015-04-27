@@ -1,5 +1,5 @@
 require(["dijit/form/MappedTextBox", "dojo/domReady!"], function(mappedTextBox){
-    var textbox = new MappedTextBox(${props}, {
+    var textbox = new MappedTextBox({${props}, {
         format: function(value){
             var displayed = this.get("displayedValue");
             if(value.toUpperCase() == displayed.toUpperCase()){
@@ -11,5 +11,5 @@ require(["dijit/form/MappedTextBox", "dojo/domReady!"], function(mappedTextBox){
         parse: function(displayedValue){
             return displayedValue.toUpperCase();
         }
-    }, "${id}").startup();
+    }}, "${id}").startup();
 });

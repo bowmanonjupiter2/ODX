@@ -1,5 +1,4 @@
 require(["dijit/form/CurrencyTextBox", "dojo/domReady!"
 ], function(CurrencyTextBox){
-    var props = ${props};
-    new CurrencyTextBox(props, "${id}").startup();
+    new CurrencyTextBox({${props}}, "${id}").startup();
 });

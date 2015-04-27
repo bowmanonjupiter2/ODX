@@ -1,0 +1,16 @@
+{
+    "props":[
+        {
+            "propName":"id",
+            "displayName":"id",
+            "tagName":"text",
+            "defaultValue":"mytimePickerId"
+        },
+        {
+            "propName":"theme",
+            "displayName":"theme",
+            "tagName":"theme",
+            "defaultValue":""
+        }
+    ]
+}

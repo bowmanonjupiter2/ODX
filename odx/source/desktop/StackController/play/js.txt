@@ -21,7 +21,7 @@ require([
     });
     sc.addChild(cp2);
 
-    var controller = new StackController(${props}, "${id}");
+    var controller = new StackController({${props}}, "${id}");
 
     sc.startup();
     controller.startup();

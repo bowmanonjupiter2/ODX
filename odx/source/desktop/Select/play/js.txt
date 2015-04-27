@@ -9,5 +9,5 @@ require(["dijit/form/Select", "dojo/_base/window", "dojo/domReady!"], function(S
             { label: "CSS", value: "CSS" },
             { label: "Javascript", value: "Javascript" }
         ]
-    }).placeAt(win.body()).startup();
+    }, "${id}").placeAt(win.body()).startup();
 });

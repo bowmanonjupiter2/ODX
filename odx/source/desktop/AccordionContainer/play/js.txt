@@ -1,6 +1,6 @@
 require(["dijit/layout/AccordionContainer", "dijit/layout/ContentPane", "dojo/domReady!"],
         function(AccordionContainer, ContentPane){
-    var aContainer = new AccordionContainer(${props}, "${id}");
+    var aContainer = new AccordionContainer({${props}}, "${id}");
     aContainer.addChild(new ContentPane({
         title: "content pane title A",
         content: "Hello Dojo!"

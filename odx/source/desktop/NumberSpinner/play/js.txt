@@ -1,5 +1,3 @@
 require(["dijit/form/NumberSpinner", "dojo/domReady!"], function(NumberSpinner){
-    var mySpinner = new NumberSpinner({
-    	${props}
-    }, "${id}").startup();
+    var mySpinner = new NumberSpinner({${props}}, "${id}").startup();
 });

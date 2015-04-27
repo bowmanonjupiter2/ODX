@@ -52,6 +52,18 @@
                 {
                     "id":"dojox/mobile/Switch",
                     "name":"Switch"
+                },
+                {
+                    "id":"dojox/mobile/TextArea",
+                    "name":"TextArea"
+                },
+                {
+                    "id":"dojox/mobile/TextBox",
+                    "name":"TextBox"
+                },
+                {
+                    "id":"dojox/mobile/ToggleButton",
+                    "name":"ToggleButton"
                 }
             ],
             "id":"form",
@@ -63,6 +75,10 @@
                 {
                     "id":"dojox/mobile/Heading",
                     "name":"Heading"
+                },
+                {
+                    "id":"dojox/mobile/ToolBarButton",
+                    "name":"ToolBarButton"
                 }
             ],
             "id":"heading",
@@ -182,6 +198,10 @@
                 {
                     "id":"dojox/mobile/Audio",
                     "name":"Audio"
+                },
+                {
+                    "id":"dojox/mobile/Video",
+                    "name":"Video"
                 }
             ],
             "id":"media",
@@ -197,6 +217,10 @@
                 {
                     "id":"dojox/mobile/Overlay",
                     "name":"Overlay"
+                },
+                {
+                    "id":"dojox/mobile/Tooltip",
+                    "name":"Tooltip"
                 }
             ],
             "id":"opener",
@@ -227,6 +251,10 @@
                 {
                     "id":"dojox/mobile/DatePicker",
                     "name":"DatePicker"
+                },
+                {
+                    "id":"dojox/mobile/TimePicker",
+                    "name":"TimePicker"
                 }
             ],
             "id":"picker",
@@ -276,10 +304,37 @@
                 {
                     "id":"dojox/mobile/SwapView",
                     "name":"SwapView"
+                },
+                {
+                    "id":"dojox/mobile/View",
+                    "name":"View"
                 }
             ],
             "id":"views",
             "name":"Views",
+            "type":"group"
+        },
+        {
+            "children":[
+                {
+                    "id":"dojox/mobile/ValuePicker",
+                    "name":"ValuePicker"
+                },
+                {
+                    "id":"dojox/mobile/ValuePickerDatePicker",
+                    "name":"ValuePickerDatePicker"
+                },
+                {
+                    "id":"dojox/mobile/ValuePickerSlot",
+                    "name":"ValuePickerSlot"
+                },
+                {
+                    "id":"dojox/mobile/ValuePickerTimePicker",
+                    "name":"ValuePickerTimePicker"
+                }
+            ],
+            "id":"valuepicker",
+            "name":"ValuePicker",
             "type":"group"
         }
     ],

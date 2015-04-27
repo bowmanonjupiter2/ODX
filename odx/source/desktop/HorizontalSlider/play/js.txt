@@ -4,5 +4,5 @@ require([
     "dijit/form/HorizontalSlider",
 ], function(dom, parser, HorizontalSlider)
     parser.parse();
-    var slider = new HorizontalSlider(${props}, "${id}").startup();
+    var slider = new HorizontalSlider({${props}}, "${id}").startup();
 });

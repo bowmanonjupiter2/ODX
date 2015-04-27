@@ -1,0 +1,13 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Tooltip.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/SpinWheel.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/SpinWheelTimePicker.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/ToolBarButton.css" rel="stylesheet"></link>
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/Heading.css" rel="stylesheet"></link>	
+
+<div data-dojo-type="dojox/mobile/Tooltip" data-dojo-props="${props}" id="${id}">
+    <div data-dojo-type="dojox/mobile/Heading" label="Time Picker" style="text-align:left;">
+    <div data-dojo-type="dojox/mobile/ToolBarButton" label="Done" class="mblColorBlue" style="width:35px;float:right" onclick="dijit.registry.byId('${id}').hide(this)"></div>
+    </div>
+    <div id="spin1" data-dojo-type="dojox/mobile/SpinWheelTimePicker" style="width:165px;"></div>
+</div>   
+<button type="button" style="height:38px;width:85px;"  onclick="dijit.registry.byId('${id}').show(this,['above-centered','after','before'])">Select time</button>

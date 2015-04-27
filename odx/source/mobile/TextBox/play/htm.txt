@@ -1,0 +1,2 @@
+<link href="../dojo/source/1.10.0/dojox/mobile/themes/${theme}/TextBox.css" rel="stylesheet"></link>
+<input data-dojo-type="dojox/mobile/TextBox" data-dojo-props="${props}" />

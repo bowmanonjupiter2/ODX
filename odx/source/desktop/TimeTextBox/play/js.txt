@@ -1,4 +1,3 @@
 require(["dijit/form/TimeTextBox", "dojo/domReady!"], function(TimeTextBox){
-    new TimeTextBox({${props}
-    }, "${id}").startup();
+    new TimeTextBox({${props}}, "${id}").startup();
 });
